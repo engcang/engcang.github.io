@@ -1,6 +1,6 @@
 # Site
 title:              EungChang Mason Lee
-bio:                'Master student, South Korea'
+bio:                'Master student, KAIST, South Korea'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
@@ -27,7 +27,8 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+#disqus_shortname:   taylantatli
+disqus_shortname:   EungChang_Mason
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,10 +39,10 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
+email:              eungchang_mason@kaist.ac.kr
+#twitter:            username
 facebook:           username
-github-url:         username
+github-url:         github.com/engcang
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
@@ -51,7 +52,7 @@ instagram:          username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
