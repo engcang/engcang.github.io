@@ -1,9 +1,10 @@
 ---
-layout: legacy
+layout: post
 title: "About Moon Theme"
 date: 2020-02-16
 excerpt: "Legacy About Moon theme from author."
 tags: [sample post, readability, test]
+legacy: true
 comments: false
 ---
 
