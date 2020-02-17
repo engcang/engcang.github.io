@@ -5,7 +5,7 @@ description:        "하위~"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/selfie.png'
-background:         'assets/img/aurora2.jpg'
+background:         'assets/img/aurora3.jpg'
 #background:         ''
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -55,7 +55,7 @@ github-url:         engcang
 #steam:              username
 #dribbble:          username
 #youtube:           username
-youtube-channel:    UC1Bui82br7_gmlaVRcCERcQ
+youtube-channel:    UC1Bui82br7_gmlaVRcCERcQ/videos
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
