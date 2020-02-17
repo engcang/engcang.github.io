@@ -1,11 +1,11 @@
 # Site
 title:              EungChang Mason Lee
 bio:                'Master student, KAIST, South Korea'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+description:        "하위~"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/aurora (1).jpg'
+logo:               'assets/img/selfie.png'
+background:         'assets/img/aurora1.jpg'
 #background:         ''
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -54,7 +54,7 @@ github-url:         engcang
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-#youtube:           username
+youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
