@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: legacy
 title: "About Moon Theme"
 date: 2020-02-16
 excerpt: "Legacy About Moon theme from author."
 tags: [sample post, readability, test]
-comments: true
+comments: false
 ---
 
 <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
