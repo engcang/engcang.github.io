@@ -15,16 +15,16 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
-                <div class="post-title">
+                <div class="legacy-title">
                     <!--p style="font-size:1.8rem;font-weight:600">{{ page.title }}</p-->
                     <h1>{{ page.title }}</h1>
                     <a class="btn zoombtn" href="{{site.url}}">
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
-                <div class="post-list">
-                    {% for post in site.posts %} 
-                        {% if post.project == null %}
+                <div class="legacy-list">
+                    {% for legacy in site.legacys %} 
+                        {% if legacy.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
