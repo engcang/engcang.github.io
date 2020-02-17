@@ -16,11 +16,12 @@ layout: compress
         <div class="wrapper animated fadeIn">
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <!--p style="font-size:1.8rem;font-weight:600">{{ page.title }}</p-->
-                    <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
+                    <p style="font-size:1.8rem;font-weight:600">{{ page.title }}</p>
+                    <!-- <h1>{{ page.title }}</h1> -->
+                    <!-- <h4>{{ page.date | date_to_string }}</h4> -->
+                    <h3>{{ page.date | date_to_string }}</h3>
                     {% if site.reading_time %}
-                    <p class="reading-time">
+                    <p class="reading-time" style="font-size:1rem;font-weight:400">
                       <i class="fa fa-clock-o"></i>
                       {% include read-time.html %}
                     </p><!-- /.entry-reading-time -->
