@@ -1,10 +1,10 @@
 ---
-layout: publications
+layout: page
 title: Publications
-excerpt: "A List of Papers"
+tags: [about, Jekyll, theme, moon]
+date: 2020-02-16
 comments: false
 ---
-
 <br>
 
 ##test
