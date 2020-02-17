@@ -23,8 +23,8 @@ layout: compress
                     </a>
                 </div>
                 <div class="legacy-list">
-                    {% for legacy in site.legacys %} 
-                        {% if legacy.project == null %}
+                    {% for post in site.legacys %} 
+                        {% if post.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
