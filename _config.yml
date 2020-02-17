@@ -9,7 +9,7 @@ logo:               'assets/img/selfie.png'
 background:         'assets/img/vincent-guth-62V7ntlKgL8-unsplash.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://engcang.github.io/
+url:                https://engcang.github.io
 
 # Jekyll
 permalink:          /:title/
