@@ -11,8 +11,8 @@ comments: false
 
 <figure class="third">
 	<iframe src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-	<img src="https://github.com/engcang/image-files/flightgoggles_angle_controller/flight.PNG">
-	<img src="https://github.com/engcang/image-files/sonar_sensor/Raspberry.jpg">
+	<img src="https://github.com/engcang/image-files/blob/master/flightgoggles_angle_controller/flight.PNG">
+	<img src="https://github.com/engcang/image-files/blob/master/sonar_sensor/Raspberry.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 
