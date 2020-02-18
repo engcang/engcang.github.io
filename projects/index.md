@@ -15,15 +15,15 @@ comments: false
 *Supported by The Electronics and Telecommunications Research Institute : 2018.4 - 2018.12*
 <figure class="half">
 	<img src="/assets/image/etri/systempng.png">
-	<img src="/assets/image/etri/Observer.png">
-	<figcaption>System and Multi-rate sampled-data Observer</figcaption>
+	<img src="/assets/image/etri/controller.png">
+	<figcaption>System and eMPC controller</figcaption>
 </figure>
 
 <figure class="third">
 	<img src="/assets/image/etri/modeling.png">
-	<img src="/assets/image/etri/controller.png">
+	<img src="/assets/image/etri/observer.jpg">
     <img src="/assets/image/etri/result.png">
-	<figcaption>Modeling, Controller, and Result</figcaption>
+	<figcaption>Modeling, Multi-rate sampled-data Observer, and Result</figcaption>
 </figure>
 
 # Capstone Design
