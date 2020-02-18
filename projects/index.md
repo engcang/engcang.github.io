@@ -11,6 +11,20 @@ comments: false
 *Relative Media is listed on **About Me**'s Awards*
 
 <br>
+<p style="font-size:1rem;font-weight:400">
+　
+</p>
+<br>
+
+***Keywords***: Drone, Quadrotor, Autonomous Flying Drones, Drone Racing
+
+<!--figure class="half">
+    <img src="/assets/image/turtlebot/racing.gif">
+    <img src="/assets/image/turtlebot/graph.jpg">
+    <figcaption><p align="center">  </p></figcaption>
+</figure-->
+<br>
+
 
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
 *<span style="color:#ff5500">Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : </span> 2018.6 - 2018.11*
@@ -18,7 +32,7 @@ comments: false
 *Relative Media is listed on **About Me**'s Awards*
 
 <br>
-<p style="font-size:0.9rem;font-weight:400">
+<p style="font-size:1rem;font-weight:400">
 　ROS based autonomous driving system for mobile robot(Turtlebot3) is developed for finishing the racing track with diverse missions. Using MATLAB, Lyapunov functional is proved to stabilize the error model of mobile robot. Simple HOG based Cascade Object Detector is trained using Computer Vision Toolbox of MatLab and then all systems are coded with Python to control the robot in real-time. Only 35 dollar Raspberry Pi computer was adopted and it was equipped with 1-D LiDAR and mono camera. 
 </p>
 <br>
@@ -38,7 +52,7 @@ comments: false
 *Relative Publication : [Link](https://ieeexplore.ieee.org/abstract/document/8661985/)*
 
 <br>
-<p style="font-size:0.9rem;font-weight:400">
+<p style="font-size:1rem;font-weight:400">
 　Measured data from Vehicle’s multi sensor system have asynchronized sampling rate,
  The final goal of this research project is to design multi-rate State  Estimator that can assume exact state using asynchronized data. Model based prediction controller is designed to perform at real-time for improving control performance. 
     In addition, ROS based mobile robot data processing system, LiDAR data based path planning, sign recognition algorithm are researched for implementing autonomous system.
@@ -63,7 +77,7 @@ comments: false
 <!--span style="color:#ff5500">support</span-->
 <!--span style="color:#3399ff">This project was counducted at</span-->
 <!--span style="color:Fuchsia">Videos : </span-->
-<!--p style="font-size:0.9rem;font-weight:400"></p-->
+<!--p style="font-size:1rem;font-weight:400"></p-->
 <!--p align="center"><img src="https://github.com/engcang/image-files/" width="480" hspace="30"/></p-->
 <!--iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe-->
 <!--figure class="third">
