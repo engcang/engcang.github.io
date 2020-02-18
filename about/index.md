@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Me
-tags: [about, Jekyll, theme, moon]
 date: 2020-02-16
 comments: false
 ---
@@ -13,15 +12,14 @@ comments: false
 <br>
 
 # <span style="color:#9933ff">Honors</span>
-* **The right person of University, <span style="color:#3399ff">Grand Prize</span>($2,000) / SmartKey-KyungPook Natl. Univ.(Smart Electronics Specialization Projects from CK-1 of Korea)** - 2019.02
+* **The right person of University, <span style="color:#3399ff">Grand Prize</span> ($2,000) / SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)** - 2019.02
 * **Best Graduates of The Year, <span style="color:#3399ff">2nd Prize</span>/354, (GPA 4.23/4.3) / School of Electronics Engineering, KyungPook Natl. Univ.** -  2019.02
 
 <br>
 
 # <span style="color:#9933ff">Awards</span>
-* **2019 (Artificial Intelligent Robotic Racing) AIRR AlphaPilot, <span style="color:#3399ff">3rd Prize</span> (Team USRG@KAIST) / Lockheed Martin, The Drone Racing League, NVIDIA** - 2019.12, <span style="color:Fuchsia">Articles : </span>[here-1](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), [here-2](https://biz.chosun.com/site/data/html_dir/2019/06/02/2019060201686.html)
-* ~~**df** - 2019.~~ 
-* **2018 R-BIZ Challenge Turtlebot3 Autorace, <span style="color:#3399ff">Mathworks Korea Special Prize</span>($1,000) (EungChang-Ho) / ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE** - 2018.11
+* **2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing), <span style="color:#3399ff">3rd Prize</span>/424 (Team USRG@KAIST) / Lockheed Martin, The Drone Racing League, NVIDIA** - 2019.12, <span style="color:Fuchsia">Articles : </span>[here-1](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), [here-2](https://biz.chosun.com/site/data/html_dir/2019/06/02/2019060201686.html)
+* **2018 R-BIZ Challenge Turtlebot3 Autorace, <span style="color:#3399ff">Mathworks Korea Special Prize</span> ($1,000) (EungChang-Ho) / ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE** - 2018.11
 
 <br>
 
