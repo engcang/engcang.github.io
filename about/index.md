@@ -7,7 +7,9 @@ comments: false
 
 # <span style="color:#9933ff">Education</span>
 * **Master student, Electrical Engineering / KAIST** - 2019.02 ~ Current
+    * <span style="color:Fuchsia">Studying at : </span>　[URL](https://urobot.kaist.ac.kr)
 * **Bachelor, School of Electronics Engineering / KyungPook National University** - 2012.03 ~ 2019.02
+    * <span style="color:Fuchsia">Studied at : </span>　[CPSC](https://control.knu.ac.kr)
 
 <br>
 
