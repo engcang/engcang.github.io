@@ -5,5 +5,20 @@ excerpt: "A List of Projects"
 comments: false
 ---
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-Video embeds are responsive and scale with the width of the main content block with the help of FitVids.
+## Alpha
+## Turtlebot
+## ETRI
+
+<figure class="third">
+	<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+	<img src="https://github.com/engcang/image-files/">
+	<img src="https://github.com/engcang/image-files/">
+	<figcaption>Caption describing these three images.</figcaption>
+</figure>
+
+*Italic*
+**Bold**
+<!--p align="center">
+<img src="https://github.com/engcang/image-files/" width="480" hspace="30"/>
+</p-->
+<!--iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe-->
