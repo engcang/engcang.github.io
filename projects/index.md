@@ -19,7 +19,7 @@ comments: false
 <figure class="half">
     <img src="/assets/image/turtlebot/racing.gif">
     <img src="/assets/image/turtlebot/graph.jpg">
-    <figcaption><p align="center"> Overall system: Multi-rate Observer, Controller, and results </p></figcaption>
+    <figcaption><p align="center"> Race GIF, Controller design, and Signal&Line detection </p></figcaption>
 </figure>
 <br>
 
