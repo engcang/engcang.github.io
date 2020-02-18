@@ -81,12 +81,6 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 <br>
 
----
-
-# Capstone Design
-*<span style="color:#ff5500">Graduational Project of KyungPook Natl. Univ. : </span> 2018.3 - 2018.12*
-#### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU : </span> [Link](https://control.knu.ac.kr)*
-
 
 <!--span style="color:#ff5500">support</span-->
 <!--span style="color:#3399ff">This project was counducted at</span-->
