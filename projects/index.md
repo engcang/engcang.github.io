@@ -17,20 +17,19 @@ comments: false
 
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
 *<span style="color:#ff5500">Supported by The Electronics and Telecommunications Research Institute : </span> 2018.4 - 2018.12*
-#### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU</span> [Link](https://control.knu.ac.kr)*
+#### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU : </span> [Link](https://control.knu.ac.kr)*
 
 <br>
 <p style="font-size:1rem;font-weight:400">
- Measured data from Vehicle’s multi sensor system have asynchronized sampling rate,
+　Measured data from Vehicle’s multi sensor system have asynchronized sampling rate,
  The final goal of this research project is to design multi-rate State 
  Estimator that can assume exact state using asynchronized data. Model based prediction
 controller is designed to perform at real-time for improving control performance. In
 addition, ROS based mobile robot data processing system, LiDAR data based path planning,
 sign recognition algorithm are researched for implementing autonomous system.
 </p>
-<p style="font-size:0.9rem;font-weight:400">
+
 ***Keywords***: Sampled-data system, Multi-rate Sampled-data system, Model Predictive Control, Cyber-Physical System
-</p>
 
 <figure>
     <img src="/assets/image/etri/overall.jpg">
