@@ -5,21 +5,18 @@ excerpt: "A List of Projects"
 comments: false
 ---
 
-## Alpha
-## Turtlebot
-## ETRI
+# 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
+*Hosted by Lockheed Martin and The Drone Racing League, Supported by NVIDIA - 2019.3 - 2019.12*
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+# 2018 R-BIZ Challenge Turtlebot3 Autorace
+*Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : 2018.6 - 2018.11*
 
-<figure class="third">
-	<img src="/assets/img/logo.png">
-	<img src="/assets/img/logo.png">
-	<img src="/assets/img/logo.png">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
+# ETRI
+*Supported by The Electronics and Telecommunications Research Institute, A Korean government-funded research institution : 2018.*
 
+# Capstone Design
+*Graduational Project of KyungPook Natl. Univ. : 2018.3 - 2018.12*
 
-*Italic*
 
 **Bold**
 
@@ -27,3 +24,9 @@ comments: false
 <img src="https://github.com/engcang/image-files/" width="480" hspace="30"/>
 </p-->
 <!--iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe-->
+<!--figure class="third">
+	<img src="/assets/img/logo.png">
+	<img src="/assets/img/logo.png">
+	<img src="/assets/img/logo.png">
+	<figcaption>Caption describing these three images.</figcaption>
+</figure-->
