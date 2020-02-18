@@ -16,7 +16,11 @@ comments: false
 *<span style="color:#ff5500">Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : </span> 2018.6 - 2018.11*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU : </span> [Link](https://control.knu.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
-
+<figure class="half">
+    <img src="/assets/image/turtlebot/racing.gif">
+    <img src="/assets/image/turtlebot/graph.jpg">
+    <figcaption><p align="center"> Overall system: Multi-rate Observer, Controller, and results </p></figcaption>
+</figure>
 <br>
 
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
