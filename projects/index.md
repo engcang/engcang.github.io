@@ -10,9 +10,9 @@ comments: false
 ## ETRI
 
 <figure class="third">
-	<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-	<img src="https://github.com/engcang/image-files/">
-	<img src="https://github.com/engcang/image-files/">
+	<iframe src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+	<img src="https://github.com/engcang/image-files/flightgoggles_angle_controller/flight.PNG">
+	<img src="https://github.com/engcang/image-files/sonar_sensor/Raspberry.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 
