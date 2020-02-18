@@ -11,11 +11,24 @@ comments: false
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
 *Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : 2018.6 - 2018.11*
 
-# ETRI
-*Supported by The Electronics and Telecommunications Research Institute, A Korean government-funded research institution : 2018.*
+# Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
+*Supported by The Electronics and Telecommunications Research Institute : 2018.4 - 2018.12*
+<figure class="half">
+	<img src="/assets/image/etri/systempng.png">
+	<img src="/assets/image/etri/Observer.png">
+	<figcaption>System and Multi-rate sampled-data Observer</figcaption>
+</figure>
+
+<figure class="third">
+	<img src="/assets/image/etri/modeling.png">
+	<img src="/assets/image/etri/controller.png">
+    <img src="/assets/image/etri/result.png">
+	<figcaption>Modeling, Controller, and Result</figcaption>
+</figure>
 
 # Capstone Design
 *Graduational Project of KyungPook Natl. Univ. : 2018.3 - 2018.12*
+*
 
 
 **Bold**
