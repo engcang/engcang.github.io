@@ -5,6 +5,8 @@ excerpt: "A List of Projects"
 comments: false
 ---
 
+---
+
 # 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 *<span style="color:#ff5500">Hosted by Lockheed Martin and The Drone Racing League, Supported by NVIDIA : </span> 2019.3 - 2019.12*
 #### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group at KAIST : </span> [Link](https://unmanned.kaist.ac.kr)*
@@ -24,7 +26,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 ***Keywords***: Drone, Quadrotor, Autonomous Flying Drones, Drone Racing
 
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" align="center" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
 <figure>
     <img src="/assets/image/alpha/alpha.jpg">
@@ -32,6 +34,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 </figure>
 <br>
 
+---
 
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
 *<span style="color:#ff5500">Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : </span> 2018.6 - 2018.11*
@@ -52,6 +55,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
     <figcaption><p align="center"> Race GIF, Controller design, and Signal&Line detection </p></figcaption>
 </figure>
 <br>
+
+---
 
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
 *<span style="color:#ff5500">Supported by The Electronics and Telecommunications Research Institute : </span> 2018.4 - 2018.12*
@@ -75,6 +80,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 </figure>
 
 <br>
+
+---
 
 # Capstone Design
 *<span style="color:#ff5500">Graduational Project of KyungPook Natl. Univ. : </span> 2018.3 - 2018.12*
