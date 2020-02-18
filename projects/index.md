@@ -8,12 +8,14 @@ comments: false
 # 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 *<span style="color:#ff5500">Hosted by Lockheed Martin and The Drone Racing League, Supported by NVIDIA : </span> 2019.3 - 2019.12*
 #### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group at KAIST : </span> [Link](https://unmanned.kaist.ac.kr)*
+*Relative Media is listed on **About Me**'s Awards*
 
 <br>
 
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
 *<span style="color:#ff5500">Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : </span> 2018.6 - 2018.11*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU : </span> [Link](https://control.knu.ac.kr)*
+*Relative Media is listed on **About Me**'s Awards*
 
 <br>
 
