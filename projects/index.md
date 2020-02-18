@@ -6,17 +6,17 @@ comments: false
 ---
 
 # 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
-*Hosted by Lockheed Martin and The Drone Racing League, Supported by NVIDIA - 2019.3 - 2019.12*
+*<span style="color:#ff5500">Hosted by Lockheed Martin and The Drone Racing League, Supported by NVIDIA : </span> 2019.3 - 2019.12*
 
 <br>
 
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
-*Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : 2018.6 - 2018.11*
+*<span style="color:#ff5500">Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : </span> 2018.6 - 2018.11*
 
 <br>
 
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
-*Supported by The Electronics and Telecommunications Research Institute : 2018.4 - 2018.12*
+*<span style="color:#ff5500">Supported by The Electronics and Telecommunications Research Institute : </span> 2018.4 - 2018.12*
 
 
 <br>
@@ -37,13 +37,14 @@ sign recognition algorithm are researched for implementing autonomous system.
 <br>
 
 # Capstone Design
-*Graduational Project of KyungPook Natl. Univ. : 2018.3 - 2018.12*
+*<span style="color:#ff5500">Graduational Project of KyungPook Natl. Univ. : </span> 2018.3 - 2018.12*
 *
 
 
-<!--p align="center">
-<img src="https://github.com/engcang/image-files/" width="480" hspace="30"/>
-</p-->
+<!--span style="color:#ff5500">support</span-->
+<!--span style="color:#3399ff">This project was counducted at</span-->
+<!--span style="color:Fuchsia">Videos : </span-->
+<!--p align="center"><img src="https://github.com/engcang/image-files/" width="480" hspace="30"/></p-->
 <!--iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe-->
 <!--figure class="third">
 	<img src="/assets/img/logo.png">
