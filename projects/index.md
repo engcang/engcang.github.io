@@ -13,17 +13,10 @@ comments: false
 
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
 *Supported by The Electronics and Telecommunications Research Institute : 2018.4 - 2018.12*
-<figure class="half">
-	<img src="/assets/image/etri/systempng.png">
-	<img src="/assets/image/etri/controller.png">
-	<figcaption>System and eMPC controller</figcaption>
-</figure>
 
-<figure class="third">
-	<img src="/assets/image/etri/modeling.png">
-	<img src="/assets/image/etri/observer.jpg">
-    <img src="/assets/image/etri/result.png">
-	<figcaption>Modeling, Multi-rate sampled-data Observer, and Result</figcaption>
+<figure>
+    <img src="/assets/image/etri/overall.jpg">
+    <figcaption><p align="center"> Overall system and results </p></figcaption>
 </figure>
 
 # Capstone Design
