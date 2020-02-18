@@ -19,7 +19,7 @@ comments: false
 <br>
 
 # Awards
-* **2019 (Artificial Intelligent Robotic Racing) AIRR AlphaPilot, <span style="color:#3399ff">3rd place</span> (Team USRG@KAIST) / Lockheed Martin, The Drone Racing League, NVIDIA** - 2019.12, <span style="color:Fuchsia">Articles</span>Article [here 1](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), [here 2](https://biz.chosun.com/site/data/html_dir/2019/06/02/2019060201686.html)
+* **2019 (Artificial Intelligent Robotic Racing) AIRR AlphaPilot, <span style="color:#3399ff">3rd place</span> (Team USRG@KAIST) / Lockheed Martin, The Drone Racing League, NVIDIA** - 2019.12, <span style="color:Fuchsia">Articles : </span>[here-1](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), [here-2](https://biz.chosun.com/site/data/html_dir/2019/06/02/2019060201686.html)
 * **2018 R-BIZ Challenge Turtlebot3 Autorace, <span style="color:#3399ff">Mathworks Korea Special Prize</span> (EungChang-Ho) / ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE** - 2018.11
 
 <br>
