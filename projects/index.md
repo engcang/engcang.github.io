@@ -11,11 +11,12 @@ comments: false
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
 
-{% capture images %}
-	https://github.com/engcang/image-files/blob/master/flightgoggles_angle_controller/flight.PNG
-	https://github.com/engcang/image-files/blob/master/sonar_sensor/Raspberry.jpg
-{% endcapture %}
-{% include gallery images=images caption="Testing" cols=2 %}
+<figure class="third">
+	<img src="/assets/img/logo.png">
+	<img src="/assets/img/logo.png">
+	<img src="/assets/img/logo.png">
+	<figcaption>Caption describing these three images.</figcaption>
+</figure>
 
 
 *Italic*
