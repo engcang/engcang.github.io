@@ -12,7 +12,13 @@ comments: false
 
 <br>
 <p style="font-size:1rem;font-weight:400">
-　
+　AlphaPilot is the first large-scale open innovation challenge of its kind focused on advancing artificial intelligence (AI) and autonomy.
+Supported and hosted by DRL, Lockheed Martin and NVIDIA. For the 1 Million dollar prize only for the winner.
+The challenge consists of Preliminary test and Real competition.
+Firstly, DRL and Lockheed martin used FlightGoggles Simulator from MIT to narrow down 424 teams over 81 countries into 9 Qualifiers.
+Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors.
+
+
 </p>
 <br>
 
