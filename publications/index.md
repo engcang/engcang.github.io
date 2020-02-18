@@ -7,7 +7,7 @@ comments: false
 ---
 <br>
 
-## Google Scholar : [here](https://scholar.google.co.kr/citations?user=L02b38oAAAAJ&hl=en)
+## Google Scholar : <span style="color:red">[here](https://scholar.google.co.kr/citations?user=L02b38oAAAAJ&hl=en)</span>
 
 # International Conference
 
