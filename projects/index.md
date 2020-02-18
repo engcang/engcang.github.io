@@ -24,11 +24,12 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 ***Keywords***: Drone, Quadrotor, Autonomous Flying Drones, Drone Racing
 
-<!--figure class="half">
-    <img src="/assets/image/turtlebot/racing.gif">
-    <img src="/assets/image/turtlebot/graph.jpg">
-    <figcaption><p align="center">  </p></figcaption>
-</figure-->
+<iframe width="560" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" frameborder="0"> </iframe>
+
+<figure>
+    <img src="/assets/image/alpha/alpha.jpg">
+    <figcaption><p align="center"> FlightGoggles simulator and RACER-AI drone </p></figcaption>
+</figure>
 <br>
 
 
