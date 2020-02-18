@@ -9,7 +9,7 @@ comments: false
 
 ## <span style="color:Fuchsia">Google Scholar</span> : [here](https://scholar.google.co.kr/citations?user=L02b38oAAAAJ&hl=en)
 
-# International Conference
+# <span style="color:#9933ff">International Conference</span>
 
 1. **Eungchang Mason Lee**, Inhwan Wee, Taeyeon Kim, David Hyunchul Shim. (2019). "Comparison of Visual Inertial Odometry using FlightGoggles Simulator for UAV," *International Conference on Control, Automation and Systems (ICCAS)*, 1166-1169. 2019.
 
