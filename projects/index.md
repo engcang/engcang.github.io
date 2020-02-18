@@ -9,9 +9,36 @@ comments: false
 ## Turtlebot
 ## ETRI
 
-<iframe src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-<img src="https://github.com/engcang/image-files/blob/master/flightgoggles_angle_controller/flight.PNG">
-<img src="https://github.com/engcang/image-files/blob/master/sonar_sensor/Raspberry.jpg">
+{% capture images %}
+	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
+	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
+	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=3 %}
+
+{% capture images %}
+	<iframe src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
+	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=3 %}
+
+
+{% capture images %}
+	<iframe src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+	https://github.com/engcang/image-files/blob/master/flightgoggles_angle_controller/flight.PNG
+	https://github.com/engcang/image-files/blob/master/sonar_sensor/Raspberry.jpg
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=3 %}
+
+
+{% capture images %}
+	https://www.youtube.com/embed/SU3kYxJmWuQ
+	https://github.com/engcang/image-files/blob/master/flightgoggles_angle_controller/flight.PNG
+	https://github.com/engcang/image-files/blob/master/sonar_sensor/Raspberry.jpg
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=3 %}
+
 
 *Italic*
 
