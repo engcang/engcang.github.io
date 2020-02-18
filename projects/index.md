@@ -16,6 +16,15 @@ comments: false
 *<span style="color:#ff5500">Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : </span> 2018.6 - 2018.11*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU : </span> [Link](https://control.knu.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
+
+<br>
+<p style="font-size:0.9rem;font-weight:400">
+　ROS based autonomous driving system for mobile robot(Turtlebot3) is developed for finishing the racing track with diverse missions. Using MATLAB, Lyapunov functional is proved to stabilize the error model of mobile robot. Simple HOG based Cascade Object Detector is trained using Computer Vision Toolbox of MatLab and then all systems are coded with Python to control the robot in real-time. Only 35 dollar Raspberry Pi computer was adopted and it was equipped with 1-D LiDAR and mono camera. 
+</p>
+<br>
+
+***Keywords***: Mobile Robots, Autonomous Driving Vehicles, Lyapunov function based Control
+
 <figure class="half">
     <img src="/assets/image/turtlebot/racing.gif">
     <img src="/assets/image/turtlebot/graph.jpg">
