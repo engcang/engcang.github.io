@@ -15,10 +15,4 @@ comments: false
 
 2. Y. Jin, S. Han, **E. M. Lee**, S. M. Lee, C. Shin and J. Yun, "Development of Autonomous Driving Systems Using State Estimator with Multi-rate Sampled-data," *IEEE International Conference on Consumer Electronics (ICCE)*, Las Vegas, NV, USA, pp. 1-6. 2019.
 
-## Domestic Conference (South Korea)
-
-1.
-
-2.
-
-3.
+<br>
