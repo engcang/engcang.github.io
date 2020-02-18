@@ -21,12 +21,9 @@ comments: false
 # Fun Facts
 
 
-
-# Contact
------
-eungchang_mason@kaist.ac.kr
-
-## Social
+## Social & Contact
+* Youtube - [here](https://www.youtube.com/channel/UC1Bui82br7_gmlaVRcCERcQ/videos)
 * GitHub - [here](https://github.com/engcang)
 * Naver blog (Korean) - [here](https://blog.naver.com/engcang)
 * T story blog (Most Korean) - [here](https://mason-lee.tistory.com)
+* E-mail : [eungchang_mason@kaist.ac.kr](mailto:eungchang_mason@kaist.ac.kr)
