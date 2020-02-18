@@ -20,10 +20,18 @@ comments: false
 
 
 <br>
+ Measured data from Vehicle’s multi sensor system have asynchronized sampling rate,
+ The final goal of this research project is to design multi-rate State 
+ Estimator that can assume exact state using asynchronized data. Model based prediction
+controller is designed to perform at real-time for improving control performance. In
+addition, ROS based mobile robot data processing system, LiDAR data based path planning,
+sign recognition algorithm are researched for implementing autonomous system.
+
+***Keywords***: Sampled-data system, Multi-rate Sampled-data system, Model Predictive Control, Cyber-Physical System
 
 <figure>
     <img src="/assets/image/etri/overall.jpg">
-    <figcaption><p align="center"> Overall system and results </p></figcaption>
+    <figcaption><p align="center"> Overall system: Multi-rate Observer, Controller, and results </p></figcaption>
 </figure>
 
 <br>
@@ -32,8 +40,6 @@ comments: false
 *Graduational Project of KyungPook Natl. Univ. : 2018.3 - 2018.12*
 *
 
-
-**Bold**
 
 <!--p align="center">
 <img src="https://github.com/engcang/image-files/" width="480" hspace="30"/>
