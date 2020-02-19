@@ -22,7 +22,7 @@ comments: false
 ---
 
 # <span style="color:#9933ff">Domestic Conference</span>
-### (South Korea)
+### South Korea
 
 1. **EungChang Mason Lee**, InHwan Wee, TaeYeon Kim, SangKeun Moon, David Hyunchul Shim, "Analysis on Visual-Inertial State Estimation(VINS-Mono) for Drone using FlightGoggles Simulator," *The Korean Society for Aeronautical and Space Sciences 2019 Spring Conference (KSAS)*, pp. 629-630. 2019.
 
