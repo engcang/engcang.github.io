@@ -34,5 +34,4 @@ comments: false
 * **Youtube - [Here](https://www.youtube.com/channel/UC1Bui82br7_gmlaVRcCERcQ/videos)**
 * **GitHub - [Here](https://github.com/engcang)**
 * **Naver blog (Korean) - [Here](https://blog.naver.com/engcang)**
-* **T story blog (Most Korean) - [Here](https://mason-lee.tistory.com)**
 * **E-mail : [eungchang_mason@kaist.ac.kr](mailto:eungchang_mason@kaist.ac.kr)**
