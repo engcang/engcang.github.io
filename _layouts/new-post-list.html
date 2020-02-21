@@ -24,17 +24,35 @@ layout: compress
                 </div>
                 <div class="post-list">
                     <p style="font-size:2rem;font-weight:600">Research</p>
-                    {% for post in site.posts %} 
-                        {% if post.legacy %}
                         <ul>
-                          <li class="wow fadeInLeft" data-wow-duration="1.0s">
-                              <p style="font-size:1rem;font-weight:600">[{{ post.date | date_to_string }}] - {{ post.title }} <a href="{{ site.url }}{{ post.url }}"> [Read Here]</a> </p>
+                          <li class="fadeInLeft" data-wow-duration="1.0s">
+                            {% for post in site.posts %} 
+                                {% if post.legacy %}
+                                    <p style="font-size:1rem;font-weight:600">[{{ post.date | date_to_string }}] - {{ post.title }} <a href="{{ site.url }}{{ post.url }}"> [Read Here]</a> </p>
+                                {% endif %}
+                            {% endfor %}
                           </li>
                         </ul>
-                        {% endif %}
-                    {% endfor %}
                     <p style="font-size:2rem;font-weight:600">Conference</p>
+                        <ul>
+                          <li class="fadeInLeft" data-wow-duration="1.0s">
+                            {% for post in site.posts %} 
+                                {% if post.legacy %}
+                                    <p style="font-size:1rem;font-weight:600">[{{ post.date | date_to_string }}] - {{ post.title }} <a href="{{ site.url }}{{ post.url }}"> [Read Here]</a> </p>
+                                {% endif %}
+                            {% endfor %}
+                          </li>
+                        </ul>
                     <p style="font-size:2rem;font-weight:600">Competition</p>
+                        <ul>
+                          <li class="fadeInLeft" data-wow-duration="1.0s">
+                            {% for post in site.posts %} 
+                                {% if post.legacy %}
+                                    <p style="font-size:1rem;font-weight:600">[{{ post.date | date_to_string }}] - {{ post.title }} <a href="{{ site.url }}{{ post.url }}"> [Read Here]</a> </p>
+                                {% endif %}
+                            {% endfor %}
+                          </li>
+                        </ul>
                 </div>
             </div>
             <hr class="hr-line">
