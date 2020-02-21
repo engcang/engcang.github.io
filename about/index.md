@@ -5,6 +5,8 @@ date: 2020-02-16
 comments: false
 ---
 
+---
+
 # <span style="color:#9933ff">Education</span>
 * **Master student, Electrical Engineering / KAIST** - 2019.02 ~ Current
     * <span style="color:Fuchsia">Studying at : </span>　[URL](https://urobot.kaist.ac.kr)
@@ -13,12 +15,16 @@ comments: false
 
 <br>
 
+---
+
 # <span style="color:#9933ff">Honors</span>
 * **The right person of University, <span style="color:#3399ff">Grand Prize</span> ($2,000) / SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)** - 2019.02
 * **Best Graduates of The Year, <span style="color:#3399ff">2nd Prize</span>/354, (GPA 4.23/4.3) / School of Electronics Engineering, KyungPook Natl. Univ.** -  2019.02
     * <span style="color:Fuchsia">Articles : </span>　[Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
 
 <br>
+
+---
 
 # <span style="color:#9933ff">Awards</span>
 * **2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing), <span style="color:#3399ff">3rd Prize</span>/424 (Team USRG@KAIST) / Lockheed Martin, The Drone Racing League, NVIDIA** - 2019.12
@@ -29,6 +35,8 @@ comments: false
     * <span style="color:Fuchsia">Articles : </span>　[Link-1](https://www.edaily.co.kr/news/read?newsId=01915526619407032&mediaCodeNo=257), 　[Link-2](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95371&gtid=bodo&opt=&sword=&page=2)
 
 <br>
+
+---
 
 # <span style="color:#9933ff">Socials & Contact</span>
 * **Youtube - [Here](https://www.youtube.com/channel/UC1Bui82br7_gmlaVRcCERcQ/videos)**
