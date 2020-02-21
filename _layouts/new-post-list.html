@@ -25,13 +25,13 @@ layout: compress
                 <div class="post-list">
                     <p style="font-size:2rem;font-weight:600;color:#9933ff">Research</p>
                         <ul>
-                          <li class="fadeInLeft" data-wow-duration="1.0s">
                             {% for post in site.posts %} 
                                 {% if post.legacy %}
+                                    <li>
                                     <p style="font-size:1rem;font-weight:600">[{{ post.date | date_to_string }}] - {{ post.title }} <a href="{{ site.url }}{{ post.url }}"> [Read Here]</a> </p>
+                                    </li>
                                 {% endif %}
                             {% endfor %}
-                          </li>
                         </ul>
                     <p style="font-size:2rem;font-weight:600;color:#9933ff">Conference</p>
                         <ul>
