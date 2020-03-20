@@ -9,7 +9,7 @@ comments: false
 
 # 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 *<span style="color:#ff5500">Hosted by Lockheed Martin and The Drone Racing League, Supported by NVIDIA : </span> 2019.3 - 2019.12*
-#### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group at KAIST : </span> [Link](https://unmanned.kaist.ac.kr)*
+#### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group at KAIST : </span> [Link](http://unmanned.kaist.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
 
 <br>
