@@ -31,8 +31,16 @@ comments: false
     * <span style="color:Fuchsia">Homepages : </span>　[Link(LockHeed)](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), 　[Link(DRL)](https://thedroneracingleague.com/airr/), 　[Link(HeroX)](https://www.herox.com/alphapilot/community)
     * <span style="color:Fuchsia">Videos : </span>　[Preliminary-FlightGoggles](https://youtu.be/XMyiNlIbDXU), 　[RACE1-Orlando](https://youtu.be/kTKeN2SluxU), 　[RACE1-Orlando2](https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560), 　[Racing Recap PlayLists](https://www.youtube.com/playlist?list=PLvgPHeVm_WqKPy-59Svi-0KEN_pDGedS_)
     * <span style="color:Fuchsia">Articles : </span>　[Link-1](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), 　[Link-2](https://biz.chosun.com/site/data/html_dir/2019/06/02/2019060201686.html)
+    <figure>
+    <img src="/about/Alpha.jpg">
+    <figcaption><p align="center"> 2019 AIRR AlphaPilot Ceremony of 1st race in Orlando </p></figcaption>
+    </figure>
 * **2018 R-BIZ Challenge Turtlebot3 Autorace, <span style="color:#3399ff">Mathworks Korea Special Prize</span> ($1,000) (EungChang-Ho) / ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE** - 2018.11
     * <span style="color:Fuchsia">Articles : </span>　[Link-1](https://www.edaily.co.kr/news/read?newsId=01915526619407032&mediaCodeNo=257), 　[Link-2](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95371&gtid=bodo&opt=&sword=&page=2)
+    <figure>
+    <img src="/about/R-BIZ.jpg">
+    <figcaption><p align="center"> 2018 R-BIZ Challenge Ceremony </p></figcaption>
+    </figure>
 
 <br>
 
