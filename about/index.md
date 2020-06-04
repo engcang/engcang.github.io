@@ -42,7 +42,7 @@ comments: false
     * <span style="color:Fuchsia">Articles : </span>　[Link-1](https://www.edaily.co.kr/news/read?newsId=01915526619407032&mediaCodeNo=257), 　[Link-2](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95371&gtid=bodo&opt=&sword=&page=2)
     <figure>
     <img src="/about/R-BIZ.jpg" style="width:50%">
-    <figcaption sytle="text-align:center"> 2018 R-BIZ Challenge Ceremony </figcaption>
+    <figcaption style="text-align:center;"> 2018 R-BIZ Challenge Ceremony </figcaption>
     </figure>
 
 <br>
