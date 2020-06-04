@@ -23,9 +23,8 @@ comments: false
     * <span style="color:Fuchsia">Articles : </span>　[Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
     <figure>
     <img src="/about/graduates.jpg" style="width:50%">
-    <figcaption><p align="center"> Best Graduates Ceremony </p></figcaption>
+    <figcaption margin="0" margin-top="0"><p align="center"> Best Graduates Ceremony </p></figcaption>
     </figure>
-
 <br>
 
 ---
