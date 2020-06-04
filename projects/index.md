@@ -32,7 +32,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 <figure>
     <img src="/assets/image/alpha/alpha.jpg">
-    <figcaption><p align="center"> FlightGoggles simulator and RACER-AI drone </p></figcaption>
+    <figcaption style="text-align:center;"> FlightGoggles simulator and RACER-AI drone </figcaption>
 </figure>
 <br>
 
@@ -54,7 +54,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 <figure class="half">
     <img src="/assets/image/turtlebot/racing.gif">
     <img src="/assets/image/turtlebot/graph.jpg">
-    <figcaption><p align="center"> Race GIF, Controller design, and Signal&Line detection </p></figcaption>
+    <figcaption style="text-align:center;"> Race GIF, Controller design, and Signal&Line detection </figcaption>
 </figure>
 <br>
 
@@ -78,7 +78,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 <figure>
     <img src="/assets/image/etri/overall.jpg">
-    <figcaption><p align="center"> Overall system: Multi-rate Observer, Controller, and results </p></figcaption>
+    <figcaption style="text-align:center;"> Overall system: Multi-rate Observer, Controller, and results </figcaption>
 </figure>
 
 <br>
