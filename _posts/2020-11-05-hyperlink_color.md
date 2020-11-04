@@ -10,7 +10,7 @@ legacy: false
 comments: true
 ---
 
-## ​ How to edit the color of hyperlink on the github.io blog
+## ● How to edit the color of hyperlink on the github.io blog
 + Find the layout and check any ***html file***, it should include ***head.html*** like below
 <figure>
 <img src="/assets/image/html.png">
