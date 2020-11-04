@@ -7,8 +7,40 @@ comments: false
 
 ---
 
+# 2020 Korea Robot Aircraft Competition
+*<span style="color:#ff5500">Hosted by [MOTIE](http://www.motie.go.kr/www/main.do) and [KAIA](http://aerospace.or.kr/eng/main/main.php) : </span> 2020.4 - 2020.11 [Link](http://www.koreauav.com/home/)* 
+#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab at KAIST : </span> [Link](http://urobot.kaist.ac.kr/)*
+
+<br>
+<p style="font-size:1rem;font-weight:400">
+　AlphaPilot is the first large-scale open innovation challenge of its kind focused on advancing artificial intelligence (AI) and autonomy.
+Supported and hosted by DRL, Lockheed Martin and NVIDIA. For the 1 Million dollar prize only for the winner.
+The challenge consists of Preliminary test and Real competition.
+Firstly, DRL and Lockheed martin used FlightGoggles Simulator from MIT to narrow down 424 teams over 81 countries into 9 Qualifiers.
+Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors.
+
+
+</p>
+<br>
+
+***Keywords***: Quadrotor, Drone Competition, Target Tracking, Object Detection, Machine Learning
+
+<p align="center">
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</p>
+
+<figure>
+    <img src="/assets/image/alpha/alpha.jpg">
+    <figcaption style="text-align:center;"> FlightGoggles simulator and RACER-AI drone </figcaption>
+</figure>
+
+<br>
+
+---
+
+
 # 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
-*<span style="color:#ff5500">Hosted by Lockheed Martin and The Drone Racing League, Supported by NVIDIA : </span> 2019.3 - 2019.12*
+*<span style="color:#ff5500">Hosted by [Lockheed Martin](https://www.lockheedmartin.com/) and [The Drone Racing League](https://thedroneracingleague.com/), Supported by [NVIDIA](https://www.nvidia.com/en-us/) : </span> 2019.3 - 2019.12*
 #### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group at KAIST : </span> [Link](http://unmanned.kaist.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
 
