@@ -13,16 +13,15 @@ comments: false
 
 <br>
 <p style="font-size:1rem;font-weight:400">
-  Korea Robot Aircraft Competition aims to promote the revival of the domestic aviation industry and respond to various demands, this competition will expand the base of unmanned aviation-related technologies through participation in high school and university (graduate) students, and contribute to discovering and fostering human resources in related industries.
-  The competition has been held every year since 2002 for the purpose of raising awareness of unmanned aerial vehicles (drones) and training manpower through various missions using unmanned aerial vehicles (drones) developed by college students.
-
-</p>
+　Korea Robot Aircraft Competition aims to promote the revival of the domestic aviation industry and respond to various demands, this competition will expand the base of unmanned aviation-related technologies through participation in high school and university (graduate) students, and contribute to discovering and fostering human resources in related industries. The competition has been held every year since 2002 for the purpose of raising awareness of unmanned aerial vehicles (drones) and training manpower through various missions using unmanned aerial vehicles (drones) developed by college students. </p>
+ 
 <br>
 
 ***Keywords***: Quadrotor, Drone Competition, Target Tracking, Object Detection, Machine Learning
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VslihHATv-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VslihHATv-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
 </p>
 
 <br>
@@ -62,7 +61,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 ---
 
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
-*<span style="color:#ff5500">Hosted by ROBOTIS, MathWorks Korea and, ICROS, Supported by KIRIA and MOTIE : </span> 2018.6 - 2018.11*
+*<span style="color:#ff5500">Hosted by [ROBOTIS](https://www.robotis.com/), [MathWorks Korea](https://kr.mathworks.com/) and, [ICROS](http://icros.org/main/), Supported by [KIRIA](https://www.kiria.org/) and [MOTIE](http://www.motie.go.kr/www/main.do) : </span> 2018.6 - 2018.11 [Link](https://emanual.robotis.com/docs/en/platform/turtlebot3/autorace_rviz_challenge#autorace-rbiz-challenge-2018)*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU : </span> [Link](https://control.knu.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
 
@@ -84,15 +83,14 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 ---
 
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
-*<span style="color:#ff5500">Supported by The Electronics and Telecommunications Research Institute : </span> 2018.4 - 2018.12*
+*<span style="color:#ff5500">Supported by [The Electronics and Telecommunications Research Institute](https://www.etri.re.kr/intro.html) : </span> 2018.4 - 2018.12*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab at KNU : </span> [Link](https://control.knu.ac.kr)*
 *Relative Publication : [Link](https://ieeexplore.ieee.org/abstract/document/8661985/)*
 
 <br>
 <p style="font-size:1rem;font-weight:400">
 　Measured data from Vehicle’s multi sensor system have asynchronized sampling rate,
- The final goal of this research project is to design multi-rate State  Estimator that can assume exact state using asynchronized data. Model based prediction controller is designed to perform at real-time for improving control performance. 
-    In addition, ROS based mobile robot data processing system, LiDAR data based path planning, sign recognition algorithm are researched for implementing autonomous system.
+ The final goal of this research project is to design multi-rate State  Estimator that can assume exact state using asynchronized data. Model based prediction controller is designed to perform at real-time for improving control performance. In addition, ROS based mobile robot data processing system, LiDAR data based path planning, sign recognition algorithm are researched for implementing autonomous system.
 </p>
 
 <br>
