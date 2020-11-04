@@ -24,11 +24,8 @@ layout: compress
                 <div class="post-list">
                     {% for post in site.posts %} 
                         {% if post.post %}
-                    <ul>
-                        <li>
                             <a href="{{ site.url }}{{ post.url }}"><p style="font-size:1rem;font-weight:450"><span style="color:#9933ff">{{ post.date | date_to_string }}:  </span> {{ post.title }} </p></a>
-                        </li>
-                    </ul>
+                            <br>
                         {% endif %}
                     {% endfor %}
                 </div>
