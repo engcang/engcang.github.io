@@ -20,14 +20,16 @@ comments: true
 
 + Then edit the ***head.html*** file.
   + Add the code block as below
+
 ~~~html
-<style type="text/css">
-a:link {text-decoration: underline; color: #3399ff;}
-a:visited {text-decoration: underline; color: #9933ff;}
-a:active {text-decoration: underline; color: #9933ff;}
-a:hover {text-decoration: underline; color: red;}
-</style>
+    <style type="text/css">
+    a:link {text-decoration: underline; color: #3399ff;}
+    a:visited {text-decoration: underline; color: #9933ff;}
+    a:active {text-decoration: underline; color: #9933ff;}
+    a:hover {text-decoration: underline; color: red;}
+    </style>
 ~~~
+
 <figure>
 <img src="/assets/image/head.png">
 </figure>
