@@ -26,9 +26,7 @@ layout: compress
                         {% if post.post %}
                     <ul>
                         <li>
-                            <p style="font-size:1rem;font-weight:450">
-                                <span style="color:#9933ff">{{ post.date }}</span><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span style="color:#3399ff">[Read]</span></a>
-                            </p>
+                            <span style="color:#9933ff"><p style="font-size:1rem;font-weight:450">{{ post.date | date_to_string }}</p></span><a href="{{ site.url }}{{ post.url }}"><p style="font-size:1rem;font-weight:450">{{ post.title }} <span style="color:#3399ff">[Read]</span></p></a>
                         </li>
                     </ul>
                         {% endif %}
