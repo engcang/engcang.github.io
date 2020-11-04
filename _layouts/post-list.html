@@ -13,7 +13,7 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
-        <div class="wrapper animated fadeIn" style="background-color:rgba(255, 255, 255, 0.75)">
+        <div class="wrapper animated fadeIn" style="background-color:rgba(255, 255, 255, 0.85)">
             <div class="content" style="background-color:rgba(255, 255, 255, 0)">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
@@ -26,7 +26,7 @@ layout: compress
                         {% if post.post %}
                     <ul>
                         <li>
-                            <a href="{{ site.url }}{{ post.url }}">[Read] - {{ post.title }}</a>
+                            <a href="{{ site.url }}{{ post.url }}"><span style="color:#3399ff">[Read]</span> - {{ post.title }}</a>
                         </li>
                     </ul>
                         {% endif %}
