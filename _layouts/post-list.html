@@ -21,11 +21,10 @@ layout: compress
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
-                <div class="post-list">
+                <div class="post-list" style="background-color:rgba(255, 255, 255, 0.5)">
                     {% for post in site.posts %} 
                         {% if post.post %}
                             <a href="{{ site.url }}{{ post.url }}"><p style="font-size:1rem;font-weight:450"><span style="color:#9933ff">{{ post.date | date_to_string }}:  </span> {{ post.title }} </p></a>
-                            <br>
                         {% endif %}
                     {% endfor %}
                 </div>
