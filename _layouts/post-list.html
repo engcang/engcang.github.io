@@ -22,15 +22,13 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list" style="background-color:rgba(255, 255, 255, 0.5)">
-                    <ul>
                     {% for post in site.posts %} 
                         {% if post.post %}
-                        <li>
-                            <a href="{{ site.url }}{{ post.url }}"><p style="font-size:1rem;font-weight:450"><span style="color:#9933ff">{{ post.date | date_to_string }}:  </span> {{ post.title }} </p></a>
-                        </li>
+                    <p style="font-size:1rem;font-weight:450">
+                        <span style="color:#9933ff">{{ post.date | date_to_string }}:  </span> {{ post.title }} <a href="{{ site.url }}{{ post.url }}"><span style="color:#3399ff"> [Read]</span></a>
+                    </p>
                         {% endif %}
                     {% endfor %}
-                    </ul>
                 </div>
             </div>
             <hr class="hr-line">
