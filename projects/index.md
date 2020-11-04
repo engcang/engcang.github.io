@@ -13,12 +13,8 @@ comments: false
 
 <br>
 <p style="font-size:1rem;font-weight:400">
-　AlphaPilot is the first large-scale open innovation challenge of its kind focused on advancing artificial intelligence (AI) and autonomy.
-Supported and hosted by DRL, Lockheed Martin and NVIDIA. For the 1 Million dollar prize only for the winner.
-The challenge consists of Preliminary test and Real competition.
-Firstly, DRL and Lockheed martin used FlightGoggles Simulator from MIT to narrow down 424 teams over 81 countries into 9 Qualifiers.
-Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors.
-
+  Korea Robot Aircraft Competition aims to promote the revival of the domestic aviation industry and respond to various demands, this competition will expand the base of unmanned aviation-related technologies through participation in high school and university (graduate) students, and contribute to discovering and fostering human resources in related industries.
+  The competition has been held every year since 2002 for the purpose of raising awareness of unmanned aerial vehicles (drones) and training manpower through various missions using unmanned aerial vehicles (drones) developed by college students.
 
 </p>
 <br>
@@ -26,13 +22,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 ***Keywords***: Quadrotor, Drone Competition, Target Tracking, Object Detection, Machine Learning
 
 <p align="center">
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VslihHATv-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
-<figure>
-    <img src="/assets/image/alpha/alpha.jpg">
-    <figcaption style="text-align:center;"> FlightGoggles simulator and RACER-AI drone </figcaption>
-</figure>
 
 <br>
 
