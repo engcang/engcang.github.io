@@ -40,6 +40,8 @@ a:hover {text-decoration: underline; color: red;}
   + a:active changed the color of the link when it is clicked
   + a:hover changed the color of the link when the mouse pointer is hovering above the link.
 
+<br>
+
 + After edited the ***head.html***, result should be like: 
 <figure>
 <img src="/assets/image/hyper.png">
