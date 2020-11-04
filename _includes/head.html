@@ -56,3 +56,10 @@
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
     {% endif %}
+    <style type="text/css">
+    a:link {text-decoration: underline; color: #3399ff;}
+    a:visited {text-decoration: underline; color: #9933ff;}
+    a:active {text-decoration: underline; color: #9933ff;}
+    a:hover {text-decoration: underline; color: red;}
+    </style>
+
