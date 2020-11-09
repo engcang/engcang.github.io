@@ -12,15 +12,31 @@ comments: true
 
 # Mavros Vision pose fusion with T265 and D435i: VINS-Fusion
 
-test
+<br>
+
+## ● T265 odometry and VINS-Fusion on D435i with Pixhawk4 mini IMU
++ Platform apperance
+
+<figure>
+    <img src="/assets/posting/1109-t265d435px4.jpg">
+    <figcaption style="text-align:center;"> Fixed platform </figcaption>
+</figure>
+
+<br>
+
++ When moved slowly, 
 
 <p align="center">
-    <iframe width="448" height="252" src="/assets/posting/1109-slow.mp4" frameborder="0">
+    <iframe src="/assets/posting/1109-slow.mp4" frameborder="0">
     </iframe>
 </p>
 
-<video width="540" height="310" controls>
-  <source src="/assets/posting/1109-fast.mp4" type="video/mp4">
-</video>
+<br>
 
-/assets/posting/1109-t265d435px4.jpg
++ When moved fast,
+
+<p align="center">
+    <video controls>
+      <source src="/assets/posting/1109-fast.mp4" type="video/mp4">
+    </video>
+</p>
