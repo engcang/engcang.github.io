@@ -22,3 +22,5 @@ test
 <video width="540" height="310" controls>
   <source src="/assets/posting/1109-fast.mp4" type="video/mp4">
 </video>
+
+/assets/posting/1109-t265d435px4.jpg
