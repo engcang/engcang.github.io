@@ -14,29 +14,40 @@ comments: true
 
 <br>
 
-## ● T265 odometry and VINS-Fusion on D435i with Pixhawk4 mini IMU
+## ● T265 odometry and VINS-Fusion on D435i with Pixhawk4 mini IMU to fly without GPS
+### ● <span style="color:#3399ff">T265 showed the great performance thanks to its large FoV around 160 degree.</span>
+### ● <span style="color:#3399ff">VINS-Fusion showed slight divergence when rotated/moved fast</span>
+
 + Platform apperance
 
 <figure>
-    <img src="/assets/posting/1109-t265d435px4.jpg">
+    <img src="/assets/posting/1109-t265d435px4.jpg" style="width:50%">
     <figcaption style="text-align:center;"> Fixed platform </figcaption>
 </figure>
 
 <br>
 
 + When moved slowly, 
+    + the shortest, and the thickest axis : ***T265***
+    + longer, thiner : ***VINS-Fusion*** on **D435i** with **pixhawk4 mini IMU**
+    + longer, thiner : ***/mavros/local_position/pose*** position, EKF filtered from ***PX4***
+    + the longest, the thinnest : input ***/mavros/vision_pose/pose***, which is fused with ***T265*** and ***VINS-Fusion***
 
 <p align="center">
-    <iframe src="/assets/posting/1109-slow.mp4" frameborder="0">
+    <iframe width="427" height="240" src="/assets/posting/1109-slow.mp4" frameborder="0">
     </iframe>
 </p>
 
 <br>
 
 + When moved fast,
+    + the shortest, and the thickest axis, **far right** : ***T265***
+    + longer, thiner, **far left** : ***VINS-Fusion*** on **D435i** with **pixhawk4 mini IMU**
+    + longer, thiner : ***/mavros/local_position/pose*** position, EKF filtered from ***PX4***
+    + the longest, the thinnest : input ***/mavros/vision_pose/pose***, which is fused with ***T265*** and ***VINS-Fusion***
 
 <p align="center">
-    <video controls>
+    <video width="427" height="240" controls>
       <source src="/assets/posting/1109-fast.mp4" type="video/mp4">
     </video>
 </p>
