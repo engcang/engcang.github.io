@@ -18,3 +18,7 @@ test
     <iframe width="448" height="252" src="/assets/posting/1109-slow.mp4" frameborder="0">
     </iframe>
 </p>
+
+<video width="540" height="310" controls>
+  <source src="/assets/posting/1109-fast.mp4" type="video/mp4">
+</video>
