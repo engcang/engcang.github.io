@@ -18,7 +18,7 @@ comments: true
 
 + Result video clip
 
-<p align="center">
+<p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
     <video width="520" height="213" controls controlsList="nodownload">
       <source src="/assets/posting/1111-fisheye.mp4" type="video/mp4">
     </video>
