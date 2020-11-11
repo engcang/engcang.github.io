@@ -21,7 +21,7 @@ comments: true
 + Platform apperance
 
 <figure>
-    <img src="/assets/posting/1109-t265d435px4.jpg" style="width:50%">
+    <img src="/assets/posting/1109-t265d435px4.jpg" style="width:50%" onContextMenu="return false;">
     <figcaption style="text-align:center;"> Fixed platform </figcaption>
 </figure>
 
