@@ -19,7 +19,7 @@ comments: true
 + Result video clip
 
 <p align="center">
-    <video width="520" height="213" controls>
+    <video width="520" height="213" controls controlsList="nodownload">
       <source src="/assets/posting/1111-fisheye.mp4" type="video/mp4">
     </video>
 </p>
