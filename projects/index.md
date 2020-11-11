@@ -73,7 +73,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 </p>
 
 <figure>
-    <img src="/assets/image/alpha/alpha.jpg">
+    <img src="/assets/image/alpha/alpha.jpg" onContextMenu="return false;">
     <figcaption style="text-align:center;"> FlightGoggles simulator and RACER-AI drone </figcaption>
 </figure>
 <br>
@@ -94,8 +94,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 ***Keywords***: Mobile Robots, Autonomous Driving Vehicles, Lyapunov function based Control
 
 <figure class="half">
-    <img src="/assets/image/turtlebot/racing.gif">
-    <img src="/assets/image/turtlebot/graph.jpg">
+    <img src="/assets/image/turtlebot/racing.gif" onContextMenu="return false;">
+    <img src="/assets/image/turtlebot/graph.jpg" onContextMenu="return false;">
     <figcaption style="text-align:center;"> Race GIF, Controller design, and Signal&Line detection </figcaption>
 </figure>
 <br>
@@ -118,22 +118,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 ***Keywords***: Sampled-data system, Multi-rate Sampled-data system, Model Predictive Control, Cyber-Physical System
 
 <figure>
-    <img src="/assets/image/etri/overall.jpg">
+    <img src="/assets/image/etri/overall.jpg" onContextMenu="return false;">
     <figcaption style="text-align:center;"> Overall system: Multi-rate Observer, Controller, and results </figcaption>
 </figure>
 
 <br>
-
-
-<!--span style="color:#ff5500">support</span-->
-<!--span style="color:#3399ff">This project was counducted at</span-->
-<!--span style="color:Fuchsia">Videos : </span-->
-<!--p style="font-size:1rem;font-weight:400"></p-->
-<!--p align="center"><img src="https://github.com/engcang/image-files/" width="480" hspace="30"/></p-->
-<!--iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe-->
-<!--figure class="third">
-	<img src="/assets/img/logo.png">
-	<img src="/assets/img/logo.png">
-	<img src="/assets/img/logo.png">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure-->
