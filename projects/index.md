@@ -12,7 +12,7 @@ comments: false
 #### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST : </span> [Link](http://urobot.kaist.ac.kr/)*
 
 <br>
-<p style="font-size:1rem;font-weight:400">
+<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　Research on Unmanned Aerial Vehicles has been actively conducted in recent years. In particular, the UAV to explore an unknown, GNSS-denied environment is required, but the self-localization method, such as Visual Inertial Odometry, is mandatory to operate it. Considering the payload and the operating time of the UAV, lightweight and low-power consuming cameras and IMU are preferred, and even Object Detection and 3D Mapping can be obtained using a RGB-D camera. In this work, we developed a 3D Mapping system including object positions in an unknown and GNSS-denied environment for the UAV with a RGB-D camera. The system is demonstrated in Gazebo simulator, and the quantitative and qualitative results are obtained.</p>
 
 <br>
@@ -33,7 +33,7 @@ comments: false
 #### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST : </span> [Link](http://urobot.kaist.ac.kr/)*
 
 <br>
-<p style="font-size:1rem;font-weight:400">
+<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　Korea Robot Aircraft Competition aims to promote the revival of the domestic aviation industry and respond to various demands, this competition will expand the base of unmanned aviation-related technologies through participation in high school and university (graduate) students, and contribute to discovering and fostering human resources in related industries. The competition has been held every year since 2002 for the purpose of raising awareness of unmanned aerial vehicles (drones) and training manpower through various missions using unmanned aerial vehicles (drones) developed by college students. </p>
  
 <br>
@@ -55,15 +55,14 @@ comments: false
 *Relative Media is listed on **About Me**'s Awards*
 
 <br>
-<p style="font-size:1rem;font-weight:400">
+<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　AlphaPilot is the first large-scale open innovation challenge of its kind focused on advancing artificial intelligence (AI) and autonomy.
 Supported and hosted by DRL, Lockheed Martin and NVIDIA. For the 1 Million dollar prize only for the winner.
 The challenge consists of Preliminary test and Real competition.
 Firstly, DRL and Lockheed martin used FlightGoggles Simulator from MIT to narrow down 424 teams over 81 countries into 9 Qualifiers.
 Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors.
-
-
 </p>
+
 <br>
 
 ***Keywords***: Drone, Quadrotor, Autonomous Flying Drones, Drone Racing
@@ -88,7 +87,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 *Relative Media is listed on **About Me**'s Awards*
 
 <br>
-<p style="font-size:1rem;font-weight:400">
+<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　ROS based autonomous driving system for mobile robot(Turtlebot3) is developed for finishing the racing track with diverse missions. Using MATLAB, Lyapunov functional is proved to stabilize the error model of mobile robot. Simple HOG based Cascade Object Detector is trained using Computer Vision Toolbox of MatLab and then all systems are coded with Python to control the robot in real-time. Only 35 dollar Raspberry Pi computer was adopted and it was equipped with 1-D LiDAR and mono camera. 
 </p>
 <br>
@@ -112,7 +111,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 *Relative Publication : [Link](https://ieeexplore.ieee.org/abstract/document/8661985/)*
 
 <br>
-<p style="font-size:1rem;font-weight:400">
+<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　Measured data from Vehicle’s multi sensor system have asynchronized sampling rate,
  The final goal of this research project is to design multi-rate State  Estimator that can assume exact state using asynchronized data. Model based prediction controller is designed to perform at real-time for improving control performance. In addition, ROS based mobile robot data processing system, LiDAR data based path planning, sign recognition algorithm are researched for implementing autonomous system.
 </p>
