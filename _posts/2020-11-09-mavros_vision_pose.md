@@ -33,7 +33,7 @@ comments: true
     + longer, thiner : ***/mavros/local_position/pose*** position, EKF filtered from ***PX4***
     + the longest, the thinnest : input ***/mavros/vision_pose/pose***, which is fused with ***T265*** and ***VINS-Fusion***
 
-<p align="center">
+<p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
     <video width="427" height="240" controls controlsList="nodownload">
       <source src="/assets/posting/1109-slow.mp4" type="video/mp4">
     </video>
@@ -47,7 +47,7 @@ comments: true
     + longer, thiner : ***/mavros/local_position/pose*** position, EKF filtered from ***PX4***
     + the longest, the thinnest : input ***/mavros/vision_pose/pose***, which is fused with ***T265*** and ***VINS-Fusion***
 
-<p align="center">
+<p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
     <video width="427" height="240" controls controlsList="nodownload">
       <source src="/assets/posting/1109-fast.mp4" type="video/mp4">
     </video>
