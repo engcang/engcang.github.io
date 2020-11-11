@@ -26,6 +26,9 @@ comments: true
 <br>
 
 + in the **.sdf** file, insert `camera` sensor with `wideanglecamera` type.
++ **Circular fisheye** lense model with **Stereographic** mapping function are used.
++ `cutoff_angle` is assumed as ***163*** degree, according to T265's datasheet.
+
 ~~~xml
       <sensor name="camera" type="wideanglecamera">
         <camera name="left">
