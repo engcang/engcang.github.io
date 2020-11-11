@@ -34,8 +34,9 @@ comments: true
     + the longest, the thinnest : input ***/mavros/vision_pose/pose***, which is fused with ***T265*** and ***VINS-Fusion***
 
 <p align="center">
-    <iframe width="427" height="240" src="/assets/posting/1109-slow.mp4" frameborder="0">
-    </iframe>
+    <video width="427" height="240" controls controlsList="nodownload">
+      <source src="/assets/posting/1109-slow.mp4" type="video/mp4">
+    </video>
 </p>
 
 <br>
@@ -47,7 +48,7 @@ comments: true
     + the longest, the thinnest : input ***/mavros/vision_pose/pose***, which is fused with ***T265*** and ***VINS-Fusion***
 
 <p align="center">
-    <video width="427" height="240" controls>
+    <video width="427" height="240" controls controlsList="nodownload">
       <source src="/assets/posting/1109-fast.mp4" type="video/mp4">
     </video>
 </p>
