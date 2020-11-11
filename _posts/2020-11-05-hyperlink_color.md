@@ -13,7 +13,7 @@ comments: true
 ## ● How to edit the color of hyperlink on the github.io blog
 + Find the layout and check any ***html file***, it should include ***head.html*** like below
 <figure>
-<img src="/assets/image/html.png">
+<img src="/assets/image/html.png" onContextMenu="return false;">
 </figure>
 
 <br>
@@ -31,7 +31,7 @@ comments: true
 ~~~
 
 <figure>
-<img src="/assets/image/head.png">
+<img src="/assets/image/head.png" onContextMenu="return false;">
 </figure>
 
 <br>
@@ -46,5 +46,5 @@ comments: true
 
 + After edited the ***head.html***, result should be like: 
 <figure>
-<img src="/assets/image/hyper.png">
+<img src="/assets/image/hyper.png" onContextMenu="return false;">
 </figure>
