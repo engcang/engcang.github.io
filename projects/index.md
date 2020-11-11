@@ -72,10 +72,12 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 </p>
 
-<figure>
-    <img src="/assets/image/alpha/alpha.jpg" onContextMenu="return false;">
-    <figcaption style="text-align:center;"> FlightGoggles simulator and RACER-AI drone </figcaption>
-</figure>
+<p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+    <figure>
+        <img src="/assets/image/alpha/alpha.jpg" onContextMenu="return false;">
+        <figcaption style="text-align:center;"> FlightGoggles simulator and RACER-AI drone </figcaption>
+    </figure>
+</p>
 <br>
 
 ---
@@ -93,11 +95,13 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 ***Keywords***: Mobile Robots, Autonomous Driving Vehicles, Lyapunov function based Control
 
-<figure class="half">
-    <img src="/assets/image/turtlebot/racing.gif" onContextMenu="return false;">
-    <img src="/assets/image/turtlebot/graph.jpg" onContextMenu="return false;">
-    <figcaption style="text-align:center;"> Race GIF, Controller design, and Signal&Line detection </figcaption>
-</figure>
+<p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+    <figure class="half">
+        <img src="/assets/image/turtlebot/racing.gif" onContextMenu="return false;">
+        <img src="/assets/image/turtlebot/graph.jpg" onContextMenu="return false;">
+        <figcaption style="text-align:center;"> Race GIF, Controller design, and Signal&Line detection </figcaption>
+    </figure>
+</p>
 <br>
 
 ---
@@ -117,9 +121,10 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 ***Keywords***: Sampled-data system, Multi-rate Sampled-data system, Model Predictive Control, Cyber-Physical System
 
-<figure>
-    <img src="/assets/image/etri/overall.jpg" onContextMenu="return false;">
-    <figcaption style="text-align:center;"> Overall system: Multi-rate Observer, Controller, and results </figcaption>
-</figure>
-
+<p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+    <figure>
+        <img src="/assets/image/etri/overall.jpg" onContextMenu="return false;">
+        <figcaption style="text-align:center;"> Overall system: Multi-rate Observer, Controller, and results </figcaption>
+    </figure>
+</p>
 <br>
