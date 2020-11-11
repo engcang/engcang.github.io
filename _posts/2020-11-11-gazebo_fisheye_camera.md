@@ -13,9 +13,10 @@ comments: true
 # Making fisheye camera model for Gazebo sim.
 + Modeled <span style="color:#3399ff">Intel Realsense T265</span>
 + Referred [Fisheye Lense model](https://en.wikipedia.org/wiki/Fisheye_lens#cite_ref-44) and this [Link](https://github.com/ros-simulation/gazebo_ros_pkgs/issues/758)
-+ Result video clip
 
 <br>
+
++ Result video clip
 
 <p align="center">
     <video width="781" height="320" controls>
