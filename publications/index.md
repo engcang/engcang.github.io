@@ -27,7 +27,7 @@ comments: false
 # <span style="color:#9933ff">Domestic Conference</span>
 ### South Korea
 
-1. **EungChang Mason Lee**, HyunJun Lim, JaeKyung Bae, ..., and Hyun Myung, "Development of a 3D Mapping System including Object Position for UAV with a RGB-D camerain an Unknown and GNSS-denied Environment," *Institute of Embedded Engineering of Korea 2020 Fall Conference (IEMEK)*, 2020. <span style="color:#3399ff"> Best paper Awarded </span>
+1. **EungChang Mason Lee**, HyunJun Lim, JaeKyung Bae, ..., and Hyun Myung, "Development of a 3D Mapping System including Object Position for UAV with a RGB-D camerain an Unknown and GNSS-denied Environment," *Institute of Embedded Engineering of Korea 2020 Fall Conference (IEMEK)*, 2020. <span style="color:#3399ff"> ***[Best paper Awarded](http://urobot.kaist.ac.kr/BBS/announcement/bestpaperaward2020iemekconference)*** </span>
 
 1. **EungChang Mason Lee**, InHwan Wee, TaeYeon Kim, SangKeun Moon, and David Hyunchul Shim, "Analysis on Visual-Inertial State Estimation(VINS-Mono) for Drone using FlightGoggles Simulator," *The Korean Society for Aeronautical and Space Sciences 2019 Spring Conference (KSAS)*, pp. 629-630. 2019.
 
