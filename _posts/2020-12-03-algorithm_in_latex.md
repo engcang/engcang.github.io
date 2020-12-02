@@ -47,7 +47,9 @@ comments: true
 
 + Result
 
+<p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 <figure>
     <img src="/assets/img/tex.PNG" style="width:90%"  onContextMenu="return false;">
     <figcaption style="text-align:center;"> Algorithm in LaTex </figcaption>
 </figure>
+</p>
