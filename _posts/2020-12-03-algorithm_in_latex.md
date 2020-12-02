@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithm in_LaTex"
+title: "Algorithm in LaTex"
 date: 2020-12-03
 excerpt: "LaTex"
 tags: [LaTex]
