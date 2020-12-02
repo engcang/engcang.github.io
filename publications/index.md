@@ -14,7 +14,7 @@ comments: false
 # <span style="color:#9933ff">International Conference</span>
 
 
-1. **Eungchang Mason Lee** and Hyun Myung, "Analysis on the performance of VIO according to Trajectory Planning of UAV," *International Conference on Control, Automation and Systems (ICCAS)*, 2020.
+1. **Eungchang Mason Lee** and Hyun Myung, "Analysis on the performance of VIO according to Trajectory Planning of UAV," *International Conference on Control, Automation and Systems (ICCAS)*, pp. 967-971, 2020.
 
 1. **Eungchang Mason Lee**, Inhwan Wee, Taeyeon Kim, and David Hyunchul Shim, "Comparison of Visual Inertial Odometry using FlightGoggles Simulator for UAV," *International Conference on Control, Automation and Systems (ICCAS)*, pp. 1166-1169. 2019.
 
