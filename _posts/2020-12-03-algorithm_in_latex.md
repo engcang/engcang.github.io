@@ -17,7 +17,7 @@ comments: true
 
 + LaTex Code:
     + No explanation is needed I think!
-~~~latex
+~~~
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \renewcommand{\algorithmicrequire}{\textbf{Input:}} % this makes \Require as Input
