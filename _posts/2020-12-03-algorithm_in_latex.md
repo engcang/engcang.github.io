@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Algorithm in_LaTex"
+date: 2020-12-03
+excerpt: "LaTex"
+tags: [LaTex]
+post: true
+project: false
+legacy: false
+comments: true
+---
+
+## Writing Algorithm table in LaTex
+### Refernce : [here1](https://ctan.org/pkg/algorithmicx?lang=en) 
+
+~~~latex
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}} % this makes \Require as Input
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % this makes \Ensure as Output
+\algrenewcommand{\algorithmiccomment}[1]{\hskip3em$\rightarrow$ #1} %this makes comment with right arrow
+
+\begin{algorithm}
+    \caption{3D Frontier Calculation}
+    \label{alg1}
+    \begin{algorithmic}[1]
+        \Require{ test input}
+        \Ensure{test output}
+        \If {condition for if}
+        \State{then is automatically generated}
+        \EndIf
+    \State state is normal sentence \Comment{comment with right arrow}
+    \ForAll {elements}
+        \State {do is generated automatically}
+    \EndFor
+    \\
+    \Return True
+\end{algorithmic}
+\end{algorithm}
+~~~
