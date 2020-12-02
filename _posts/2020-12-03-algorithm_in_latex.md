@@ -13,6 +13,10 @@ comments: true
 ## Writing Algorithm table in LaTex
 ### Refernce : [here1](https://ctan.org/pkg/algorithmicx?lang=en) 
 
+<br>
+
++ LaTex Code:
+    + No explanation is needed I think!
 ~~~latex
 \usepackage{algorithm}
 \usepackage{algpseudocode}
@@ -38,3 +42,12 @@ comments: true
 \end{algorithmic}
 \end{algorithm}
 ~~~
+
+<br>
+
++ Result
+
+<figure>
+    <img src="/assets/img/tex.PNG" style="width:90%"  onContextMenu="return false;">
+    <figcaption style="text-align:center;"> Algorithm in LaTex </figcaption>
+</figure>
