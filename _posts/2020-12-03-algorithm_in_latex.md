@@ -11,7 +11,7 @@ comments: true
 ---
 
 ## Writing Algorithm table in LaTex
-### Refernce : [here1](https://ctan.org/pkg/algorithmicx?lang=en) 
+### Refernce : [here1](https://ctan.org/pkg/algorithmicx?lang=en) [here for right alinged comment](2)
 
 <br>
 
@@ -25,8 +25,12 @@ comments: true
 \usepackage{algpseudocode}
 \renewcommand{\algorithmicrequire}{\textbf{Input:}} % this makes \Require as Input
 \renewcommand{\algorithmicensure}{\textbf{Output:}} % this makes \Ensure as Output
-\algrenewcommand{\algorithmiccomment}[1]{\hskip3em$\rightarrow$ #1} %this makes comment with right arrow
+%\algrenewcommand{\algorithmiccomment}[1]{\hskip3em$\rightarrow$ #1} %this makes comment with right arrow
 
+% this makes comment right aligned!!
+\algrenewcommand{\algorithmiccomment}[2][.4\linewidth]{%
+  \leavevmode\hfill\makebox[#1][l]{$\rightarrow$~#2}}
+  
 \begin{algorithm}
     \caption{3D Frontier Calculation}
     \label{alg1}
