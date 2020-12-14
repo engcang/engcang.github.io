@@ -56,5 +56,3 @@ comments: true
     <figcaption style="text-align:center;"> Algorithm in LaTex </figcaption>
 </figure>
 </p>
-
-<br>
