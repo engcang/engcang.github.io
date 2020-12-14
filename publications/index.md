@@ -13,6 +13,7 @@ comments: false
 
 # <span style="color:#9933ff">International Conference</span>
 
+1. **EungChang Mason Lee**, Duckyu Choi, and Hyun Myung, "Peacock Exploration: A Lightweight Exploration for UAV using Control-Efficient Trajectory," *Robot Intelligence Technology and Applications (RiTA)*, 2020. <span style="color:#3399ff"> ***[Best paper Awarded](http://urobot.kaist.ac.kr/BBS/announcement/bestpaperawardrita2020)*** </span>
 
 1. **Eungchang Mason Lee** and Hyun Myung, "Analysis on the performance of VIO according to Trajectory Planning of UAV," *International Conference on Control, Automation and Systems (ICCAS)*, pp. 967-971, 2020.
 
