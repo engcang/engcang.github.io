@@ -58,8 +58,3 @@ comments: true
 </p>
 
 <br>
-
-+ This makes comment right aligned!!
-```
-\algrenewcommand{\algorithmiccomment}[2][.4\linewidth]{%\leavevmode\hfill\makebox[#1][l]{$\rightarrow$~#2}}
-```
