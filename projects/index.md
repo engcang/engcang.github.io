@@ -8,10 +8,12 @@ comments: false
 ---
 
 ## <span style="color:Fuchsia"> Click the titles to see the details </span>
-    
-<details markdown="1">
-    <summary> ## A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </summary>
-    
+
+<div markdown="1">
+<a href=#none id="show" onclick="if(hide.style.display=='none') {hide.style.display='';show.innerText='▲Fold'} 
+                                 else {hide.style.display='none';show.innerText='▶Unfold'}"> ## ▶ A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </a>
+<div id="hide" style="display: none">
+
 ## A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
 *<span style="color:#ff5500">Hosted by [ROND](http://rond.or.kr/CmsHome/MainDefault.aspx) in KAIST : </span> 2020.5 - 2020.11*
 #### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST : </span> [Link](http://urobot.kaist.ac.kr/)*
@@ -29,7 +31,8 @@ comments: false
 </p>
 <br>
 
-</details>
+</div>
+</div>
 
 ---
 
