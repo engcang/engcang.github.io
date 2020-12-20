@@ -38,6 +38,8 @@ comments: false
 
 ---
 
+<br>
+
 <details>
   <summary> 2020 Korea Robot Aircraft Competition </summary>
   <div markdown="1">
@@ -64,6 +66,7 @@ comments: false
 
 ---
 
+<br>
 
 <details>
     <summary> 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing) </summary>
@@ -101,6 +104,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 ---
 
+<br>
+
 <details>
     <summary> 2018 R-BIZ Challenge Turtlebot3 Autorace </summary>
     <div markdown="1">
@@ -130,6 +135,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 <br>
 
 ---
+
+<br>
 
 <details>
   <summary> Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System  </summary>
