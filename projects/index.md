@@ -7,7 +7,7 @@ comments: false
 
 ---
 
-<span style="color:Fuchsia"> Click the titles to see the details </span>
+## <span style="color:Fuchsia"> Click the titles to see the details </span>
     
 <details>
 <summary markdown="1"> ## A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </summary>
