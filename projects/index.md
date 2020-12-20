@@ -12,7 +12,7 @@ comments: false
 <br>
 
 <details>
-  <summary>A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration</summary>
+  <summary> A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </summary>
   <div markdown="1">
 ## A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
 *<span style="color:#ff5500">Hosted by [ROND](http://rond.or.kr/CmsHome/MainDefault.aspx) in KAIST : </span> 2020.5 - 2020.11*
@@ -39,7 +39,7 @@ comments: false
 ---
 
 <details>
-  <summary>2020 Korea Robot Aircraft Competition</summary>
+  <summary> 2020 Korea Robot Aircraft Competition </summary>
   <div markdown="1">
 # 2020 Korea Robot Aircraft Competition
 *<span style="color:#ff5500">Hosted by [MOTIE](http://www.motie.go.kr/www/main.do) and [KAIA](http://aerospace.or.kr/eng/main/main.php) : </span> 2020.4 - 2020.11 [Link](http://www.koreauav.com/home/)* 
@@ -65,11 +65,14 @@ comments: false
 ---
 
 
+<details>
+    <summary> 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing) </summary>
+  <div markdown="1">
 # 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 *<span style="color:#ff5500">Hosted by [Lockheed Martin](https://www.lockheedmartin.com/) and [The Drone Racing League](https://thedroneracingleague.com/), Supported by [NVIDIA](https://www.nvidia.com/en-us/) : </span> 2019.3 - 2019.12*
 #### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group in KAIST : </span> [Link](http://unmanned.kaist.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
-
+  </div>
 <br>
 <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　AlphaPilot is the first large-scale open innovation challenge of its kind focused on advancing artificial intelligence (AI) and autonomy.
@@ -80,9 +83,9 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 </p>
 
 <br>
-
+  <div markdown="1">
 ***Keywords***: Drone, Quadrotor, Autonomous Flying Drones, Drone Racing
-
+  </div>
 <p align="center">
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 </p>
@@ -93,22 +96,28 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
         <figcaption style="text-align:center;"> FlightGoggles simulator and RACER-AI drone </figcaption>
     </figure>
 </p>
+</details>
 <br>
 
 ---
 
+<details>
+    <summary> 2018 R-BIZ Challenge Turtlebot3 Autorace </summary>
+    <div markdown="1">
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
 *<span style="color:#ff5500">Hosted by [ROBOTIS](https://www.robotis.com/), [MathWorks Korea](https://kr.mathworks.com/) and, [ICROS](http://icros.org/main/), Supported by [KIRIA](https://www.kiria.org/) and [MOTIE](http://www.motie.go.kr/www/main.do) : </span> 2018.6 - 2018.11 [Link](https://emanual.robotis.com/docs/en/platform/turtlebot3/autorace_rviz_challenge#autorace-rbiz-challenge-2018)*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab in KNU : </span> [Link](https://control.knu.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
-
+  </div>
 <br>
 <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　ROS based autonomous driving system for mobile robot(Turtlebot3) is developed for finishing the racing track with diverse missions. Using MATLAB, Lyapunov functional is proved to stabilize the error model of mobile robot. Simple HOG based Cascade Object Detector is trained using Computer Vision Toolbox of MatLab and then all systems are coded with Python to control the robot in real-time. Only 35 dollar Raspberry Pi computer was adopted and it was equipped with 1-D LiDAR and mono camera. 
 </p>
 <br>
 
+  <div markdown="1">
 ***Keywords***: Mobile Robots, Autonomous Driving Vehicles, Lyapunov function based Control
+  </div>
 
 <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
     <figure class="half">
@@ -117,14 +126,19 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
         <figcaption style="text-align:center;"> Race GIF, Controller design, and Signal&Line detection </figcaption>
     </figure>
 </p>
+</details>
 <br>
 
 ---
 
+<details>
+  <summary> Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System  </summary>
+  <div markdown="1">
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
 *<span style="color:#ff5500">Supported by [The Electronics and Telecommunications Research Institute](https://www.etri.re.kr/intro.html) : </span> 2018.4 - 2018.12*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab in KNU : </span> [Link](https://control.knu.ac.kr)*
 *Relative Publication : [Link](https://ieeexplore.ieee.org/abstract/document/8661985/)*
+  </div>
 
 <br>
 <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
@@ -134,7 +148,9 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 
 <br>
 
+  <div markdown="1">
 ***Keywords***: Sampled-data system, Multi-rate Sampled-data system, Model Predictive Control, Cyber-Physical System
+  </div>
 
 <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
     <figure>
@@ -142,4 +158,5 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
         <figcaption style="text-align:center;"> Overall system: Multi-rate Observer, Controller, and results </figcaption>
     </figure>
 </p>
+</details>
 <br>
