@@ -7,7 +7,7 @@ comments: false
 
 ---
 
-details>
+<details>
     <summary>test</summary>
     <p>testing!</p>
 </details>
