@@ -12,7 +12,7 @@ comments: false
 <br>
 
 <details>
-  <summary> A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </summary>
+  <summary> <p style="font-size:1.2rem;font-weight:800"> A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </p> </summary>
   <div markdown="1">
 ## A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
 *<span style="color:#ff5500">Hosted by [ROND](http://rond.or.kr/CmsHome/MainDefault.aspx) in KAIST : </span> 2020.5 - 2020.11*
