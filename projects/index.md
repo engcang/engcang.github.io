@@ -8,7 +8,7 @@ comments: false
 ---
 
 <details>
-    <summary> ##test </summary>
+    <summary> test </summary>
     <p>testing!</p>
 </details>
 
