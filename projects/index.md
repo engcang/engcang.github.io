@@ -9,6 +9,8 @@ comments: false
 
 ## <span style="color:Fuchsia"> Click the titles to see the details </span>
 
+<div markdown="1">
+
 <details>
   <summary>A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration</summary>
   
@@ -154,3 +156,5 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
     </figure>
 </p>
 <br>
+
+</div>
