@@ -81,8 +81,8 @@ comments: false
 　AlphaPilot is the first large-scale open innovation challenge of its kind focused on advancing artificial intelligence (AI) and autonomy.
 Supported and hosted by DRL, Lockheed Martin and NVIDIA. For the 1 Million dollar prize only for the winner.
 The challenge consists of Preliminary test and Real competition.
-Firstly, DRL and Lockheed martin used FlightGoggles Simulator from MIT to narrow down 424 teams over 81 countries into 9 Qualifiers.
-Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors.
+Firstly, DRL and Lockheed martin used FlightGoggles Simulator from MIT to narrow down <span style="color:#3399ff"> 424 teams over 81 countries into 9 Qualifiers. </span>
+Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors. Our team won the <span style="color:#3399ff">3rd prize.</span>
 </p>
 
 <br>
@@ -116,7 +116,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
   </div>
 <br>
 <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-　ROS based autonomous driving system for mobile robot(Turtlebot3) is developed for finishing the racing track with diverse missions. Using MATLAB, Lyapunov functional is proved to stabilize the error model of mobile robot. Simple HOG based Cascade Object Detector is trained using Computer Vision Toolbox of MatLab and then all systems are coded with Python to control the robot in real-time. Only 35 dollar Raspberry Pi computer was adopted and it was equipped with 1-D LiDAR and mono camera. 
+　ROS based autonomous driving system for mobile robot (Turtlebot3) is developed for finishing the racing track with diverse missions. Using MATLAB, Lyapunov functional is proved to stabilize the error model of mobile robot. Simple HOG based Cascade Object Detector is trained using Computer Vision Toolbox of MatLab and then all systems are coded with Python to control the robot in real-time. Only 35 dollar Raspberry Pi computer was adopted and it was equipped with 1-D LiDAR and mono camera. Our team won the <span style="color:#3399ff">Mathworks Korea Special Prize.</span>
 </p>
 <br>
 
