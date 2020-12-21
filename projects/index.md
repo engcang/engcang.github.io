@@ -144,7 +144,7 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
 *<span style="color:#ff5500">Supported by [The Electronics and Telecommunications Research Institute](https://www.etri.re.kr/intro.html) : </span> 2018.4 - 2018.12*
 #### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab in KNU : </span> [Link](https://control.knu.ac.kr)*
-*Relative Publication : [Link](https://ieeexplore.ieee.org/abstract/document/8661985/)*
+### *Relative Publication : [Link](https://ieeexplore.ieee.org/abstract/document/8661985/)*
   </div>
 
 <br>
