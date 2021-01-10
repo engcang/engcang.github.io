@@ -10,7 +10,7 @@ legacy: false
 comments: true
 ---
 
-## Gazebo model editing using Blender
+## Gazebo models joining seamlessly using Blende
 
 <figure>
     <img src="/assets/posting/20210110/t1.png" style="width:50%"  onContextMenu="return false;">
@@ -20,8 +20,8 @@ comments: true
 </figure>
 
 <figure class="half">
-    <img src="/assets/posting/20210110/t3.png" style="width:50%"  onContextMenu="return false;">
-    <img src="/assets/posting/20210110/t4.png" style="width:50%"  onContextMenu="return false;">
+    <img src="/assets/posting/20210110/t3.png" onContextMenu="return false;">
+    <img src="/assets/posting/20210110/t4.png" onContextMenu="return false;">
 </figure>
 
 <figure>
@@ -41,8 +41,8 @@ comments: true
 </figure>
 
 <figure class="half">
-    <img src="/assets/posting/20210110/t10.png" style="width:50%"  onContextMenu="return false;">
-    <img src="/assets/posting/20210110/t11.png" style="width:50%"  onContextMenu="return false;">
+    <img src="/assets/posting/20210110/t10.png" onContextMenu="return false;">
+    <img src="/assets/posting/20210110/t11.png" onContextMenu="return false;">
 </figure>
 
 <figure>
