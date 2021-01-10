@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gazebo model editing using Blender"
-date: 2021-01-09
+title: "Gazebo model editing (color, emission) using Blender"
+date: 2021-01-10
 excerpt: "For better sim"
 tags: [Gazebo, Blender]
 post: true
