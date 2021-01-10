@@ -10,7 +10,7 @@ legacy: false
 comments: true
 ---
 
-## Gazebo model editing using Blender
+## Gazebo model editing (color, emission) using Blender
 
 <figure>
     <img src="/assets/posting/20210110/c1.png" style="width:50%"  onContextMenu="return false;">
