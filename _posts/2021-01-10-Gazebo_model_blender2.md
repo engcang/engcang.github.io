@@ -10,7 +10,7 @@ legacy: false
 comments: true
 ---
 
-## Gazebo models joining seamlessly using Blende
+## Gazebo models joining seamlessly using Blender
 
 <figure>
     <img src="/assets/posting/20210110/t1.png" style="width:50%"  onContextMenu="return false;">
