@@ -20,8 +20,8 @@ comments: true
 </figure>
 
 <figure class="half">
-    <img src="/assets/posting/20210110/c3.png" style="width:50%"  onContextMenu="return false;">
-    <img src="/assets/posting/20210110/c4.png" style="width:50%"  onContextMenu="return false;">
+    <img src="/assets/posting/20210110/c3.png" onContextMenu="return false;">
+    <img src="/assets/posting/20210110/c4.png" onContextMenu="return false;">
 </figure>
 
 <figure>
