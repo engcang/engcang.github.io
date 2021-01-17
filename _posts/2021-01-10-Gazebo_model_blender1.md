@@ -14,7 +14,7 @@ comments: true
 
 <br>
 
-What to cover this post:
+What to cover in this post:
 1. When a 3D model is newly made and put it in Gazebo, but the color is strange -> It can be modified using a Blender.
 2. Resolving invisible colliding objects in Gazebo.
 
