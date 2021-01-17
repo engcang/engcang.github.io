@@ -61,7 +61,7 @@ What to cover in this post:
 
 + After selecting the vertices to be connected,
 + In the right menu, click the green triangle and click the '+' button to create a new **<span style="color:#3399ff">vertex group</span>**.
-+ Press 'Assign' to assign to the group.
++ Press **'Assign'** to assign to the group.
 + Repeat these steps on the other side too.
 <figure>
     <img src="/assets/posting/20210110/t6.png" style="width:100%"  onContextMenu="return false;">
@@ -87,7 +87,7 @@ What to cover in this post:
 
 <br>
 
-+ Make sure **Shrinkwrap** on both side on the vertex group of both objects.
++ Make sure **Shrinkwrap** on <span style="color:#3399ff">both side</span> on the vertex group of both objects.
 <figure>
     <img src="/assets/posting/20210110/t9.png" style="width:100%"  onContextMenu="return false;">
 </figure>
@@ -113,7 +113,7 @@ What to cover in this post:
 
 + After that, press **tab** to enter edit mode.
 + After selecting the part you want to apply texture (it is convenient to use Alt+z transparent mode),
-+ If you press 'U' to 'Unwrap', it is automatically wrapped around the UV map to some extent.
++ If you press **'U'** to 'Unwrap', it is automatically wrapped around the UV map to some extent.
 <figure>
     <img src="/assets/posting/20210110/t13.png" style="width:100%"  onContextMenu="return false;">
 </figure>
