@@ -14,27 +14,32 @@ comments: true
 What we will cover here (with the free version of SketchUp)
 1. Create a model that is not provided in Gazebo using Google Sketchup
 2. When there is an invisible object after making it -> to be modified in SketchUp
-(In the next post: 3. Newly made model has strange colors in Gazebo -> Editing it using Blender)
+(In the next post: 3. When newly made model is colored different in Gazebo -> Editing it using Blender)
 
-First, go to the Google Sketchup's 3dwarehouse and look for anything similar to the model to be made.
++ First, go to the Google Sketchup's 3dwarehouse and look for anything similar to the model to be made.
 I needed a staircase, so I searched for the stair.
 
 <figure>
     <img src="/assets/posting/20210110/s1.JPG" style="width:50%"  onContextMenu="return false;">
 </figure>
 
++ If you press the down button right away, you can download it as a sketchup file and a collada file. (I will finally download it as a collada file (.dae extension) and put it in Gazebo later.) Since we need to modify it, download the latest version of the sketchup file (.skp extension file) for now.
+
 <figure>
     <img src="/assets/posting/20210110/s2.JPG" style="width:50%"  onContextMenu="return false;">
 </figure>
 
++ Open the .skp file in the SketchUp. The free version is good enough, and the web browser version works well enough.
 <figure>
     <img src="/assets/posting/20210110/s3.JPG" style="width:50%"  onContextMenu="return false;">
 </figure>
 
++ I put the stair downloaded above, and just drew some more parts.
 <figure>
     <img src="/assets/posting/20210110/s4.JPG" style="width:50%"  onContextMenu="return false;">
 </figure>
 
++ After drawing, click the warehouse button on the right menu, In the pop-up window that appears, click the upload button to upload it to the warehouse.
 <figure>
     <img src="/assets/posting/20210110/s5.JPG" style="width:50%"  onContextMenu="return false;">
 </figure>
