@@ -70,38 +70,31 @@ What to cover in this post:
 <br>
 
 + After that, move and place the two objects so that they overlap each other enough.
-+ Click the wrench shaped button and click **<span style="color:#3399ff">Add Modifier->Shrinkwrap**</span>.
-
-In the vertex group, press the previously assigned vertex group,
-
-Select the name of the relative object in Target,
-
-As for the wrap method, choose between Nearest surface point or Nearest vertices and set the one you like
-
-​
-
-Offset is given as a negative value. Then it sticks tightly
++ Click the wrench shaped button and click **<span style="color:#3399ff">Add Modifier->Shrinkwrap</span>**.
++ In the vertex group, select the previously assigned vertex group, and select the name of the other object in **Target**.
++ Choose between **Nearest surface point** or **Nearest vertices** for the wrap method.
++ Set a negative **Offset** value. Then it sticks more tightly.
 <figure>
     <img src="/assets/posting/20210110/t7.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
 
-+ 
++ Do not forget to **<span style="color:#3399ff">apply</span>** it as shown on the right part of the figure.
 <figure>
     <img src="/assets/posting/20210110/t8.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
 
-+ 
++ Make sure **Shrinkwrap** on both side on the vertex group of both objects.
 <figure>
     <img src="/assets/posting/20210110/t9.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
 
-+ 
++ (Optional) After joining, if you select both objects and right click to 'Join' both objects, they become one object.
 <figure class="half">
     <img src="/assets/posting/20210110/t10.png" onContextMenu="return false;">
     <img src="/assets/posting/20210110/t11.png" onContextMenu="return false;">
@@ -109,28 +102,34 @@ Offset is given as a negative value. Then it sticks tightly
 
 <br>
 
-+ 
++ Now how to apply texture using UV map.
++ After click the object, go to the **'Material'** from the the right menu.
++ Change the 'base color' to **'Image texture'**, and then load the image of the desired pattern.
 <figure>
     <img src="/assets/posting/20210110/t12.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
 
-+ 
++ After that, press **tab** to enter edit mode.
++ After selecting the part you want to apply texture (it is convenient to use Alt+z transparent mode),
++ If you press 'U' to 'Unwrap', it is automatically wrapped around the UV map to some extent.
 <figure>
     <img src="/assets/posting/20210110/t13.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
 
-+ 
++ If you want to edit it yourself, select **'UV Editing'** mode from the top menu in Blender.
++ Select the desired part you want to add texture, and then press **'U'** to unwrap,
++ You can also select and move vertices in the left UV window, and press 's' to spread them.
 <figure>
     <img src="/assets/posting/20210110/t14.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
 
-+ 
++ After completing this, export it as a **.dae** file and load the model in Gazebo, and it will look like the video below.
 <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
     <video width="602" height="300" controls controlsList="nodownload">
       <source src="/assets/posting/20210110/blen.mp4" type="video/mp4">
