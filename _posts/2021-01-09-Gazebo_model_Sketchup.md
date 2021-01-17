@@ -60,14 +60,18 @@ I drew it very hard... It seems it took about 4-5 hours through trial and error.
     <img src="/assets/posting/20210110/s10.png" style="width:80%"  onContextMenu="return false;">
 </figure>
 
++ And extract the compressed Collada file downloaded here.
 <figure>
     <img src="/assets/posting/20210110/s11.png" style="width:80%"  onContextMenu="return false;">
 </figure>
 
++ To use the model in Gazebo, open the .bashrc located in the home directory with text editer (e.g. gedit). Just like the dragged part below, add the directory to GAZEBO_MODEL_PATH. (multiple paths separated by a colon)
 <figure>
     <img src="/assets/posting/20210110/s9.png" style="width:80%"  onContextMenu="return false;">
 </figure>
 
++ model.sdf example is as below, model name should be the same as the folder name. In collision, create a colliding object like the look of the .dae file, make visible objects that look like dae files in visual. 
+    + If I comment out or remove either? -> I can make the object without any collision or invisible.
 ~~~xml
 <?xml version="1.0" ?>
 <sdf version='1.5'>
@@ -101,6 +105,8 @@ I drew it very hard... It seems it took about 4-5 hours through trial and error.
   </model>
 </sdf>
 ~~~
+
++ Below is the model.config example. Just write the name and the name of the sdf file properly.
 ~~~xml
 <?xml version="1.0"?>
 <model>
@@ -118,15 +124,19 @@ I drew it very hard... It seems it took about 4-5 hours through trial and error.
 </model>
 ~~~
 
-
++ Now source the .bashrc and run the Gazebo. Added path can be checked from Insert menu. Click the added model, stair_thing to put it in the world.
 <figure>
     <img src="/assets/posting/20210110/s12.png" style="width:80%"  onContextMenu="return false;">
 </figure>
 
++ Ta-da~ Now the object drawn in sketchup came into Gazebo. But something is weird. There are some invisible objects in Gazebo, Some objects have strange colors. (In the photo, the lower part of the concrete outer wall is black;;)
 <figure>
     <img src="/assets/posting/20210110/s13.png" style="width:80%"  onContextMenu="return false;">
 </figure>
 
++ For invisible objects first, It can be solved by selecting all components one by one and processing 'Make Unique' in Sketchup before uploading it!
 <figure>
     <img src="/assets/posting/20210110/s14.JPG" style="width:80%"  onContextMenu="return false;">
 </figure>
+
++ If the color is strange, it should be solved by using Blender and the next post will cover it.
