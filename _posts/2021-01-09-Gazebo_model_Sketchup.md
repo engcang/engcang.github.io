@@ -49,13 +49,13 @@ I needed a staircase, so I searched for the stair.
     <img src="/assets/posting/20210110/s6.JPG" style="width:100%"  onContextMenu="return false;">
 </figure>
 
-+ When downloading, download it as <span style="color:#9933ff"> Collada File. (file with .dae extension). </span>
++ When downloading, download it as <span style="color:#3399ff"> Collada File. (file with .dae extension). </span>
 I drew it very hard... It seems it took about 4-5 hours through trial and error. I guess I could draw faster now? maybe 2-3 hours?
 <figure>
     <img src="/assets/posting/20210110/s7.JPG" style="width:100%"  onContextMenu="return false;">
 </figure>
 
-+ After download the Collada file, we need to create a Gazebo model using a .sdf file so that the simulator can recognize it. First, create <span style="color:#9933ff"> a folder with the desired model name.</span> In the folder, create model.config file and model.sdf file.
++ After download the Collada file, we need to create a Gazebo model using a .sdf file so that the simulator can recognize it. First, create <span style="color:#3399ff"> a folder with the desired model name.</span> In the folder, create model.config file and model.sdf file.
 <figure>
     <img src="/assets/posting/20210110/s10.png" style="width:100%"  onContextMenu="return false;">
 </figure>
@@ -65,7 +65,7 @@ I drew it very hard... It seems it took about 4-5 hours through trial and error.
     <img src="/assets/posting/20210110/s11.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
-+ To use the model in Gazebo, open the .bashrc located in the home directory with text editer (e.g. gedit). Just like the dragged part below, <span style="color:#9933ff"> add the directory to GAZEBO_MODEL_PATH.</span> (multiple paths separated by colons)
++ To use the model in Gazebo, open the .bashrc located in the home directory with text editer (e.g. gedit). Just like the dragged part below, <span style="color:#3399ff"> add the directory to GAZEBO_MODEL_PATH.</span> (multiple paths separated by colons)
 <figure>
     <img src="/assets/posting/20210110/s9.png" style="width:100%"  onContextMenu="return false;">
 </figure>
@@ -134,7 +134,7 @@ I drew it very hard... It seems it took about 4-5 hours through trial and error.
     <img src="/assets/posting/20210110/s13.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
-+ For invisible objects first, It can be solved by selecting all components one by one and processing <span style="color:#9933ff">'Make Unique'</span> in Sketchup before uploading it!
++ For invisible objects first, It can be solved by selecting all components one by one and processing <span style="color:#3399ff">'Make Unique'</span> in Sketchup before uploading it!
 <figure>
     <img src="/assets/posting/20210110/s14.JPG" style="width:100%"  onContextMenu="return false;">
 </figure>
