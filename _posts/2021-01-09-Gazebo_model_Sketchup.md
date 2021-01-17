@@ -28,7 +28,8 @@ I needed a staircase, so I searched for the stair.
 <br>
 
 
-+ If you press the down button right away, you can download it as a sketchup file and a collada file. (I will finally download it as a collada file (.dae extension) and put it in Gazebo later.) Since we need to modify it, download the latest version of the sketchup file (.skp extension file) for now.
++ If you press the down button right away, you can download it as a sketchup file and a collada file. (I will finally download it as a collada file (.dae extension) and put it in Gazebo later.) 
++ Since we need to modify it, download the latest version of the sketchup file (.skp extension file) for now.
 
 <figure>
     <img src="/assets/posting/20210110/s2.JPG" style="width:100%"  onContextMenu="return false;">
@@ -78,7 +79,9 @@ I drew it very hard... It seems it took about 4-5 hours through trial and error.
 <br>
 
 
-+ After download the Collada file, we need to create a Gazebo model using a .sdf file so that the simulator can recognize it. First, create <span style="color:#3399ff"> a folder with the desired model name.</span> In the folder, create model.config file and model.sdf file.
++ After download the Collada file, we need to create a Gazebo model using a .sdf file so that the simulator can recognize it. 
++ First, create <span style="color:#3399ff"> a folder with the desired model name.</span>
++ In the folder, create model.config file and model.sdf file.
 <figure>
     <img src="/assets/posting/20210110/s10.png" style="width:100%"  onContextMenu="return false;">
 </figure>
@@ -172,7 +175,8 @@ I drew it very hard... It seems it took about 4-5 hours through trial and error.
 <br>
 
 
-+ Ta-da~ Now the object drawn in sketchup came into Gazebo. But something is weird. There are some invisible objects in Gazebo, Some objects have strange colors. (In the photo, the lower part of the concrete outer wall is black;;)
++ Ta-da~ Now the object drawn in sketchup came into Gazebo. 
++ But something is weird. There are some invisible objects in Gazebo, Some objects have strange colors. (In the figure, the lower part of the concrete outer wall is black;;)
 <figure>
     <img src="/assets/posting/20210110/s13.png" style="width:100%"  onContextMenu="return false;">
 </figure>
