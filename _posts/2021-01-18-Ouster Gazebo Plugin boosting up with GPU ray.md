@@ -43,7 +43,8 @@ comments: true
 + So we have to edit those two lines to use **<span style="color:#3399ff">gpu_ray</span>** sensor instead of **ray**.
 
 ~~~xml
-...
+......
+
     <gazebo reference="${name}">
         <sensor type="gpu_ray" name="${name}-OS1-64">
 <!--        <sensor type="ray" name="${name}-OS1-64">-->
@@ -58,14 +59,14 @@ comments: true
 
 <br>
 
-
++ It perfectly works only consuming little amount of GPU resource!
 <figure>
     <img src="/assets/posting/20210118/o1.png" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
 
-+
++ Using the edited Ouster urdf file boosts up the real time factor of Gazebo from around 0.3 to 1.0.
 
 <figure>
     <img src="/assets/posting/20210118/o2.png" style="width:100%"  onContextMenu="return false;">
