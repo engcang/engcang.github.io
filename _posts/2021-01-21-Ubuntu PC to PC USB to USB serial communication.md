@@ -66,6 +66,7 @@ if __name__== '__main__':
   + Open the serial with the <span style="color:#3399ff">**same baud_rate.**</span>
   + Every 0.2 seconds(at 5Hz), it writes 'hello'.
 + It is said that the prefix b is only needed for Python3.
+
 ~~~python
 #!/usr/bin/env python
 import serial
