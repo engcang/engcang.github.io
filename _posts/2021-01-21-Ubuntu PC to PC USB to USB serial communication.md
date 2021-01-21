@@ -33,7 +33,7 @@ comments: true
 + In the same way, plug the RX line into the other side's TX line, it works.
 + When USB is plugged into the PC, 5V is automatically applied, so only GND is connected.
 <figure>
-    <img src="/assets/210121_usb.jpg" style="width:100%"  onContextMenu="return false;">
+    <img src="/assets/posting/210121_usb.jpg" style="width:100%"  onContextMenu="return false;">
 </figure>
 
 <br>
