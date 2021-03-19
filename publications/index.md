@@ -11,6 +11,14 @@ comments: false
 
 ---
 
+# <span style="color:#9933ff">International Journal Papers</span>
+
+1. Jinwoo Jeon, Sungwook Jung, **Eungchang Lee**, Duckyu Choi, and Hyun Myung, "Run Your Visual-Inertial Odometry on NVIDIA Jetson: Benchmark Tests on a Micro Aerial Vehicle," *IEEE Robotics and Automation Letters(RA-L) with IROS*, 2021. (SCIE) **(In Press)**
+
+<br>
+
+---
+
 # <span style="color:#9933ff">International Conference</span>
 
 1. **EungChang Mason Lee**, Duckyu Choi, and Hyun Myung, "Peacock Exploration: A Lightweight Exploration for UAV using Control-Efficient Trajectory," *Robot Intelligence Technology and Applications (RiTA)*, 2020. <span style="color:#3399ff"> ***[Best paper Awarded](http://urobot.kaist.ac.kr/BBS/announcement/bestpaperawardrita2020)*** </span>
@@ -27,6 +35,8 @@ comments: false
 
 # <span style="color:#9933ff">Domestic Conference</span>
 ### South Korea
+
+1. SungWook Jung, Junho Choi, **EungChang Mason Lee**, Duckyu Choi, and Hyun Myung, "Multi-sensor based 3D Mapping for Autonomous Bridge Inspection Using Unmanned Aerial Vehicle," *Korea Institute of Structural Maintenance and Inspection 2020 Fall Conference (KSMI)*, 2020. 
 
 1. **EungChang Mason Lee**, HyunJun Lim, JaeKyung Bae, ..., and Hyun Myung, "Development of a 3D Mapping System including Object Position for UAV with a RGB-D camerain an Unknown and GNSS-denied Environment," *Institute of Embedded Engineering of Korea 2020 Fall Conference (IEMEK)*, 2020. <span style="color:#3399ff"> ***[Best paper Awarded](http://urobot.kaist.ac.kr/BBS/announcement/bestpaperaward2020iemekconference)*** </span>
 
