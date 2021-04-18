@@ -63,7 +63,7 @@ comments: false
 ---
 
 # <span style="color:#9933ff">Socials & Contact</span>
-* **Youtube -** [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://www.youtube.com/channel/UC1Bui82br7_gmlaVRcCERcQ/featured)](https://www.youtube.com/channel/UC1Bui82br7_gmlaVRcCERcQ/featured) [Here](https://www.youtube.com/channel/UC1Bui82br7_gmlaVRcCERcQ/videos)**
+* **Youtube - [Here](https://www.youtube.com/channel/UC1Bui82br7_gmlaVRcCERcQ/videos)**
 * **GitHub - [Here](https://github.com/engcang)**
 * **Naver blog (Korean) - [Here](https://blog.naver.com/engcang)**
 * **E-mail : [eungchang_mason@kaist.ac.kr](mailto:eungchang_mason@kaist.ac.kr)**
