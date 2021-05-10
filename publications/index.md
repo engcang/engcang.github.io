@@ -13,7 +13,7 @@ comments: false
 
 # <span style="color:#9933ff">International Journal Papers</span>
 
-1. Jinwoo Jeon, Sungwook Jung, **Eungchang Lee**, Duckyu Choi, and Hyun Myung, "Run Your Visual-Inertial Odometry on NVIDIA Jetson: Benchmark Tests on a Micro Aerial Vehicle," *IEEE Robotics and Automation Letters (RA-L) with ICRA*, 2021. (SCIE) **(In Press)**
+1. Jinwoo Jeon, Sungwook Jung, **Eungchang Lee**, Duckyu Choi, and Hyun Myung, "Run Your Visual-Inertial Odometry on NVIDIA Jetson: Benchmark Tests on a Micro Aerial Vehicle," *IEEE Robotics and Automation Letters (RA-L) with ICRA*, Vol. 6, No. 3, 2021. (SCIE)
 
 <br>
 
