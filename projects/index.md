@@ -12,11 +12,40 @@ comments: false
 <br>
 
 <details>
+  <summary> Autonomous Drone Navigation for Power Line Inspection in Underground </summary>
+  <div markdown="1">
+## Autonomous Drone Navigation for Power Line Inspection in Underground
+*<span style="color:#ff5500">Supported by [KEPCO](https://home.kepco.co.kr/kepco/EN/main.do) and [KEPRI](https://www.kepri.re.kr:20808/index): </span> 2020.8 - 2022.12*
+#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)*
+  </div>
+<br>
+<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+　In this project, we developed indoor SLAM, navigation, and exploration method to operate an UAV exploring the underground power line tunnel safely. In consideration with the limited payload and computational resource of the UAV, the precomputed and lightweight local exploration planner was proposed. Additionally, to charge the battery of the UAV on the UGV with the docking station, relative pose estimation EKF and autonomous landing algorithm was developed.</p>
+
+<br>
+
+  <div markdown="1">
+***Keywords***: Unmanned Aerial Vehicle, Exploration, Structural Inspection, Underground Navigation
+  </div>
+
+<p align="center">
+    <iframe width="448" height="252" src="https://www.youtube.com/embed/S3XAOMek2mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</details>
+
+<br>
+
+---
+
+
+<br>
+
+<details>
   <summary> A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </summary>
   <div markdown="1">
 ## A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
-*<span style="color:#ff5500">Hosted by [ROND](http://rond.or.kr/CmsHome/MainDefault.aspx) in KAIST : </span> 2020.5 - 2020.11*
-#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST : </span> [Link](http://urobot.kaist.ac.kr/)*
+*<span style="color:#ff5500">Hosted by [ROND](http://rond.or.kr/CmsHome/MainDefault.aspx) in KAIST: </span> 2020.5 - 2020.11*
+#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)*
   </div>
 <br>
 <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
@@ -44,8 +73,8 @@ comments: false
   <summary> 2020 Korea Robot Aircraft Competition </summary>
   <div markdown="1">
 # 2020 Korea Robot Aircraft Competition
-*<span style="color:#ff5500">Hosted by [MOTIE](http://www.motie.go.kr/www/main.do) and [KAIA](http://aerospace.or.kr/eng/main/main.php) : </span> 2020.4 - 2020.11 [Link](http://www.koreauav.com/home/)* 
-#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST : </span> [Link](http://urobot.kaist.ac.kr/)*
+*<span style="color:#ff5500">Hosted by [MOTIE](http://www.motie.go.kr/www/main.do) and [KAIA](http://aerospace.or.kr/eng/main/main.php): </span> 2020.4 - 2020.11 [Link](http://www.koreauav.com/home/)* 
+#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)*
 
   </div>
 <br>
@@ -72,8 +101,8 @@ comments: false
     <summary> 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing) </summary>
   <div markdown="1">
 # 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
-*<span style="color:#ff5500">Hosted by [Lockheed Martin](https://www.lockheedmartin.com/) and [The Drone Racing League](https://thedroneracingleague.com/), Supported by [NVIDIA](https://www.nvidia.com/en-us/) : </span> 2019.3 - 2019.12*
-#### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group in KAIST : </span> [Link](http://unmanned.kaist.ac.kr)*
+*<span style="color:#ff5500">Hosted by [Lockheed Martin](https://www.lockheedmartin.com/) and [The Drone Racing League](https://thedroneracingleague.com/), Supported by [NVIDIA](https://www.nvidia.com/en-us/): </span> 2019.3 - 2019.12*
+#### *This project was counducted at <span style="color:#3399ff">Unmanned Systems Research Group in KAIST: </span> [Link](http://unmanned.kaist.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
   </div>
 <br>
@@ -110,8 +139,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
     <summary> 2018 R-BIZ Challenge Turtlebot3 Autorace </summary>
     <div markdown="1">
 # 2018 R-BIZ Challenge Turtlebot3 Autorace
-*<span style="color:#ff5500">Hosted by [ROBOTIS](https://www.robotis.com/), [MathWorks Korea](https://kr.mathworks.com/) and, [ICROS](http://icros.org/main/), Supported by [KIRIA](https://www.kiria.org/) and [MOTIE](http://www.motie.go.kr/www/main.do) : </span> 2018.6 - 2018.11 [Link](https://emanual.robotis.com/docs/en/platform/turtlebot3/autorace_rviz_challenge#autorace-rbiz-challenge-2018)*
-#### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab in KNU : </span> [Link](https://control.knu.ac.kr)*
+*<span style="color:#ff5500">Hosted by [ROBOTIS](https://www.robotis.com/), [MathWorks Korea](https://kr.mathworks.com/) and, [ICROS](http://icros.org/main/), Supported by [KIRIA](https://www.kiria.org/) and [MOTIE](http://www.motie.go.kr/www/main.do): </span> 2018.6 - 2018.11 [Link](https://emanual.robotis.com/docs/en/platform/turtlebot3/autorace_rviz_challenge#autorace-rbiz-challenge-2018)*
+#### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab in KNU: </span> [Link](https://control.knu.ac.kr)*
 *Relative Media is listed on **About Me**'s Awards*
   </div>
 <br>
@@ -142,8 +171,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
   <summary> Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System  </summary>
   <div markdown="1">
 # Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System 
-*<span style="color:#ff5500">Supported by [The Electronics and Telecommunications Research Institute](https://www.etri.re.kr/intro.html) : </span> 2018.4 - 2018.12*
-#### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab in KNU : </span> [Link](https://control.knu.ac.kr)*
+*<span style="color:#ff5500">Supported by [The Electronics and Telecommunications Research Institute](https://www.etri.re.kr/intro.html): </span> 2018.4 - 2018.12*
+#### *This project was counducted at <span style="color:#3399ff">Cyber-Physical Systems and Control Lab in KNU: </span> [Link](https://control.knu.ac.kr)*
 ### *Relative Publication : [Link](https://ieeexplore.ieee.org/abstract/document/8661985/)*
   </div>
 
