@@ -4,12 +4,31 @@ title: "Eungchang Mason Lee"
 ---
 
 <p align="center">
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fengcang.github.io&count_bg=%23D351FF&title_bg=%2351CAFF&icon=github.svg&icon_color=%23FFFFFF&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
-</p>
-
-<p align="center">
     <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fengcang.github.io&count_bg=%23D351FF&title_bg=%2351CAFF&icon=github.svg&icon_color=%23FFFFFF&title=Visitor&edge_flat=false"/></a>
 </p>
+
+## Interest 😮
+
+**Unmanned Aerial Vehicle, Exploration, Obstacle avoidance, Coverage Path Planning, <br>
+Control, LiDAR(Visual)-Inertial Odometry, SLAM, Active SLAM**
+  
+## 🛠 Skills 🛠
+<p align="center">
+  <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ROS&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/SolidWorks-FF3333?style=flat-square&logo=Solidworks&logoColor=white"/></a>&nbsp
+  <img src="https://img.shields.io/badge/MATLAB-FF452F?style=flat-square&logo=Mathworks&logoColor=white"/></a>&nbsp 
+  <br>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=Blender&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/SketchUp-005F9E?style=flat-square&logo=SketchUp&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/></a>&nbsp 
+</p>
+
+---
 
 ## Education
 
