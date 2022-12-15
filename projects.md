@@ -5,8 +5,6 @@ title: Projects
 
 ## <span style="color:Fuchsia"> Click the titles to see the details </span>
 
-<br>
-
 <details>
   <summary> 2022 ADD Autonomous Flight Competition in Battlefield Situations </summary>
   <div markdown="1">
@@ -32,11 +30,8 @@ title: Projects
 
 </details>
     
-<br>
 
 ---
-
-<br>
 
 <details>
   <summary> KHNP Virtual Robot Challenge 2022 (Maintainer) </summary>
@@ -63,11 +58,7 @@ title: Projects
 
 </details>
     
-<br>
-
 ---
-
-<br>
 
 <details>
   <summary> IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase </summary>
@@ -95,11 +86,7 @@ title: Projects
 
 </details>
     
-<br>
-
 ---
-
-<br>
 
 <details>
   <summary> Palm Tree Field Exploration and Tree Identification with UAV / UGV </summary>
@@ -126,12 +113,8 @@ ing collisions and figuring out appearances of trees. I developed the whole syst
 </p>
 
 </details>
-    
-<br>
 
 ---
-
-<br>
 
 <details>
   <summary> KHNP Virtual Robot Challenge 2021 (Maintainer) </summary>
@@ -158,11 +141,7 @@ ing collisions and figuring out appearances of trees. I developed the whole syst
 
 </details>
     
-<br>
-
 ---
-
-<br>
 
 <details>
   <summary> Unmanned Swarm CPS Research Lab </summary>
@@ -188,11 +167,7 @@ ing collisions and figuring out appearances of trees. I developed the whole syst
 </p>
 </details>
 
-<br>
-
 ---
-
-<br>
 
 <details>
   <summary> Autonomous Drone Navigation for Power Line Inspection in Underground </summary>
@@ -222,12 +197,7 @@ ing collisions and figuring out appearances of trees. I developed the whole syst
     
 </details>
 
-<br>
-
 ---
-
-
-<br>
 
 <details>
   <summary> A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration </summary>
@@ -254,11 +224,7 @@ ing collisions and figuring out appearances of trees. I developed the whole syst
 </p>
 </details>
 
-<br>
-
 ---
-
-<br>
 
 <details>
   <summary> 2020 Korea Robot Aircraft Competition </summary>
@@ -282,12 +248,8 @@ ing collisions and figuring out appearances of trees. I developed the whole syst
 </p>
 
 </details>
-    
-<br>
 
 ---
-
-<br>
 
 <details>
     <summary> 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing) </summary>
@@ -323,11 +285,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
     </figure>
 </p>
 </details>
-<br>
 
 ---
-
-<br>
 
 <details>
     <summary> 2018 R-BIZ Challenge Turtlebot3 Autorace </summary>
@@ -357,11 +316,8 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
     </figure>
 </p>
 </details>
-<br>
 
 ---
-
-<br>
 
 <details>
   <summary> Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System  </summary>
@@ -393,4 +349,3 @@ Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which i
     </figure>
 </p>
 </details>
-<br>
