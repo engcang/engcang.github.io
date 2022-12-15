@@ -34,7 +34,7 @@ title: Projects
     
 ---
 
-### KHNP Virtual Robot Challenge 2022
+### KHNP Virtual Robot Challenge 2022 (Maintainer)
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -313,7 +313,6 @@ title: Projects
   * *<span style="color:#ff5500">Hosted by [ROBOTIS](https://www.robotis.com/), [MathWorks Korea](https://kr.mathworks.com/) and, [ICROS](http://icros.org/main/), Supported by [KIRIA](https://www.kiria.org/) and [MOTIE](http://www.motie.go.kr/www/main.do)</span> - [Link](https://emanual.robotis.com/docs/en/platform/turtlebot3/challenges/#autorace-rbiz-challenge)*
   * ***This project was counducted at <span style="color:#3399ff">Physical Intelligence Lab in KNU: </span> [Link](https://control.knu.ac.kr)***
   * **I participated in this project during: 2018.6 - 2018.11**
-  * ***Relative Media is listed on **About Me**'s Awards***
 
   </div>
 
@@ -366,5 +365,5 @@ title: Projects
           <figcaption style="text-align:center;"> Overall system: Multi-rate Observer, Controller, and results </figcaption>
       </figure>
   </p>
-  
+
 </details>
