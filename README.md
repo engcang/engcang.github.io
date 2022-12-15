@@ -1,34 +1,3 @@
-### Other Methods
-
-To use the Minimalist theme:
-
-1. Add the following line to your Gemfile
-
-```ruby
-gem "jekyll-remote-theme"
-```
-
-then run `bundle install` to install the plugin.
-
-2. Add the following to your site's `_config.yml` to activate the plugin:
-
-```yml
-plugins:
-  - jekyll-remote-theme
-```
-
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
-
-3. Add the following line to your `config.yml` to use the theme
-
-```yml
-remote_theme: BDHU/minimalist
-```
-
-then running `bundle exec jekyll serve` for local deployment. Here is a [demo](https://github.com/BDHU/bdhu.github.io) using this theme.
-
-An example `_config.yml` file can be found [here](https://github.com/BDHU/bdhu.github.io/blob/master/_config.yml). More info can be found at [Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme).
-
 ## Customizing
 
 ### Configuration variables

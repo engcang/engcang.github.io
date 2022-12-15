@@ -1,74 +1,77 @@
 ---
 layout: default
-title: "Bodun Hu"
+title: "Eungchang Mason Lee"
 ---
 
-My <img class="profile-picture" src="https://cdn.jsdelivr.net/gh/BDHU/bdhu.github.io/assets/img/logo.jpg"> name is Bodun (though I usually go by Edward). I'm a CS PhD student in the [UTNS](https://utns.cs.utexas.edu/) lab at [UT Austin](https://www.utexas.edu/) 🤘.  I am advised by [Aditya Akella](https://www.cs.utexas.edu/~akella/) and work closely with [Neeraja Yadwadkar](https://sites.utexas.edu/neeraja/). Before I started my PhD, I was fortunate enough to collaborate closely with professor [Christopher Rossbach](https://www.cs.utexas.edu/~rossbach/) on heterogeneous computing systems at [SCEA group](https://github.com/utcs-scea). I also worked with professor [Simon Peter](https://homes.cs.washington.edu/~simpeter/) on programmable switches.
-
-My research focuses on the intersection of operating systems, network, and machine learning. I am particularly interested in developing systems for ML, and applying ML techniques to systems.
-
-I obtained both MS and BS in Computer Science at the [UT Austin](https://www.utexas.edu/), where I worked on modernizing GPU benchmarking and accelerating OS kernel access to accelerators.
-
-Visit my [blog](https://www.bodunhu.com/blog/) ✏️ to find out what I've been working on recently as well as other updates.
-
----
-
-## News
-
-09/22/2022: *Towards a Machine Learning-Assisted Kernel with LAKE* is accepted to [ASPLOS'23](https://asplos-conference.org/asplos-2023-cfp/)!  
-05/23/2022: I will be joining Intel XFG this summer!  
-09/01/2021: Officially started my PhD.  
-05/22/2021: **I officially graduated from UT Austin!**  
-
-[...see all news](./news)
+## <span style="color:#9933ff">Education</span>
+* **PhD student, Electrical Engineering / KAIST** - 2021.03 ~ Current
+    * <span style="color:Fuchsia">Studying at : </span>　[URL](http://urobot.kaist.ac.kr)
+* **Master, Electrical Engineering / KAIST** - 2019.02 ~ 2021.02
+    * <span style="color:Fuchsia">Studied at : </span>　[URL](http://urobot.kaist.ac.kr)
+* **Bachelor, School of Electronics Engineering / KyungPook National University** - 2012.03 ~ 2019.02
+    * <span style="color:Fuchsia">Studied at : </span>　[PI Lab](https://control.knu.ac.kr)
+<br>
 
 ---
 
-## Publications
-
-**Towards a Machine Learning-Assisted Kernel with LAKE**  
-[Henrique Fingler](https://github.com/hfingler), Isha Tarte, [Hangchen Yu](https://scholar.google.com/citations?user=d-mFGLgAAAAJ&hl=en), [Ariel Szekely](https://arielszekely.github.io/), <u>Bodun Hu</u>, [Aditya Akella](https://www.cs.utexas.edu/~akella/), [Christopher J. Rossbach](https://www.cs.utexas.edu/~rossbach/)  
-**<span style="color:orangered">ASPLOS 2023</span>**
-
-**Altis: Modernizing GPGPU Benchmarks**  
-<u>Bodun Hu</u>, [Christopher J. Rossbach](https://www.cs.utexas.edu/~rossbach/)  
-**<span style="color:orangered">ISPASS 2020</span>**  
-[[pdf]](https://ieeexplore.ieee.org/document/9238617) [[video]](https://www.youtube.com/watch?v=mRkcmjGzytY) [[code]](https://github.com/utcs-scea/altis) [[website]](https://utcs-scea.github.io/altis/)
-
-[Complete Publications](./publications)
+## <span style="color:#9933ff">Activities</span>
+* **2022 UVS Symposium: Invited talk** - 2022.12.
+    * <span style="color:Fuchsia">"How we won Autonomous Flight Competition in Battlefield Situations"</span>
+    
+<br>
 
 ---
 
-## Teaching Experience
-
-Spring 2020: [Multicore Operating System Implementation (378)](https://www.cs.utexas.edu/~simon/378/)
-
----
-
-## Awards
-
-2020 ISPASS Student Travel Award  
-[Research Distinction](https://cns.utexas.edu/undergraduate-education/events/cns-distinctions/2020-distinction-winners#bodun-hucomputer-science) by the College of Natural Sciences
-
----
-
-## Software
-
-**[Altis](https://utcs-scea.github.io/altis/)**: a benchmarking suite for heterogeneous systems. The primary goal of this project is to improve and update aspects of existing benchmarking suites which are either insufficient or outdated.
-
-**[gpuinfo](https://github.com/BDHU/gpuinfo)**: a minimal command-line utility written in Rust for querying GPU status.
+## <span style="color:#9933ff">Honors</span>
+* **The right person of University, <span style="color:#3399ff">Grand Prize</span> ($2,000) / SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)** - 2019.02
+* **Best Graduates of The Year, <span style="color:#3399ff">2nd Prize</span>/354, (GPA 4.23/4.3) / School of Electronics Engineering, KyungPook Natl. Univ.** -  2019.02
+    * <span style="color:Fuchsia">Articles : </span>　[Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
+    
+    <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figure>
+        <img src="/about/graduates.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figcaption style="text-align:center;"> Best Graduates Awards Ceremony </figcaption>
+        </figure>
+    </p>
+    
+<br>
 
 ---
 
-## Useful Links
+## <span style="color:#9933ff">Awards</span>
 
-[Machine Learning System Resources](https://www.bodunhu.com/blog/posts/machine-learning-system-resources/)  
-[UTNS Lab](https://utns.cs.utexas.edu/)  
-[SCEA Lab](https://github.com/utcs-scea)  
-[Laboratory for Advanced Systems Research](https://www.cs.utexas.edu/lasr/)  
-[Misc.](/misc)  
-[Notes](https://pages.github.austin.utexas.edu/bh28324/notes/)
+* **2022 Autonomous Flight Competition in Battlefield Situations, <span style="color:#3399ff">Only one team that finished the course</span> (Team QAIST++) / Agency for Defense Development (ADD)** - 2022.10
+    * <span style="color:Fuchsia">Videos : </span>　[Youtube](https://youtu.be/bX2ZsTqsRfY)
+    * <span style="color:Fuchsia">Articles : </span>　[Link1](https://ee.kaist.ac.kr/research-achieve/명현-교수-연구팀-2022년-미래도전-국방기술-경진대회/)
+    
+    <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figure>
+        <img src="/about/add2022.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figcaption style="text-align:center;"> 2022 ADD Autonomous Flight Competition in Battlefield Situations Awards Ceremony</figcaption>
+        </figure>
+    </p>
 
----
 
-<img style="width:350px;" src="/assets/img/wordcloud.svg"/>
+* **2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing), <span style="color:#3399ff">3rd Prize</span>/424 (Team USRG@KAIST) / Lockheed Martin, The Drone Racing League, NVIDIA** - 2019.12
+    * <span style="color:Fuchsia">Homepages : </span>　[Link(LockHeed)](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), 　[Link(DRL)](https://thedroneracingleague.com/airr/), 　[Link(HeroX)](https://www.herox.com/alphapilot/community)
+    * <span style="color:Fuchsia">Videos : </span>　[Preliminary-FlightGoggles](https://youtu.be/XMyiNlIbDXU), 　[RACE1-Orlando](https://youtu.be/kTKeN2SluxU), 　[RACE1-Orlando2](https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560), 　[Racing Recap PlayLists](https://www.youtube.com/playlist?list=PLvgPHeVm_WqKPy-59Svi-0KEN_pDGedS_)
+    * <span style="color:Fuchsia">Articles : </span>　[Link-1](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), 　[Link-2](https://biz.chosun.com/site/data/html_dir/2019/06/02/2019060201686.html)
+    
+    <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figure>
+        <img src="/about/Alpha.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figcaption style="text-align:center;"> 2019 AIRR AlphaPilot Awards Ceremony of 1st race in Orlando </figcaption>
+        </figure>
+    </p>
+    
+* **2018 R-BIZ Challenge Turtlebot3 Autorace, <span style="color:#3399ff">Mathworks Korea Special Prize</span> ($1,000) (EungChang-Ho) / ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE** - 2018.11
+    * <span style="color:Fuchsia">Articles : </span>　[Link-1](https://www.edaily.co.kr/news/read?newsId=01915526619407032&mediaCodeNo=257), 　[Link-2](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95371&gtid=bodo&opt=&sword=&page=2)
+    
+    <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figure>
+        <img src="/about/R-BIZ.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figcaption style="text-align:center;"> 2018 R-BIZ Challenge Awards Ceremony </figcaption>
+        </figure>
+    </p>
+
+<br>
