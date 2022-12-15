@@ -63,7 +63,7 @@ title: "Eungchang Mason Lee"
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure align="center">
-        <img src="./assets/img/about/graduates.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/graduates.jpg" style="width:45%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> Best Graduates Awards Ceremony </figcaption>
         </figure>
     </p>
@@ -80,7 +80,7 @@ title: "Eungchang Mason Lee"
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure align="center">
-        <img src="./assets/img/about/add2022.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/add2022.jpg" style="width:45%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> 2022 ADD Autonomous Flight Competition in Battlefield Situations Awards Ceremony</figcaption>
         </figure>
     </p>
@@ -95,7 +95,7 @@ title: "Eungchang Mason Lee"
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure align="center">
-        <img src="./assets/img/about/Alpha.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/Alpha.jpg" style="width:45%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> 2019 AIRR AlphaPilot Awards Ceremony of 1st race in Orlando </figcaption>
         </figure>
     </p>
@@ -107,7 +107,7 @@ title: "Eungchang Mason Lee"
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure align="center">
-        <img src="./assets/img/about/R-BIZ.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/R-BIZ.jpg" style="width:45%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> 2018 R-BIZ Challenge Awards Ceremony </figcaption>
         </figure>
     </p>
