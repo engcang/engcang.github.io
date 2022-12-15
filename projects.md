@@ -3,24 +3,21 @@ layout: default
 title: Projects
 ---
 
-## <span style="color:Fuchsia"> Click the titles to see the details </span>
+## <span style="color:#3399ff"> Click the titles to see the details </span>
 
 <details>
   <summary> 2022 ADD Autonomous Flight Competition in Battlefield Situations </summary>
   <div markdown="1">
-# 2022 ADD Autonomous Flight Competition in Battlefield Situations
+## 2022 ADD Autonomous Flight Competition in Battlefield Situations
       
-*<span style="color:#ff5500">Hosted by [Agency for Defense Development (ADD)](https://www.add.re.kr/)</span> - [Link](https://ee.kaist.ac.kr/research-achieve/%EB%AA%85%ED%98%84-%EA%B5%90%EC%88%98-%EC%97%B0%EA%B5%AC%ED%8C%80-2022%EB%85%84-%EB%AF%B8%EB%9E%98%EB%8F%84%EC%A0%84-%EA%B5%AD%EB%B0%A9%EA%B8%B0%EC%88%A0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/)* 
-     
-#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)*
-#### I participated in this project during: 2022.05 - 2022.10
-      
+* *<span style="color:#ff5500">Hosted by [Agency for Defense Development (ADD)](https://www.add.re.kr/)</span> - [Link](https://ee.kaist.ac.kr/research-achieve/%EB%AA%85%ED%98%84-%EA%B5%90%EC%88%98-%EC%97%B0%EA%B5%AC%ED%8C%80-2022%EB%85%84-%EB%AF%B8%EB%9E%98%EB%8F%84%EC%A0%84-%EA%B5%AD%EB%B0%A9%EA%B8%B0%EC%88%A0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/)* 
+* ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
+* **I participated in this project during: 2022.05 - 2022.10**
   </div>
-<br>
+
 <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 　The competition aims to develop an autonomous drone to pass through complex and dangerous outdoor obstacles, infiltrate an unknown two-story building, detect hidden targets, create precise 3D maps including target types and coordinates, and return to the starting point safely. I developed main framework including local/global path planners, 3D map logger with the detected target positions and a decision-making system.</p>
  
-<br>
   <div markdown="1">
 ***Keywords***: Drone, Quadrotor UAV, Competition, Obstacle avoidance, Exploration, Object Detection, SLAM
   </div>
