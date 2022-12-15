@@ -9,23 +9,25 @@ title: "Eungchang Mason Lee"
 
 ## Interest 😮
 
-**Unmanned Aerial Vehicle, Exploration, Obstacle avoidance, Coverage Path Planning, <br>
-Control, LiDAR(Visual)-Inertial Odometry, SLAM, Active SLAM**
-  
+* **Unmanned Aerial Vehicle, Exploration, Obstacle avoidance, Coverage Path Planning**
+* **Control, LiDAR(Visual)-Inertial Odometry, SLAM, Active SLAM**
+
+---
+
 ## 🛠 Skills 🛠
 <p align="center">
-  <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ROS&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/SolidWorks-FF3333?style=flat-square&logo=Solidworks&logoColor=white"/></a>&nbsp
-  <img src="https://img.shields.io/badge/MATLAB-FF452F?style=flat-square&logo=Mathworks&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ROS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SolidWorks-FF3333?style=flat-square&logo=Solidworks&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MATLAB-FF452F?style=flat-square&logo=Mathworks&logoColor=white"/>
   <br>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=Blender&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/SketchUp-005F9E?style=flat-square&logo=SketchUp&logoColor=white"/></a>&nbsp 
-  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/></a>&nbsp 
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=Blender&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SketchUp-005F9E?style=flat-square&logo=SketchUp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>
 </p>
 
 ---
