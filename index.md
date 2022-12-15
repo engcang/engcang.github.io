@@ -4,32 +4,35 @@ title: "Eungchang Mason Lee"
 ---
 
 ## Education
+
 * **PhD student, Electrical Engineering** in KAIST
-		* 2021.03 ~ Current
+    * 2021.03 ~ Current
     * Studying at: [URL](http://urobot.kaist.ac.kr)
 * **Master, Electrical Engineering** in KAIST
-		* 2019.02 ~ 2021.02
+    * 2019.02 ~ 2021.02
     * Studied at: [URL](http://urobot.kaist.ac.kr)
 * **Bachelor, School of Electronics Engineering** in KyungPook National University
-		* 2012.03 ~ 2019.02
+    * 2012.03 ~ 2019.02
     * Studied at: [PI Lab](https://control.knu.ac.kr)
 
 ---
 
-## <span style="color:#9933ff">Activities</span>
+## Activities
 * **2022 UVS Symposium: Invited talk** - 2022.12.
-    * <span style="color:Fuchsia">"How we won Autonomous Flight Competition in Battlefield Situations"</span>
+    * "How we won Autonomous Flight Competition in Battlefield Situations"
     
 ---
 
-## <span style="color:#9933ff">Honors</span>
-* **The right person of University, <span style="color:#3399ff">Grand Prize</span> ($2,000) / SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)** - 2019.02
-* **Best Graduates of The Year, <span style="color:#3399ff">2nd Prize</span>/354, (GPA 4.23/4.3) / School of Electronics Engineering, KyungPook Natl. Univ.** -  2019.02
-    * <span style="color:Fuchsia">Articles : </span>　[Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
+## Honors
+* **The right person of University, <span style="color:#3399ff">Grand Prize</span> ($2,000)** - 2019.02
+    * **SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)**
+* **Best Graduates of The Year, <span style="color:#3399ff">2nd Prize</span>/354, (GPA 4.23/4.3)** - 2019.02
+    * **School of Electronics Engineering, KyungPook Natl. Univ.**
+    * Articles: [Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure>
-        <img src="/about/graduates.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/graduates.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> Best Graduates Awards Ceremony </figcaption>
         </figure>
     </p>
@@ -44,7 +47,7 @@ title: "Eungchang Mason Lee"
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure>
-        <img src="/about/add2022.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/add2022.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> 2022 ADD Autonomous Flight Competition in Battlefield Situations Awards Ceremony</figcaption>
         </figure>
     </p>
@@ -57,7 +60,7 @@ title: "Eungchang Mason Lee"
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure>
-        <img src="/about/Alpha.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/Alpha.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> 2019 AIRR AlphaPilot Awards Ceremony of 1st race in Orlando </figcaption>
         </figure>
     </p>
@@ -67,7 +70,7 @@ title: "Eungchang Mason Lee"
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figure>
-        <img src="/about/R-BIZ.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <img src="./assets/img/about/R-BIZ.jpg" style="width:40%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
         <figcaption style="text-align:center;"> 2018 R-BIZ Challenge Awards Ceremony </figcaption>
         </figure>
     </p>

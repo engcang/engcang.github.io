@@ -260,10 +260,7 @@ footer {
   }
 
   .img-circle {
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px; 
-    margin-bottom: 10px;
+    display: none !important;
   }
 }
 
