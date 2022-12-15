@@ -5,8 +5,7 @@
 body {
   background-color: var(--clr-bg);
   padding:50px;
-//   font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font: 14px/1.5 -apple-system,BlinkMacSystemFont, "Segoe UI", "Open Sans", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--clr-text);
   font-weight:400;
 }
@@ -140,8 +139,8 @@ kbd {
 }
 
 .sidebar {
-  width: 185px;
-  float: left;
+  width:185px;
+  float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   top: 0;
@@ -175,7 +174,7 @@ strong {
 }
 
 section {
-  width: 625px;
+  width: 610px;
   float:right;
   padding-bottom:30px;
 }
@@ -236,7 +235,7 @@ footer {
   }
 
   header {
-    // padding-right:320px;
+    padding-right:320px;
   }
 
   section {
@@ -314,4 +313,3 @@ footer {
     color:#444;
   }
 }
-

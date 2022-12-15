@@ -6,9 +6,7 @@ favicon: true
 description: "Ph.D. student in KAIST, South Korea"
 show_downloads: false
 google_analytics: UA-158800940-1
-# remote_theme: engcang/engcang.github.io
-remote_theme: BDHU/minimalist
-color-scheme: dark
+color-scheme: auto
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
