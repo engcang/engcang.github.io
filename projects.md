@@ -93,113 +93,115 @@ title: Projects
     
 ---
 
+### Palm Tree Field Exploration and Tree Identification with UAV / UGV
+
 <details>
-  <summary> Palm Tree Field Exploration and Tree Identification with UAV / UGV </summary>
+  <summary> Click to fold/unfold </summary>
+
   <div markdown="1">
-
-  <h2> Palm Tree Field Exploration and Tree Identification with UAV / UGV </h2>
       
-*<span style="color:#ff5500">Conducted at [AKA-AI Robotics](https://akaintelligence.com/)</span>* 
-
-#### I participated in this project during: 2021.11 - 2022.05
+  * *<span style="color:#ff5500">Conducted at [AKA-AI Robotics](https://akaintelligence.com/)</span>*
+  * **I participated in this project during: 2021.11 - 2022.05**
 
   </div>
-<br>
-<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-　The final goal of this research project is to develop an exploration system for monitoring unknown palm tree orchard environments while avoid‑
-ing collisions and figuring out appearances of trees. I developed the whole system including pointcloud data processing, path planning, and controller. A state‑of‑the‑art open‑sourced SLAM algorithm is utilized.</p>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　The final goal of this research project is to develop an exploration system for monitoring unknown palm tree orchard environments while avoid‑
+  ing collisions and figuring out appearances of trees. I developed the whole system including pointcloud data processing, path planning, and controller. A state‑of‑the‑art open‑sourced SLAM algorithm is utilized.</p>
  
-<br>
   <div markdown="1">
 ***Keywords***: UAV, UGV, Exploration, Obstacle avoidance, SLAM, Gazebo, Simulation
   </div>
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p7n7KhUU_5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R6GKBVuo3qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-</p>
+
+  <p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/p7n7KhUU_5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/R6GKBVuo3qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+  </p>
 
 </details>
 
 ---
 
-<details>
-  <summary> KHNP Virtual Robot Challenge 2021 (Maintainer) </summary>
-  <div markdown="1">
-# KHNP Virtual Robot Challenge 2021
-      
-*<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2021), [Link2](https://youtu.be/6oXx2bvzU9Y)* 
-      
-*<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2021)</span>*
+### KHNP Virtual Robot Challenge 2021 (Maintainer)
 
-#### I served as a maintainer for this project during: 2021.09 - 2021.12
+<details>
+  <summary> Click to fold/unfold </summary>
+
+  <div markdown="1">
+      
+  * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2021), [Link2](https://youtu.be/6oXx2bvzU9Y)*
+  * ***<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2021)</span>***
+  * **I served as a maintainer for this project during: 2021.09 - 2021.12**
+
   </div>
-<br>
-<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-　KHNP Virtual Robot Challenge aims to develop a autonomous navigation algorithm and a robust controller to complete diverse and challenging tasks including obstacle avoidance, manipulation for grasping a cube, climbing stairs, and enduring the disturbances. I made Gazebo maps for the competition and coded scoring GUI. Additionally, I coded sample controllers for the manipulator and the quadruped robot.</p>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　KHNP Virtual Robot Challenge aims to develop a autonomous navigation algorithm and a robust controller to complete diverse and challenging tasks including obstacle avoidance, manipulation for grasping a cube, climbing stairs, and enduring the disturbances. I made Gazebo maps for the competition and coded scoring GUI. Additionally, I coded sample controllers for the manipulator and the quadruped robot.</p>
  
-<br>
   <div markdown="1">
 ***Keywords***: Quadruped robots, Competition, Obstacle avoidance, Object Detection, Gazebo, Simulation
   </div>
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6oXx2bvzU9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+
+  <p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6oXx2bvzU9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
 
 </details>
     
 ---
 
+### Unmanned Swarm CPS Research Lab
+
 <details>
-  <summary> Unmanned Swarm CPS Research Lab </summary>
+  <summary> Click to fold/unfold </summary>
+
   <div markdown="1">
-## Unmanned Swarm CPS Research Lab
-*<span style="color:#ff5500">Supported by [ADD](https://www.add.re.kr/kps)</span>*
 
-#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)*
-#### I participated in this project during: 2021.1 - 2021.12
+  * *<span style="color:#ff5500">Supported by [ADD](https://www.add.re.kr/kps)</span>*
+  * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
+  * **I participated in this project during: 2021.1 - 2021.12**
+
   </div>
-<br>
-<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-　In this project, we developed adaptive multi robot localization method. With the high fidelity networking, artificial intelligent cooperative control, and mobile ground control station, unmanned swarm system has been researched to operate cyber-physical systems.</p>
 
-<br>
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　In this project, we developed adaptive multi robot localization method. With the high fidelity networking, artificial intelligent cooperative control, and mobile ground control station, unmanned swarm system has been researched to operate cyber-physical systems.</p>
 
   <div markdown="1">
 ***Keywords***: Multi-robot systems, Cyber-Physical System, Multi-robot localization, Simultaneously Localization and Mapping
   </div>
 
-<p align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hFSMSx3LP70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+  <p align="center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hFSMSx3LP70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+
 </details>
 
 ---
 
-<details>
-  <summary> Autonomous Drone Navigation for Power Line Inspection in Underground </summary>
-  <div markdown="1">
-## Autonomous Drone Navigation for Power Line Inspection in Underground
-*<span style="color:#ff5500">Supported by [KEPCO](https://home.kepco.co.kr/kepco/EN/main.do) and [KEPRI](https://www.kepri.re.kr:20808/index)</span>*
-      
-#### *This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)*
-#### I participated in this project during: 2020.8 - 2022.12
-  </div>
-<br>
-<p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-　In this project, we developed indoor SLAM, navigation, and exploration method to operate an UAV exploring the underground power line tunnel safely. In consideration with the limited payload and computational resource of the UAV, the precomputed and lightweight local exploration planner was proposed. Additionally, to charge the battery of the UAV on the UGV with the docking station, relative pose estimation EKF and autonomous landing algorithm was developed.</p>
+### Autonomous Drone Navigation for Power Line Inspection in Underground
 
-<br>
+<details>
+  <summary> Click to fold/unfold </summary>
+
+  <div markdown="1">
+  
+  * *<span style="color:#ff5500">Supported by [KEPCO](https://home.kepco.co.kr/kepco/EN/main.do) and [KEPRI](https://www.kepri.re.kr:20808/index)</span>*
+  * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
+  * **I participated in this project during: 2020.8 - 2022.12**
+
+  </div>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　In this project, we developed indoor SLAM, navigation, and exploration method to operate an UAV exploring the underground power line tunnel safely. In consideration with the limited payload and computational resource of the UAV, the precomputed and lightweight local exploration planner was proposed. Additionally, to charge the battery of the UAV on the UGV with the docking station, relative pose estimation EKF and autonomous landing algorithm was developed.</p>
 
   <div markdown="1">
 ***Keywords***: Unmanned Aerial Vehicle, Exploration, Structural Inspection, Underground Navigation
   </div>
 
-<p align="center">
-    <iframe width="448" height="252" src="https://www.youtube.com/embed/S3XAOMek2mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2nyaDcgCnaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</p>
-    
+  <p align="center">
+      <iframe width="448" height="252" src="https://www.youtube.com/embed/S3XAOMek2mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2nyaDcgCnaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
     
 </details>
 
