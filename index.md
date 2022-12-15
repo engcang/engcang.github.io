@@ -6,7 +6,7 @@ title: "Eungchang Mason Lee"
 ## Education
 
 * **PhD student, Electrical Engineering** in KAIST
-    * 2021.03 ~ Current
+    * 2021.03 ~ ***Current***
     * Studying at: [URL](http://urobot.kaist.ac.kr)
 * **Master, Electrical Engineering** in KAIST
     * 2019.02 ~ 2021.02
