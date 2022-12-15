@@ -7,11 +7,11 @@ title: Projects
 
 <details>
 
-  <summary> 2022 ADD Autonomous Flight Competition in Battlefield Situations </summary>
+  <h2><summary> 2022 ADD Autonomous Flight Competition in Battlefield Situations </summary></h2>
 
   <div markdown="1">
 
-  ## 2022 ADD Autonomous Flight Competition in Battlefield Situations
+  <h2> 2022 ADD Autonomous Flight Competition in Battlefield Situations </h2>
   * *<span style="color:#ff5500">Hosted by [Agency for Defense Development (ADD)](https://www.add.re.kr/)</span> - [Link](https://ee.kaist.ac.kr/research-achieve/%EB%AA%85%ED%98%84-%EA%B5%90%EC%88%98-%EC%97%B0%EA%B5%AC%ED%8C%80-2022%EB%85%84-%EB%AF%B8%EB%9E%98%EB%8F%84%EC%A0%84-%EA%B5%AD%EB%B0%A9%EA%B8%B0%EC%88%A0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/)* 
   * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
   * **I participated in this project during: 2022.05 - 2022.10**
@@ -40,7 +40,7 @@ title: Projects
 
   <div markdown="1">
 
-  ## KHNP Virtual Robot Challenge 2022
+  <h2> KHNP Virtual Robot Challenge 2022 </h2>
   * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2022), [Link2](https://youtu.be/usKW3UG9wpc)* 
   * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2022)</span>*
   * **I served as a maintainer for this project during: 2022.09 - 2022.12**
@@ -68,7 +68,7 @@ title: Projects
 
   <div markdown="1">
 
-  ## 2022 IEEE UAV Competition
+  <h2> 2022 IEEE UAV Competition </h2>
   * *<span style="color:#ff5500">Hosted by [LPCV](https://lpcv.ai/) and IEEE</span> - [Link](https://ri4rover.org/)* 
   * *<span style="color:Fuchsia">Source code of this project is available at [Github](https://github.com/engcang/ieee_uav_2022)</span>*
   * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
@@ -83,7 +83,7 @@ title: Projects
   <div markdown="1">
   ***Keywords***: Quadrotor, Drone Competition, Target Tracking, Object Detection, Machine Learning, Computer Vision, Path planning
   </div>
-  
+
   <p align="center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/zObqq5_M4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
@@ -95,7 +95,8 @@ title: Projects
 <details>
   <summary> Palm Tree Field Exploration and Tree Identification with UAV / UGV </summary>
   <div markdown="1">
-## Palm Tree Field Exploration and Tree Identification with UAV / UGV
+
+  <h2> Palm Tree Field Exploration and Tree Identification with UAV / UGV </h2>
       
 *<span style="color:#ff5500">Conducted at [AKA-AI Robotics](https://akaintelligence.com/)</span>* 
 
