@@ -3,14 +3,16 @@ layout: default
 title: "Eungchang Mason Lee"
 ---
 
-## <span style="color:#9933ff">Education</span>
-* **PhD student, Electrical Engineering / KAIST** - 2021.03 ~ Current
-    * <span style="color:Fuchsia">Studying at : </span>　[URL](http://urobot.kaist.ac.kr)
-* **Master, Electrical Engineering / KAIST** - 2019.02 ~ 2021.02
-    * <span style="color:Fuchsia">Studied at : </span>　[URL](http://urobot.kaist.ac.kr)
-* **Bachelor, School of Electronics Engineering / KyungPook National University** - 2012.03 ~ 2019.02
-    * <span style="color:Fuchsia">Studied at : </span>　[PI Lab](https://control.knu.ac.kr)
-<br>
+## Education
+* **PhD student, Electrical Engineering** in KAIST
+		* 2021.03 ~ Current
+    * Studying at: [URL](http://urobot.kaist.ac.kr)
+* **Master, Electrical Engineering** in KAIST
+		* 2019.02 ~ 2021.02
+    * Studied at: [URL](http://urobot.kaist.ac.kr)
+* **Bachelor, School of Electronics Engineering** in KyungPook National University
+		* 2012.03 ~ 2019.02
+    * Studied at: [PI Lab](https://control.knu.ac.kr)
 
 ---
 
@@ -18,8 +20,6 @@ title: "Eungchang Mason Lee"
 * **2022 UVS Symposium: Invited talk** - 2022.12.
     * <span style="color:Fuchsia">"How we won Autonomous Flight Competition in Battlefield Situations"</span>
     
-<br>
-
 ---
 
 ## <span style="color:#9933ff">Honors</span>
@@ -34,8 +34,6 @@ title: "Eungchang Mason Lee"
         </figure>
     </p>
     
-<br>
-
 ---
 
 ## <span style="color:#9933ff">Awards</span>
@@ -73,5 +71,3 @@ title: "Eungchang Mason Lee"
         <figcaption style="text-align:center;"> 2018 R-BIZ Challenge Awards Ceremony </figcaption>
         </figure>
     </p>
-
-<br>
