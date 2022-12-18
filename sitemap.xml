@@ -2,19 +2,13 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
     <url>
-        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+        https://engcang.github.io
     </url>
-    {% endfor %}
-
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
     <url>
-        <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
+        https://engcang.github.io/projects
     </url>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+    <url>
+        https://engcang.github.io/publications
+    </url>
 </urlset>
