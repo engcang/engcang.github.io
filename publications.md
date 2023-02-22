@@ -44,7 +44,7 @@ title: Publications
 ## Domestic Conference
 ### South Korea
 
-1. **Eungchang Mason Lee**, I Made Aswin Nahrendra, Junho Choi, Seunghyun Lee, and Hyun Myung, "Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations," *Korea Robotics Society Annual Conference (KRoC) RED Show*, 2023. <span style="color:#3399ff"> ***Best work Awarded*** </span>
+1. **Eungchang Mason Lee**, I Made Aswin Nahrendra, Junho Choi, Seunghyun Lee, and Hyun Myung, "Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations," *Korea Robotics Society Annual Conference (KRoC) RED Show*, 2023. <span style="color:#3399ff"> ***Best work Awarded*** </span>, [article1](https://www.irobotnews.com/news/articleView.html?idxno=30843), [article2](https://www.irobotnews.com/news/articleView.html?idxno=30840)
 1. **Eungchang Mason Lee** and Hyun Myung, "Two‑Stage Optimization‑Based Energy‑Efficient Coverage Path Planner for 3D Reconstruction," *Korea Robotics Society Annual Conference (KRoC)*, 2023.
 1. **Eungchang Mason Lee**, Dongkyu Lee, Hyungtae Lim, Seungwon Song, and Hyun Myung, "Non-uniform motion target tracking system for UAVs," *Korea Robotics Society Annual Conference (KRoC)*, 2022. [Video](https://youtu.be/zObqq5_M4UA)
 1. SungWook Jung, Junho Choi, **Eungchang Mason Lee**, Duckyu Choi, and Hyun Myung, "Multi-sensor based 3D Mapping for Autonomous Bridge Inspection Using Unmanned Aerial Vehicle," *Korea Institute of Structural Maintenance and Inspection 2020 Fall Conference (KSMI)*, 2020. 
