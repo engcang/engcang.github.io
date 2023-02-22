@@ -50,7 +50,7 @@ title: "Eungchang Mason Lee"
 * 2022.12 - **2022 UVS Symposium: Invited talk**
     * **"How we won Autonomous Flight Competition in Battlefield Situations"**
 * 2021.11 - **KBS 중견만리 시즌3**
-    * **"6회 - 로봇 인류와의 공존"**, 미래컴퍼니 협업
+    * [**"6회 - 로봇 인류와의 공존"**](https://program.kbs.co.kr/1tv/culture/bizinsight/pc/index.html), 미래컴퍼니 협업
     
 ---
 
