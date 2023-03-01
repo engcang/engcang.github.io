@@ -134,7 +134,7 @@ title: Projects
   <div markdown="1">
       
   * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2021), [Link2](https://youtu.be/6oXx2bvzU9Y)*
-  * ***<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2021)</span>***
+  * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2021)</span>*
   * **I served as a maintainer for this project during: 2021.09 - 2021.12**
 
   </div>
