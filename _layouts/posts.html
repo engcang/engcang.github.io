@@ -46,11 +46,18 @@
           {%- include footer.html -%}
         </div>
       </div>
+
+      <!-- main body -->
       <section>
-
       {{ content }}
-
       </section>
+
+      <ul class="link">
+        {%- for post in "/_posts" %}
+         <li><a href="{{ post.link }}">{{ post.title }}</a></li>
+        {%- endfor %}
+      </ul>
+
       <footer>
         {%- include footer.html -%}
       </footer>
