@@ -3,7 +3,11 @@ layout: default
 title: Projects
 ---
 
+# Projects
+
 ## <span style="color:#3399ff"> Unfold to see the details </span>
+
+---
 
 ### 2022 ADD Autonomous Flight Competition in Battlefield Situations
 
