@@ -50,13 +50,21 @@
       <!-- main body -->
       <section>
       {{ content }}
+
+        <ul class="link">
+          {%- for page in site.pages %}
+           <li><a href="{{ page.url }}">{{ page.title }} t1</a></li>
+          {%- endfor %}
+        </ul>
+        <ul class="link">
+          {%- for page in site.pages %}
+            {% if page.layout == "post" %}
+              <li><a href="{{ page.url }}">{{ page.title }} t2</a></li>
+            {% endif %}
+          {%- endfor %}
+        </ul>
       </section>
 
-      <ul class="link">
-        {%- for page in site.pages %}
-         <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {%- endfor %}
-      </ul>
 
       <footer>
         {%- include footer.html -%}
