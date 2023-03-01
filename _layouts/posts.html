@@ -52,7 +52,7 @@
         {{ content }}
         <ul>
           {%- for post in site.posts %}
-            <li><a href="{{ post.url }}" style="font-size: 1.5rem; color: #61abff">{{ post.title }}</a>, {{ post.date| date: "%Y-%m-%d" }}</li>
+            <li><a href="{{ post.url }}" style="font-size: 1.2rem; color: #cfffc9">{{ post.title }}</a>, {{ post.date| date: "%Y-%m-%d" }}</li>
           {%- endfor %}
         </ul>
       </section>
