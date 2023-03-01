@@ -92,6 +92,14 @@ code, pre {
   color: var(--clr-code-text);
 }
 
+.language-plaintext.highlighter-rouge {
+  padding:1px 1px;
+  background: var(--clr-code-bg);
+  border-radius:3px;
+  border:1px solid var(--clr-code-border);
+  overflow-x: auto;
+}
+
 pre {
   padding:8px 15px;
   background: var(--clr-code-bg);
