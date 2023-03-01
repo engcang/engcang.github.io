@@ -49,18 +49,12 @@
 
       <!-- main body -->
       <section>
-      {{ content }}
-
-      <ul class="link">
-        {%- for post in site.posts %}
-          <li><a href="{{ post.url }}">{{ post.title }} {{ post.date }} t1</a></li>
-        {%- endfor %}
-      </ul>
-      <ul>
-        {%- for post in site.posts %}
-          <li><a href="{{ post.url }}">{{ post.title }} {{ post.date }} t2</a></li>
-        {%- endfor %}
-      </ul>
+        {{ content }}
+        <ul>
+          {%- for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date| date: "%Y-%m-%d" }}</li>
+          {%- endfor %}
+        </ul>
       </section>
 
 
