@@ -11,10 +11,10 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
 
 sidebar:
   - name: CV
