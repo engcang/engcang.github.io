@@ -52,15 +52,13 @@
       {{ content }}
 
         <ul class="link">
-          {%- for page in site.pages %}
-           <li><a href="{{ page.url }}">{{ page.title }} t1</a></li>
+          {%- for post in site.posts %}
+           <li><a href="{{ post.url }}">{{ post.title }} t1</a></li>
           {%- endfor %}
         </ul>
         <ul class="link">
-          {%- for page in site.pages %}
-            {% if page.layout == "post" %}
-              <li><a href="{{ page.url }}">{{ page.title }} t2</a></li>
-            {% endif %}
+          {%- for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }} {{ post.date }} t2</a></li>
           {%- endfor %}
         </ul>
       </section>
