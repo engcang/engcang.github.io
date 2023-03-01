@@ -53,7 +53,7 @@
       </section>
 
       <ul class="link">
-        {%- for post in "/_posts" %}
+        {%- for post in "{{/_posts/}}" %}
          <li><a href="{{ post.link }}">{{ post.title }}</a></li>
         {%- endfor %}
       </ul>
