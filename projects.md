@@ -9,7 +9,7 @@ title: Projects
 
 ---
 
-### 2022 ADD Autonomous Flight Competition in Battlefield Situations
+### ※ 2022 ADD Autonomous Flight Competition in Battlefield Situations
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -38,7 +38,7 @@ title: Projects
     
 ---
 
-### KHNP Virtual Robot Challenge 2022 (Maintainer)
+### ※ KHNP Virtual Robot Challenge 2022 (Maintainer)
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -67,7 +67,7 @@ title: Projects
     
 ---
 
-### IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase
+### ※ IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -97,7 +97,7 @@ title: Projects
     
 ---
 
-### Palm Tree Field Exploration and Tree Identification with UAV / UGV
+### ※ Palm Tree Field Exploration and Tree Identification with UAV / UGV
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -126,7 +126,7 @@ title: Projects
 
 ---
 
-### KHNP Virtual Robot Challenge 2021 (Maintainer)
+### ※ KHNP Virtual Robot Challenge 2021 (Maintainer)
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -154,7 +154,7 @@ title: Projects
     
 ---
 
-### Unmanned Swarm CPS Research Lab
+### ※ Unmanned Swarm CPS Research Lab
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -182,7 +182,7 @@ title: Projects
 
 ---
 
-### Autonomous Drone Navigation for Power Line Inspection in Underground
+### ※ Autonomous Drone Navigation for Power Line Inspection in Underground
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -211,7 +211,7 @@ title: Projects
 
 ---
 
-### A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
+### ※ A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -240,7 +240,7 @@ title: Projects
 
 ---
 
-### 2020 Korea Robot Aircraft Competition
+### ※ 2020 Korea Robot Aircraft Competition
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -268,7 +268,7 @@ title: Projects
 
 ---
 
-### 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
+### ※ 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -307,7 +307,7 @@ title: Projects
 
 ---
 
-### 2018 R-BIZ Challenge Turtlebot3 Autorace
+### ※ 2018 R-BIZ Challenge Turtlebot3 Autorace
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -340,7 +340,7 @@ title: Projects
 
 ---
 
-### Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System
+### ※ Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System
 
 <details>
   <summary> Click to fold/unfold </summary>
