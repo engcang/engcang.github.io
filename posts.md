@@ -7,4 +7,3 @@ title: Posts
 
 ---
 
-## List Below
