@@ -15,7 +15,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  footnote_backlink_inline: true
+  footnote_backlink_inline: false
 
 sidebar:
   - name: CV
