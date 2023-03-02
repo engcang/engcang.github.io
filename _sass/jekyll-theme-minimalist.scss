@@ -36,12 +36,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: #ee00ff;
+  color:var(--clr-a-text);
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color: #ee00ff;
+  color: var(--clr-a-text-hvr);
 }
 
 a small {
