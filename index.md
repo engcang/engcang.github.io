@@ -38,8 +38,8 @@ title: "Eungchang Mason Lee"
     * 2021.03 ~ ***Current***
     * Studying at: [URL](http://urobot.kaist.ac.kr)
 * **Master, Electrical Engineering** in KAIST
-    * 2019.02 ~ 2021.02
-    * Studied at: [URL](http://urobot.kaist.ac.kr)
+    * 2020.02 ~ 2021.02 - Studied at: [URL](http://urobot.kaist.ac.kr)
+    * 2019.02 ~ 2020.01 - Studied at: [USRG](http://unmanned.kaist.ac.kr/)
 * **Bachelor, School of Electronics Engineering** in KyungPook National University
     * 2012.03 ~ 2019.02
     * Studied at: [PI Lab](https://control.knu.ac.kr)
