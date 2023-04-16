@@ -52,5 +52,7 @@ title: Publications
 1. **Eungchang Mason Lee**, InHwan Wee, TaeYeon Kim, SangKeun Moon, and David Hyunchul Shim, "Analysis on Visual-Inertial State Estimation(VINS-Mono) for Drone using FlightGoggles Simulator," *The Korean Society for Aeronautical and Space Sciences 2019 Spring Conference (KSAS)*, 2019.
 1. InHwan Wee, **Eungchang Mason Lee**, TaeYeon Kim, and David Hyunchul Shim, "Dynamic Model Analysis of Flight Goggles Simulator and Autonomous Flight using Moving Virtual Target," *The Korean Society for Aeronautical and Space Sciences 2019 Spring Conference (KSAS)*, 2019.
 1. TaeYeon Kim, InHwan Wee, **Eungchang Mason Lee**, and David Hyunchul Shim, "Vision based Gate Detection Algorithm for Autonomous Drone Racing," *The Korean Society for Aeronautical and Space Sciences 2019 Spring Conference (KSAS)*, 2019.
+1. Wangyu Kim, **Eungchang Mason Lee**, Wonju Eom, Seungyong Han, Yongsik Jin, SangMoon Lee, "Sampled-data control for visual servoing of 6 DOF system using TP model transformation," *IEMEK Symposium on Embedded Technology (ISET)*, 2018.
+1. **Eungchang Mason Lee**, Seungyong Han, Yongsik Jin, Woosang Shin, Jongpil Yun, SangMoon Lee, "Image based visual servoing for tracking control of a mobile robot," *IEMEK Symposium on Embedded Technology (ISET)*, 2018.
 
 <br>
