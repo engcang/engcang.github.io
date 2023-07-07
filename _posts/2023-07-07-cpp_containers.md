@@ -29,6 +29,7 @@ Eigen::Vector3f points[3]; // e.g., 3points of plane
 			+ 중간에서 삽입, 삭제 시 연속된 메모리 블럭을 한칸씩 당기거나 밀어줘야하므로 비효율적임
 	+ 예시
 		+ size를 아는 경우 (`PointVector`가 `std::vector`로 구현되어있음)
+
 ```cpp
 PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
 {
@@ -41,7 +42,9 @@ PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
 	return pointvector_out_;
 }
 ```
+
 		+ size를 대충 아는 경우	(if 조건문에 의해 size가 조금 달라질 수 있음, `pcl::PointCloud`가 `std::vector`로 구현되어있음)
+
 ```cpp
 pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::PointXYZ> &pcl_in, const vector<float> &cam_fov, const float &curr_yaw, const float &curr_pitch)
 {
@@ -50,13 +53,15 @@ pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::Poi
 	for (int i = 0; i < pcl_in.size(); ++i)
 	{
 		  pcl::PointXYZ pt_ = pcl_in.points[i];
-		  if ( fabs(curr_yaw - pt_yaw(pt_)) < cam_fov[0] && fabs(curr_pitch - pt_pitch(pt_)) < cam_fov[1]) { //angles diff
+		  if ( fabs(curr_yaw - pt_yaw(pt_)) < cam_fov[0] && fabs(curr_pitch - pt_pitch(pt_)) < cam_fov[1]) //angles diff
+		  {
 			    pcl_out_.push_back(pcl_in[i]);
 		  }
 	}
 	return pcl_out_;
 }
 ```
+
 + `deque` (발음 디큐라고 안읽고 덱으로 읽음)
 	+ front와 back에 모두 push 및 pop이 가능함
 	+ 개별 원소 접근이 빠름 앞, 뒷쪽 삽입/제거 빠름
