@@ -27,12 +27,9 @@ Eigen::Vector3f points[3];
 		+ 빈번한 삽입 삭제에 비효율적
 			+ 삽입 시 메모리 할당량을 늘리는 연산 발생
 			+ 중간에서 삽입, 삭제 시 연속된 메모리 블럭을 한칸씩 당기거나 밀어줘야하므로 비효율적임
-
-		<details><summary>[눌러서 예시 펼치기/접기]</summary>
-
-+ size를 아는 경우 (`PointVector`가 `std::vector`로 구현되어있음)
-
-```cpp
+	+ 예시
+		+ size를 아는 경우 (`PointVector`가 `std::vector`로 구현되어있음)
+			```cpp
 PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
 {
   PointVector pointvector_out_;
@@ -43,11 +40,9 @@ PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
   }
 	return pointvector_out_;
 }
-```
-
-+ size를 대충 아는 경우	(if 조건문에 의해 size가 조금 달라질 수 있음, `pcl::PointCloud`가 `std::vector`로 구현되어있음)
-
-```cpp
+			```
+		+ size를 대충 아는 경우	(if 조건문에 의해 size가 조금 달라질 수 있음, `pcl::PointCloud`가 `std::vector`로 구현되어있음)
+			```cpp
 pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::PointXYZ> &pcl_in, const vector<float> &cam_fov, const float &curr_yaw, const float &curr_pitch)
 {
 	pcl::PointCloud<pcl::PointXYZ> pcl_out_;
@@ -65,11 +60,7 @@ pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::Poi
   }
   return pcl_out_;
 }
-```
-
-		</details>
-
-
+			```
 + `deque` (발음 디큐라고 안읽고 덱으로 읽음)
 	+ front와 back에 모두 push 및 pop이 가능함
 	+ 개별 원소 접근이 빠름 앞, 뒷쪽 삽입/제거 빠름
@@ -81,16 +72,12 @@ pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::Poi
 	+ 앞쪽, 뒷쪽, 중간 아무곳에서나 빈번하게 삽입, 삭제, 탐색을 많이 하는 경우 굉장히 효율적
 	+ 전체 저장된 데이터에 대해 iteration이 `map`에 비해 느림
 	+ `map`에 비해 메모리를 많이 씀
-	<details><summary>[눌러서 예시 펼치기/접기]</summary>
-	</details>
-
 + `map`
 	+ 삽입, 삭제 탐색이 O(logN), 대신 데이터가 key값에 따라 항상 sort 되어있으므로 따로 sort할 필요가 없음
 	+ 전체 저장된 데이터에 대해 iteration이 빠름
 	+ `unordered_map`에 비해 메모리를 적게 씀
 + `unordered_set` (`set`과의 차이점은 `map`과 `unordered_map`과의 차이점과 동일)
-	<details><summary>[눌러서 예시 펼치기/접기]</summary>
-	</details>
+
 
 <br/>
 
