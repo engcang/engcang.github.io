@@ -16,7 +16,7 @@ Python으로 코딩을 배우고 대학원 와서야 C++을 만지고 어찌저�
 	+ 예
 	```cpp
 double xyz[3];
-Eigen::Vector3f points[3];
+Eigen::Vector3f points[3]; // e.g., 3points of plane
 	```
 + `vector`
 	+ 뒷쪽에만 push 및 pop이 가능하고 중간에서 erase나 insert하면 비효율적
@@ -29,7 +29,7 @@ Eigen::Vector3f points[3];
 			+ 중간에서 삽입, 삭제 시 연속된 메모리 블럭을 한칸씩 당기거나 밀어줘야하므로 비효율적임
 	+ 예시
 		+ size를 아는 경우 (`PointVector`가 `std::vector`로 구현되어있음)
-		```cpp
+```cpp
 PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
 {
 	PointVector pointvector_out_;
@@ -40,9 +40,9 @@ PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
 	}
 	return pointvector_out_;
 }
-		```
+```
 		+ size를 대충 아는 경우	(if 조건문에 의해 size가 조금 달라질 수 있음, `pcl::PointCloud`가 `std::vector`로 구현되어있음)
-		```cpp
+```cpp
 pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::PointXYZ> &pcl_in, const vector<float> &cam_fov, const float &curr_yaw, const float &curr_pitch)
 {
 	pcl::PointCloud<pcl::PointXYZ> pcl_out_;
@@ -50,17 +50,14 @@ pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::Poi
 	for (int i = 0; i < pcl_in.size(); ++i)
 	{
 		pcl::PointXYZ pt_ = pcl_in.points[i];
-		if ( fabs(curr_yaw - pt_yaw(pt_)) < cam_fov[0] ) //yaw diff
+		if ( fabs(curr_yaw - pt_yaw(pt_)) < cam_fov[0] && fabs(curr_pitch - pt_pitch(pt_)) < cam_fov[1]) //angles diff
 		{
-			if ( fabs(curr_pitch - pt_pitch(pt_)) < cam_fov[1] ) //pitch diff
-			{
-				pcl_out_.push_back(pcl_in[i]);
-			}
+			pcl_out_.push_back(pcl_in[i]);
 		}
 	}
 	return pcl_out_;
 }
-		```
+```
 + `deque` (발음 디큐라고 안읽고 덱으로 읽음)
 	+ front와 back에 모두 push 및 pop이 가능함
 	+ 개별 원소 접근이 빠름 앞, 뒷쪽 삽입/제거 빠름
@@ -72,15 +69,14 @@ pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::Poi
 	+ 앞쪽, 뒷쪽, 중간 아무곳에서나 빈번하게 삽입, 삭제, 탐색을 많이 하는 경우 굉장히 효율적
 	+ 전체 저장된 데이터에 대해 iteration이 `map`에 비해 느림
 	+ `map`에 비해 메모리를 많이 씀
-	+ 예시
-		+ 공간을 mapping하며 sphere형태의 safety flight corridor (SFC)를 생성할 때, obstacle에 의해서 굉장히 빈번하게 sphere를 삭제, 새로 생성해서 container에 삽입 및 관리해야함
-		<p align="center">
-			<figure align="center">
-		  	<img src="/assets/img/posts/230707_sphere.gif" style="width:80%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-				<figcaption style="text-align:center;">unordered_map으로 관리하는 spheres</figcaption>
-			</figure>
-		</p>
-		
+	+ 예시 - 공간을 mapping하며 sphere형태의 safety flight corridor (SFC)를 생성할 때, obstacle에 의해서 굉장히 빈번하게 sphere를 삭제, 새로 생성해서 container에 삽입 및 관리해야함
+	<p align="center">
+		<figure align="center">
+	  	<img src="/assets/img/posts/230707_sphere.gif" style="width:90%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+			<figcaption style="text-align:center;">unordered_map으로 관리하는 spheres</figcaption>
+		</figure>
+	</p>
+
 + `map`
 	+ 삽입, 삭제 탐색이 O(logN), 대신 데이터가 key값에 따라 항상 sort 되어있으므로 따로 sort할 필요가 없음
 	+ 전체 저장된 데이터에 대해 iteration이 빠름
@@ -89,8 +85,8 @@ pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::Poi
 	+ 중복을 허용하지 않는 container
 	+ `raycasting` 등으로 데이터 처리할때 유용함. 여러개의 ray에 대해서 일일이 순차적으로 voxel에 대한 정보를 update하지 않고, 일단 처리해야할 voxel의 index만 `unordered_set`에 저장 후 한번에 처리하면 같은 index의 voxel에 대해 불필요하게 연산하는 것을 자연스럽게 막아줌
 	+ 예시
-	```cpp
-void add_points_raycast(const Vector3f &origin, const pcl::PointCloud<pcl::PointXYZ> &pts_in)
+```cpp
+void remove_points_raycast(const Vector3f &origin, const pcl::PointCloud<pcl::PointXYZ> &pts_in)
 {
 	Vector3i origin_key_ = pt_to_key(origin);
 	unordered_set<Vector3i, hash_func> key_set_to_be_del_;
@@ -105,7 +101,7 @@ void add_points_raycast(const Vector3f &origin, const pcl::PointCloud<pcl::Point
 	}
 	return;
 }
-	```
+```
 
 <br/>
 
