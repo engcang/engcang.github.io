@@ -30,12 +30,10 @@ Eigen::Vector3f points[3]; // e.g., 3points of plane
 	+ 예시
 		+ size를 아는 경우 (`PointVector`가 `std::vector`로 구현되어있음)
 ```cpp
-PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
-{
+PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in) {
 	PointVector pointvector_out_;
 	if (pcl_in.size() > 0) pointvector_out_.reserve(pcl_in.size());
-	for (int i = 0; i < pcl_in.size(); ++i)
-	{
+	for (int i = 0; i < pcl_in.size(); ++i)	{
 		pointvector_out_.push_back(PointType(pcl_in.points[i].x, pcl_in.points[i].y, pcl_in.points[i].z));
 	}
 	return pointvector_out_;
@@ -47,11 +45,9 @@ pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::Poi
 {
 	pcl::PointCloud<pcl::PointXYZ> pcl_out_;
 	if (pcl_in.size() > 0) pcl_out_.reserve(pcl_in.size());
-	for (int i = 0; i < pcl_in.size(); ++i)
-	{
+	for (int i = 0; i < pcl_in.size(); ++i)	{
 		pcl::PointXYZ pt_ = pcl_in.points[i];
-		if ( fabs(curr_yaw - pt_yaw(pt_)) < cam_fov[0] && fabs(curr_pitch - pt_pitch(pt_)) < cam_fov[1]) //angles diff
-		{
+		if ( fabs(curr_yaw - pt_yaw(pt_)) < cam_fov[0] && fabs(curr_pitch - pt_pitch(pt_)) < cam_fov[1]) { //angles diff
 			pcl_out_.push_back(pcl_in[i]);
 		}
 	}
@@ -90,13 +86,11 @@ void remove_points_raycast(const Vector3f &origin, const pcl::PointCloud<pcl::Po
 {
 	Vector3i origin_key_ = pt_to_key(origin);
 	unordered_set<Vector3i, hash_func> key_set_to_be_del_;
-	for (int i = 0; i < pts_in.size(); ++i)
-	{
+	for (int i = 0; i < pts_in.size(); ++i)	{
 		Vector3i key_ = pt_to_key(pt_to_pt_type(pts_in.points[i]));
 		Raycast(origin, pt_to_pt_type(pts_in.points[i]), key_set_to_be_del_);
 	}
-	for (const auto& key: key_set_to_be_del_) //delete keys on the rays
-	{
+	for (const auto& key: key_set_to_be_del_) { //delete keys on the rays
 		m_hash_vox_points.erase(key);
 	}
 	return;
