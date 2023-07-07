@@ -31,6 +31,7 @@ Eigen::Vector3f points[3];
 <details><summary>[눌러서 예시 펼치기/접기]</summary>
 
 + size를 아는 경우 (`PointVector`가 `std::vector`로 구현되어있음)
+
 ```cpp
 PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
 {
@@ -43,7 +44,9 @@ PointVector pcl_to_pointvector(const pcl::PointCloud<pcl::PointXYZ> &pcl_in)
 	return pointvector_out_;
 }
 ```
+
 + size를 대충 아는 경우	(if 조건문에 의해 size가 조금 달라질 수 있음, `pcl::PointCloud`가 `std::vector`로 구현되어있음)
+
 ```cpp
 pcl::PointCloud<pcl::PointXYZ> get_pts_within_fov(const pcl::PointCloud<pcl::PointXYZ> &pcl_in, const vector<float> &cam_fov, const float &curr_yaw, const float &curr_pitch)
 {
