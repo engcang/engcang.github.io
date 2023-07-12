@@ -7,7 +7,7 @@ title: "Eungchang Mason Lee"
     <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fengcang.github.io&count_bg=%23D351FF&title_bg=%2351CAFF&icon=github.svg&icon_color=%23FFFFFF&title=Visitor&edge_flat=false"/></a>
 </p>
 
-## Interest 😮
+## 😮 Interest 😮
 
 * **Unmanned Aerial Vehicle, Exploration, Obstacle avoidance, Coverage Path Planning**
 * **Control, LiDAR(Visual)-Inertial Odometry, SLAM, Active SLAM**
@@ -32,7 +32,7 @@ title: "Eungchang Mason Lee"
 
 ---
 
-## Education
+## 🏫 Education 🎓
 
 * **PhD student, Electrical Engineering** in KAIST
     * 2021.03 ~ ***Current***
@@ -46,7 +46,7 @@ title: "Eungchang Mason Lee"
 
 ---
 
-## Activities
+## 🏃 Activities 🤸
 * 2022.12 - **2022 UVS Symposium: Invited talk**
     * **"How we won Autonomous Flight Competition in Battlefield Situations"**
 * 2021.11 - **KBS 중견만리 시즌3**
@@ -54,7 +54,7 @@ title: "Eungchang Mason Lee"
     
 ---
 
-## Honors
+## 👑 Honors 👑
 * 2019.02 - **The right person of University**
     * **<span style="color:#3399ff">Grand Prize ($2,000)</span>**
     * from **SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)**
@@ -72,7 +72,7 @@ title: "Eungchang Mason Lee"
     
 ---
 
-## Awards
+## 🏆 Awards 🎖️
 
 * 2022.10 - **2022 Autonomous Flight Competition in Battlefield Situations**
     * **<span style="color:#3399ff">Only one team that finished the course</span>, (Team QAIST++)**
