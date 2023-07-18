@@ -90,6 +90,7 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: var(--clr-code-text);
+  padding-left: 1px;
 }
 
 /*inline code block class style*/
@@ -99,6 +100,9 @@ code, pre {
   border-radius:5px;
   border:1px solid var(--clr-code-border);
   overflow-x: auto;
+}
+.language-cpp.highlighter-rouge {
+  padding: 1px;
 }
 
 pre {

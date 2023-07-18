@@ -125,6 +125,8 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 }
 ```
 
+<br>
+
 + 조금 긴 것 같은데, 별거 없다. 
 	+	최초 odometry는 PriorFactor로 graph에 추가한다.
 	+ Keyframe 사이의 pose변화를 BetweenFactor로 graph에 추가한다. (keyframe 계산 없이 모든 odometry를 graph에 추가하면... 연산량도 어마어마하고 오히려 redundancy가 accuracy를 해친다.)
