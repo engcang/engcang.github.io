@@ -59,7 +59,7 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 {
   if (!initialized) // 최초 1회만 odometry를 Priorfactor로 추가
   {
-    gtsam::noiseModel::Diagonal::shared_ptr prior_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4).finished()); // rad*rad for roll, pitch, ywa and meter*meter for x, y, z
+    gtsam::noiseModel::Diagonal::shared_ptr prior_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4).finished()); // rad*rad for roll, pitch, yaw and meter*meter for x, y, z
     // for the first odometry, priorfactor
     m_gtsam_graph.add(gtsam::PriorFactor<gtsam::Pose3>(0, odometry_to_gtsam_pose(current_odometry), prior_noise));
     m_init_esti.insert(m_current_keyframe_idx, odometry_to_gtsam_pose(current_odometry));
@@ -82,11 +82,14 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 
       ///// 2. loop closing factor
       bool if_loop_closed = false;
-      // 과거의 keyframe들과 현재 keyframe을 비교해서, loop closing이 일어날 수 있을 가능성이 있는지 파악 (예: 일정 거리 이내에 있으나 시간이 일정 시간 이상 경과)
+      // 과거의 keyframe들과 현재 keyframe을 비교해서, loop closing이 
+      // 일어날 수 있을 가능성이 있는지 파악 (예: 일정 거리 이내에 있으나 시간이 일정 시간 이상 경과)
       if (if_loop_candidate_or_not(current_odometry))
       {
-        the_most_loop_likely_keyframe = get_the_most_loop_likely_keyframe(current_odometry); //가장 loop 가능성이 높은 keyframe 반환
-        loop_match_result = loop_matching(current_odometry, the_most_loop_likely_keyframe); //현재 keyframe, loop 가능성 높은 keyframe 사이를 매칭해서 pose 변환 반환 (e.g., ICP 등)
+        //가장 loop 가능성이 높은 keyframe 반환
+        the_most_loop_likely_keyframe = get_the_most_loop_likely_keyframe(current_odometry);
+        //현재 keyframe, loop 가능성 높은 keyframe 사이를 매칭해서 pose 변환 반환 (e.g., ICP 등)
+        loop_match_result = loop_matching(current_odometry, the_most_loop_likely_keyframe);
 
         // 실제로 loop-closed 되었으면
         if (loop_match_result.loop_closed)
@@ -97,7 +100,8 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
           past_pose_index = the_most_loop_likely_keyframe.pose.index;
           current_odometry_index = m_keyframe_index-1; // becaus of ++ from the above line
 
-          // 현재 keyframe과 loop-closed 된 keyframe간의 pose 변화만큼을 graph에 BetweenFactor로 추가
+          // 현재 keyframe과 loop-closed 된 keyframe간의
+          // pose 변화만큼을 graph에 BetweenFactor로 추가
           gtsam::noiseModel::Diagonal::shared_ptr loop_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << noise, noise, noise, noise, noise, noise).finished());
           gtsam::Pose3 pose_from = odometry_to_gtsam_pose(loop_pose_tf * current_odometry);
           gtsam::Pose3 pose_to = odometry_to_gtsam_pose(past_pose);
@@ -141,7 +145,7 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 </p>
 
 
-+ 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 **"왜?"** 하는 부분들이 생긴다. => 뒤에서 하나씩 설명한다.
+#### 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 "왜?" 하는 부분들이 생긴다. => 뒤에서 하나씩 설명한다.
 
 
 <br>
@@ -153,19 +157,24 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 	1. The factor graph and its embodiment in code specify the joint probability distribution over the entire trajectory of the robot, rather than just the last pose. This smoothing view of the world gives GTSAM its name: “smoothing and mapping”. Later in this document we will talk about how we can also use GTSAM to do filtering (which you often do not want to do) or incremental inference (which we do all the time).
 	2. A factor graph in GTSAM is just the specification of the probability density, and the corresponding FactorGraph class and its derived classes do not ever contain a “solution”. Rather, there is a separate type Values that is used to specify specific values, which can then be used to evaluate the probability (or, more commonly, the error) associated with particular values.
 	3. The latter point is often a point of confusion with beginning users of GTSAM. It helps to remember that when designing GTSAM we took a functional approach of classes corresponding to mathematical objects, which are usually immutable. You should think of a factor graph as a function to be applied to values rather than as an object to be modified.
-+ 뭔 소리냐면, graph는 
++ 뭔 소리냐면, **graph (Factor)는 연결**만 나타내고 있다고 생각하면 편하고, **Values는 변하는 값**이라고 생각하면 편하다.
++ 그니까 graph (Factor)만 가지고 있어도 연결도 나타내고 안에 값도 들어있으니 optimize할 때 마다 값도 알아서 변하고 우리는 변한 값만 출력해서 받아 쓰면 되지 않는가?
++ 다음 그림을 보면,
 
 <br>
 
 ### 3. `gtsam::ISAM2.update` vs `gtsam::LevenbergMarquardtOptimizer`
-+ 코드에서 optimize하는 부분을 보면 주석된 부분이 있다. 다시 잘 살펴 보면, 한 줄로 해결할 수 있을 것 같은데 굳이 여러줄로 나누어서 optimize하고 graph랑 Values 초기화하고, 보정된 값을 획득한다.
++ 코드에서 optimize하는 부분을 보면 주석된 부분이 있다.
++ 다시 잘 살펴 보면, 한 줄로 해결할 수 있을 것 같은데 굳이 여러 줄로 나누어서 optimize하고 graph랑 Values 초기화하고, 보정된 값을 획득한다.
++ 실제로 한 줄짜리 LM Optimizer로 optimize해도 동일한 결과를 획득한다. => **하지만 연산 시간이 엄청 길어진다. Graph가 점점 증가하면 할수록.**
++ GTSAM은 Georgia Tech SAM인데, 논문에서 정식 명칙은 **Incremental** SAM이다. 
 
 ```cpp
-//// 이 한줄이랑
+//// 이 한 줄이랑
 {
   m_corrected_esti = gtsam::LevenbergMarquardtOptimizer(m_gtsam_graph, m_init_esti).optimize();
 }
-//// 이 여러줄이랑 같은 역할임
+//// 이 여러 줄이랑 같은 역할임
 {
   m_isam_handler->update(m_gtsam_graph, m_init_esti);
   m_gtsam_graph.resize(0);
@@ -177,6 +186,26 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 <br>
 
 ### 4. `gtsam::ISAM2.update(graph, initial_estimation)` vs `gtsam::ISAM2.update()`
++ 위 3절과 마찬가지로 코드에 이상한 점이 있다. gtsam::ISAM2.update(graph, esti)로 한번 update 했는데 (update에서 optimize도 함께 이루어짐), 여러 번 반복해서, 심지어 함수 인자도 없이 update한다.
+
+```cpp
+m_isam_handler->update(m_gtsam_graph, m_init_esti); //한 번 했는데
+m_isam_handler->update(); //여러 번 인자도 없이 계속 반복한다.
+if (if_loop_closed) //심지어 loop-closing 되면
+{
+  m_isam_handler->update(); //여러 번 인자도 없이 또 계속 반복한다.
+  m_isam_handler->update(); //여러 번 인자도 없이 또 계속 반복한다.
+  m_isam_handler->update(); //여러 번 인자도 없이 또 계속 반복한다.
+}
+```
+
++ GTSAM의 example code 중 [여기](https://github.com/borglab/gtsam/blob/30f4dbb1b80f274bbd9e82a18fb2831110e058f0/examples/VisualISAM2Example.cpp#L126-L131)를 보면 다음과 같이 주석에 적혀있다.
+  + Each call to iSAM2 update() performs one iteration of the iterative nonlinear solver. If accuracy is desired at the expense of time, update() can be called additional times to perform multiple optimizer iterations every step.
++ 즉, 그냥 **여러 번 호출하면 여러 번 iteration으로 optimize하는 것과 같으므로 원하는 만큼 해라!** 이거임.
++ 실제로 ISAM2 [헤더파일의 update 부분](https://github.com/borglab/gtsam/blob/30f4dbb1b80f274bbd9e82a18fb2831110e058f0/gtsam/nonlinear/ISAM2.h#L151-L158)을 보면, 아무 인자 없이 update 함수를 호출해도 다 default 인자로 넘겨주게 되어있고, ISAM2 [소스파일의 update 부분](https://github.com/borglab/gtsam/blob/30f4dbb1b80f274bbd9e82a18fb2831110e058f0/gtsam/nonlinear/ISAM2.cpp#L395-L476)을 보면, 인자로 전달 받은 graph의 변화된 부분만 추적해서 알아서 optimize한다.
++ 그러면 굳이 코드에서 `m_gtsam_graph.resize(0)` 할 필요 없지 않나? => 없어도 되지만 update 함수 내에서 "graph의 변화된 부분을 추적"하는 연산을 최소화하기 위해 필요하다.
++ 그러면 update를 한 127431829479번 정도 호출하면 완전 빨리 수렴하고 값도 정확해 지는거 아님? => 이것은 경험에 의한 것... 실제로 LIO-SAM 코드를 보면 5회만 실행하는데, 저자에 따르면 그게 가장 좋았다고 한다.. [여기 참고](https://github.com/TixiaoShan/LIO-SAM/issues/5#issuecomment-653752936)
++ 우리 연구실 사람들도, 나도 update를 몇 번 해야 좋은지 많이 테스트 해봤고 LIO-SAM 저자도 많이 해봤겠지만... 5번이 가장 적당하더라는 결론...
 
 <br>
 
