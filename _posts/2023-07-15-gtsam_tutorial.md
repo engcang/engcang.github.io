@@ -167,7 +167,8 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 + 코드에서 optimize하는 부분을 보면 주석된 부분이 있다.
 + 다시 잘 살펴 보면, 한 줄로 해결할 수 있을 것 같은데 굳이 여러 줄로 나누어서 optimize하고 graph랑 Values 초기화하고, 보정된 값을 획득한다.
 + 실제로 한 줄짜리 LM Optimizer로 optimize해도 동일한 결과를 획득한다. => **하지만 연산 시간이 엄청 길어진다. Graph가 점점 증가하면 할수록.**
-+ GTSAM은 Georgia Tech SAM인데, 논문에서 정식 명칙은 **Incremental** SAM이다. 
++ GTSAM은 Georgia Tech SAM인데, 논문에서 정식 명칙은 **Incremental** SAM이다. - [논문 1](https://www.cs.cmu.edu/~kaess/pub/Kaess08tro.pdf), [논문 2](https://www.cs.cmu.edu/~kaess/pub/Kaess12ijrr.pdf)
++ 
 
 ```cpp
 //// 이 한 줄이랑
@@ -210,4 +211,6 @@ if (if_loop_closed) //심지어 loop-closing 되면
 <br>
 
 ### 5. 결론
-
++ GTSAM은 사용이 쉽다. 대신 자유도가 낮다. Ceres 같은 nonlinear optimization solver는 사용이 어려운 대신 자유도가 높아서 별의 별 값들을 변수로 설정 가능하고, 무슨 옵션이 있고 뭐 등등...
++ 난 모르겠고 걍 PGO만 해서 SLAM만 하면된다? GTSAM을 쓰자.
++ 이 글을 볼 일도 없고 봤더라도 이런 수준 낮은 글이? 할 정도로 SLAM에 익숙한 분들은 필요에 맞게 Ceres를 잘 쓰고 계실 것으로 예상 합니다...
