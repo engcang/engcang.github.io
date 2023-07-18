@@ -57,110 +57,92 @@ m_isam_handler = std::make_shared<gtsam::ISAM2>(isam_params_);
 ////// Odometry callback function
 void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo code
 {
-	if (!initialized) // 최초 1회만 odometry를 Priorfactor로 추가
-	{
-		gtsam::noiseModel::Diagonal::shared_ptr prior_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4).finished()); // rad*rad for roll, pitch, ywa and meter*meter for x, y, z
-		// for the first odometry, priorfactor
-		m_gtsam_graph.add(gtsam::PriorFactor<gtsam::Pose3>(0, odometry_to_gtsam_pose(current_odometry), prior_noise));
-		m_init_esti.insert(m_current_keyframe_idx, odometry_to_gtsam_pose(current_odometry));
-		m_keyframe_index++;
-		initialized = true;
-	}
-	else //그 이후 odometry callback 마다
-	{
-		if (if_keyframe_or_not(current_odometry)) //keyframe인지 검사하고 keyframe이면
-		{
-			///// 1. keyframe사이의 pose 변화를 graph에 추가
-			gtsam::noiseModel::Diagonal::shared_ptr odom_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << 1e-4, 1e-4, 1e-4, 1e-2, 1e-2, 1e-2).finished());
-			gtsam::Pose3 pose_from = odometry_to_gtsam_pose(last_odometry);
-			gtsam::Pose3 pose_to = odometry_to_gtsam_pose(current_odometry);
-			// 직전, 현재 keyframe odometry 사이의 odometry 변화값을 BetweenFactor로 그래프에 추가
-			m_gtsam_graph.add(gtsam::BetweenFactor<gtsam::Pose3>(m_keyframe_index-1, m_keyframe_index, pose_from.between(pose_to), odom_noise));
-			m_init_esti.insert(m_keyframe_index, pose_to);
-			m_keyframe_index++;
-			last_odometry = current_odometry; //다음 iteration을 위해 직전 odometry 저장
-
-			///// 2. loop closing factor
-			bool if_loop_closed = false;
-			// 과거의 keyframe들과 현재 keyframe을 비교해서, loop closing이 일어날 수 있을 가능성이 있는지 파악 (예: 일정 거리 이내에 있으나 시간이 일정 시간 이상 경과)
-			if (if_loop_candidate_or_not(current_odometry))
-			{
-				the_most_loop_likely_keyframe = get_the_most_loop_likely_keyframe(current_odometry); //가장 loop 가능성이 높은 keyframe 반환
-				loop_match_result = loop_matching(current_odometry, the_most_loop_likely_keyframe); //현재 keyframe, loop 가능성 높은 keyframe 사이를 매칭해서 pose 변환 반환 (e.g., ICP 등)
-
-				// 실제로 loop-closed 되었으면
-				if (loop_match_result.loop_closed)
-				{
-					noise = loop_match_result.noise;
-					loop_pose_tf = loop_match_result.pose_transformation;
-					past_pose = the_most_loop_likely_keyframe.pose;
-					past_pose_index = the_most_loop_likely_keyframe.pose.index;
-					current_odometry_index = m_keyframe_index-1; // becaus of ++ from the above line
-
-					// 현재 keyframe과 loop-closed 된 keyframe간의 pose 변화만큼을 graph에 BetweenFactor로 추가
-					gtsam::noiseModel::Diagonal::shared_ptr loop_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << noise, noise, noise, noise, noise, noise).finished());
-					gtsam::Pose3 pose_from = odometry_to_gtsam_pose(loop_pose_tf * current_odometry);
-					gtsam::Pose3 pose_to = odometry_to_gtsam_pose(past_pose);
-					m_gtsam_graph.add(gtsam::BetweenFactor<gtsam::Pose3>(current_odometry_index, past_pose_index, pose_from.between(pose_to), loop_noise));	    		
-					if_loop_closed = true;
-				}
-			}
-
-			///// 3. Optimize
-			//m_corrected_esti = gtsam::LevenbergMarquardtOptimizer(m_gtsam_graph, m_init_esti).optimize();
-			m_isam_handler->update(m_gtsam_graph, m_init_esti);
-			m_isam_handler->update();
-			if (if_loop_closed)
-			{
-				m_isam_handler->update();
-				m_isam_handler->update();
-				m_isam_handler->update();
-			}
-			m_gtsam_graph.resize(0);
-			m_init_esti.clear();
-			// 보정된 위치 추정치
-			m_corrected_esti = m_isam_handler->calculateEstimate();
-		}
-	}
-}
-```
-
-<br>
-
-+ 조금 긴 것 같은데, 별거 없다. 
-	+	최초 odometry는 PriorFactor로 graph에 추가한다.
-	+ Keyframe 사이의 pose변화를 BetweenFactor로 graph에 추가한다. (keyframe 계산 없이 모든 odometry를 graph에 추가하면... 연산량도 어마어마하고 오히려 redundancy가 accuracy를 해친다.)
-	+ 현재 keyframe과 과거 keyframes 사이에 loop-closing을 검사 및 계산해서 BetweenFactor로 graph에 추가한다.
-	+ Graph를 optimize 한다.
-+ 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 **"왜?"** 하는 부분들이 생긴다.
-
-
-```cpp
-double test;
-if (true)
-{
-  test = 1.0;
-  if (true)
+  if (!initialized) // 최초 1회만 odometry를 Priorfactor로 추가
   {
-    testing = false;
-    if (false)
+    gtsam::noiseModel::Diagonal::shared_ptr prior_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << 1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4).finished()); // rad*rad for roll, pitch, ywa and meter*meter for x, y, z
+    // for the first odometry, priorfactor
+    m_gtsam_graph.add(gtsam::PriorFactor<gtsam::Pose3>(0, odometry_to_gtsam_pose(current_odometry), prior_noise));
+    m_init_esti.insert(m_current_keyframe_idx, odometry_to_gtsam_pose(current_odometry));
+    m_keyframe_index++;
+    initialized = true;
+  }
+  else //그 이후 odometry callback 마다
+  {
+    if (if_keyframe_or_not(current_odometry)) //keyframe인지 검사하고 keyframe이면
     {
-      testing = true;
+      ///// 1. keyframe사이의 pose 변화를 graph에 추가
+      gtsam::noiseModel::Diagonal::shared_ptr odom_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << 1e-4, 1e-4, 1e-4, 1e-2, 1e-2, 1e-2).finished());
+      gtsam::Pose3 pose_from = odometry_to_gtsam_pose(last_odometry);
+      gtsam::Pose3 pose_to = odometry_to_gtsam_pose(current_odometry);
+      // 직전, 현재 keyframe odometry 사이의 odometry 변화값을 BetweenFactor로 그래프에 추가
+      m_gtsam_graph.add(gtsam::BetweenFactor<gtsam::Pose3>(m_keyframe_index-1, m_keyframe_index, pose_from.between(pose_to), odom_noise));
+      m_init_esti.insert(m_keyframe_index, pose_to);
+      m_keyframe_index++;
+      last_odometry = current_odometry; //다음 iteration을 위해 직전 odometry 저장
+
+      ///// 2. loop closing factor
+      bool if_loop_closed = false;
+      // 과거의 keyframe들과 현재 keyframe을 비교해서, loop closing이 일어날 수 있을 가능성이 있는지 파악 (예: 일정 거리 이내에 있으나 시간이 일정 시간 이상 경과)
+      if (if_loop_candidate_or_not(current_odometry))
+      {
+        the_most_loop_likely_keyframe = get_the_most_loop_likely_keyframe(current_odometry); //가장 loop 가능성이 높은 keyframe 반환
+        loop_match_result = loop_matching(current_odometry, the_most_loop_likely_keyframe); //현재 keyframe, loop 가능성 높은 keyframe 사이를 매칭해서 pose 변환 반환 (e.g., ICP 등)
+
+        // 실제로 loop-closed 되었으면
+        if (loop_match_result.loop_closed)
+        {
+          noise = loop_match_result.noise;
+          loop_pose_tf = loop_match_result.pose_transformation;
+          past_pose = the_most_loop_likely_keyframe.pose;
+          past_pose_index = the_most_loop_likely_keyframe.pose.index;
+          current_odometry_index = m_keyframe_index-1; // becaus of ++ from the above line
+
+          // 현재 keyframe과 loop-closed 된 keyframe간의 pose 변화만큼을 graph에 BetweenFactor로 추가
+          gtsam::noiseModel::Diagonal::shared_ptr loop_noise = gtsam::noiseModel::Diagonal::Variances((gtsam::Vector(6) << noise, noise, noise, noise, noise, noise).finished());
+          gtsam::Pose3 pose_from = odometry_to_gtsam_pose(loop_pose_tf * current_odometry);
+          gtsam::Pose3 pose_to = odometry_to_gtsam_pose(past_pose);
+          m_gtsam_graph.add(gtsam::BetweenFactor<gtsam::Pose3>(current_odometry_index, past_pose_index, pose_from.between(pose_to), loop_noise));	    		
+          if_loop_closed = true;
+        }
+      }
+
+      ///// 3. Optimize
+      //m_corrected_esti = gtsam::LevenbergMarquardtOptimizer(m_gtsam_graph, m_init_esti).optimize();
+      m_isam_handler->update(m_gtsam_graph, m_init_esti);
+      m_isam_handler->update();
+      if (if_loop_closed)
+      {
+        m_isam_handler->update();
+        m_isam_handler->update();
+        m_isam_handler->update();
+      }
+      m_gtsam_graph.resize(0);
+      m_init_esti.clear();
+      // 보정된 위치 추정치
+      m_corrected_esti = m_isam_handler->calculateEstimate();
     }
   }
 }
 ```
 
-
 <br>
 
++ 조금 긴 것 같은데, 별거 없다. 그림과 함께 보자.
+	+	최초 odometry는 PriorFactor로 graph에 추가한다.
+	+ Keyframe 사이의 pose변화를 BetweenFactor로 graph에 추가한다. (keyframe 계산 없이 모든 odometry를 graph에 추가하면... 연산량도 어마어마하고 오히려 redundancy가 accuracy를 해친다.)
+	+ 현재 keyframe과 과거 keyframes 사이에 loop-closing을 검사 및 계산해서 BetweenFactor로 graph에 추가한다.
+	+ Graph를 optimize 한다.
 
 <p align="center">
 	<figure align="center">
   	<img src="/assets/img/posts/230707_sphere.gif" style="width:90%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-		<figcaption style="text-align:center;">unordered_map으로 관리하는 spheres</figcaption>
+		<figcaption style="text-align:center;">GTSAM PGO</figcaption>
 	</figure>
 </p>
+
+
++ 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 **"왜?"** 하는 부분들이 생긴다. => 뒤에서 하나씩 설명한다.
+
 
 <br>
 
@@ -171,11 +153,26 @@ if (true)
 	1. The factor graph and its embodiment in code specify the joint probability distribution over the entire trajectory of the robot, rather than just the last pose. This smoothing view of the world gives GTSAM its name: “smoothing and mapping”. Later in this document we will talk about how we can also use GTSAM to do filtering (which you often do not want to do) or incremental inference (which we do all the time).
 	2. A factor graph in GTSAM is just the specification of the probability density, and the corresponding FactorGraph class and its derived classes do not ever contain a “solution”. Rather, there is a separate type Values that is used to specify specific values, which can then be used to evaluate the probability (or, more commonly, the error) associated with particular values.
 	3. The latter point is often a point of confusion with beginning users of GTSAM. It helps to remember that when designing GTSAM we took a functional approach of classes corresponding to mathematical objects, which are usually immutable. You should think of a factor graph as a function to be applied to values rather than as an object to be modified.
++ 뭔 소리냐면, graph는 
 
 <br>
 
 ### 3. `gtsam::ISAM2.update` vs `gtsam::LevenbergMarquardtOptimizer`
-+ 
++ 코드에서 optimize하는 부분을 보면 주석된 부분이 있다. 다시 잘 살펴 보면, 한 줄로 해결할 수 있을 것 같은데 굳이 여러줄로 나누어서 optimize하고 graph랑 Values 초기화하고, 보정된 값을 획득한다.
+
+```cpp
+//// 이 한줄이랑
+{
+  m_corrected_esti = gtsam::LevenbergMarquardtOptimizer(m_gtsam_graph, m_init_esti).optimize();
+}
+//// 이 여러줄이랑 같은 역할임
+{
+  m_isam_handler->update(m_gtsam_graph, m_init_esti);
+  m_gtsam_graph.resize(0);
+  m_init_esti.clear();
+  m_corrected_esti = m_isam_handler->calculateEstimate();  
+}
+```
 
 <br>
 
