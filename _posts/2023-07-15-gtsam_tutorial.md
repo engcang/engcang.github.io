@@ -132,20 +132,20 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 <br>
 
 + 조금 긴 것 같은데, 별거 없다. 그림과 함께 보자.
-	+	최초 odometry는 PriorFactor로 graph에 추가한다.
-	+ Keyframe 사이의 pose변화를 BetweenFactor로 graph에 추가한다. (keyframe 계산 없이 모든 odometry를 graph에 추가하면... 연산량도 어마어마하고 오히려 redundancy가 accuracy를 해친다.)
-	+ 현재 keyframe과 과거 keyframes 사이에 loop-closing을 검사 및 계산해서 BetweenFactor로 graph에 추가한다.
-	+ Graph를 optimize 한다.
+	1. 최초 odometry는 PriorFactor로 graph에 추가한다.
+	2. Keyframe 사이의 pose변화를 BetweenFactor로 graph에 추가한다. (keyframe 계산 없이 모든 odometry를 graph에 추가하면... 연산량도 어마어마하고 오히려 redundancy가 accuracy를 해친다.)
+	3. 현재 keyframe과 과거 keyframes 사이에 loop-closing을 검사 및 계산해서 BetweenFactor로 graph에 추가한다.
+	4. Graph를 optimize 한다.
 
-<p align="center">
+<!-- <p align="center">
 	<figure align="center">
   	<img src="/assets/img/posts/230707_sphere.gif" style="width:90%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 		<figcaption style="text-align:center;">GTSAM PGO</figcaption>
 	</figure>
-</p>
+</p> -->
 
 
-#### 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 "왜?" 하는 부분들이 생긴다. => 뒤에서 하나씩 설명한다.
+#### 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 "왜?" 하는 부분들이 생긴다 => 뒤에서 하나씩 설명한다.
 
 
 <br>
@@ -158,8 +158,15 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 	2. A factor graph in GTSAM is just the specification of the probability density, and the corresponding FactorGraph class and its derived classes do not ever contain a “solution”. Rather, there is a separate type Values that is used to specify specific values, which can then be used to evaluate the probability (or, more commonly, the error) associated with particular values.
 	3. The latter point is often a point of confusion with beginning users of GTSAM. It helps to remember that when designing GTSAM we took a functional approach of classes corresponding to mathematical objects, which are usually immutable. You should think of a factor graph as a function to be applied to values rather than as an object to be modified.
 + 뭔 소리냐면, **graph (Factor)는 연결**만 나타내고 있다고 생각하면 편하고, **Values는 변하는 값**이라고 생각하면 편하다.
-+ 그니까 graph (Factor)만 가지고 있어도 연결도 나타내고 안에 값도 들어있으니 optimize할 때 마다 값도 알아서 변하고 우리는 변한 값만 출력해서 받아 쓰면 되지 않는가?
++ 아니 그니까 graph (Factor)만 가지고 있어도 연결도 나타내고 안에 값도 들어있으니 optimize할 때 마다 값도 알아서 변하고 우리는 변한 값만 출력해서 받아 쓰면 되지 않는가? (**난 이게 제일 헷갈렸다.**)
 + 다음 그림을 보면,
+
+<!-- <p align="center">
+  <figure align="center">
+    <img src="/assets/img/posts/230707_sphere.gif" style="width:90%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+    <figcaption style="text-align:center;">GTSAM PGO</figcaption>
+  </figure>
+</p> -->
 
 <br>
 
@@ -168,7 +175,9 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 + 다시 잘 살펴 보면, 한 줄로 해결할 수 있을 것 같은데 굳이 여러 줄로 나누어서 optimize하고 graph랑 Values 초기화하고, 보정된 값을 획득한다.
 + 실제로 한 줄짜리 LM Optimizer로 optimize해도 동일한 결과를 획득한다. => **하지만 연산 시간이 엄청 길어진다. Graph가 점점 증가하면 할수록.**
 + GTSAM은 Georgia Tech SAM인데, 논문에서 정식 명칙은 **Incremental** SAM이다. - [논문 1](https://www.cs.cmu.edu/~kaess/pub/Kaess08tro.pdf), [논문 2](https://www.cs.cmu.edu/~kaess/pub/Kaess12ijrr.pdf)
-+ 
++ 즉, 한 줄 짜리 LM Optimizer는 그래프 전체를 받아와서 전체에 대해서 nonlinear optimization을 수행한다. 연산량이 많고, 점점 많아질 수밖에 없다.
++ ISAM update는 **incremental하게 graph의 변화된 부분만 파악해서 update 및 optimization**을 수행한다. 참고: [update 부분 코드](https://github.com/borglab/gtsam/blob/30f4dbb1b80f274bbd9e82a18fb2831110e058f0/gtsam/nonlinear/ISAM2.cpp#L395-L476)
+  + 변화된 부분을 파악하는 비용을 최소화 하기 위해서 graph.resize(0)과 Values.clear()를 수행한다.
 
 ```cpp
 //// 이 한 줄이랑
@@ -207,10 +216,20 @@ if (if_loop_closed) //심지어 loop-closing 되면
 + 그러면 굳이 코드에서 `m_gtsam_graph.resize(0)` 할 필요 없지 않나? => 없어도 되지만 update 함수 내에서 "graph의 변화된 부분을 추적"하는 연산을 최소화하기 위해 필요하다.
 + 그러면 update를 한 127431829479번 정도 호출하면 완전 빨리 수렴하고 값도 정확해 지는거 아님? => 이것은 경험에 의한 것... 실제로 LIO-SAM 코드를 보면 5회만 실행하는데, 저자에 따르면 그게 가장 좋았다고 한다.. [여기 참고](https://github.com/TixiaoShan/LIO-SAM/issues/5#issuecomment-653752936)
 + 우리 연구실 사람들도, 나도 update를 몇 번 해야 좋은지 많이 테스트 해봤고 LIO-SAM 저자도 많이 해봤겠지만... 5번이 가장 적당하더라는 결론...
++ **너무 많이 호출하면 시간도 아깝고 뭔가 발산하는 양상을 띈다.**
 
 <br>
 
-### 5. 결론
+### 5. 참고
++ Factor를 추가할 때 `noise`를 설정하게 되어있다. 그리고 공식 홈페이지 tutorial을 보면 모든 것을 확률과 관련해서 설명한다.
++ 왜 SLAM에서 Gaussian 분포를 사용하는가? 왜 모든 것이 확률로 표현되는가?
++ Bayesian 추론, Maximum a posteriori, Maximum likelihood estimation 그리고 이 세가지와 SLAM의 관계에 대해서 참고해보면 좋다.
++ 짧게 말하면 어차피 noise를 수학적으로 정확하게 나타낼 수는 없으니 우리가 잘 아는 Gaussian 분포를 사용하고, Gaussian 분포를 사용하면 Gaussian 분포 값의 곱은 Gaussian 분포를 따른다. 이를 이용해서 현재 odometry와 다른 센서의 측정값들로 로봇 pose와 landmark의 pose를 확률을 극대화 하는 방향으로 추론해내는게 SLAM이라고 할 수 있다(고 한다.)
++ 김기섭님 블로그에 굉장히 잘 설명되어있으니 보면 너무너무 좋다 두번보고 세번보길 추천- [링크](https://gisbi-kim.github.io/blog/2021/03/09/bayesfiltering-1.html), [링크2](https://gisbi-kim.github.io/blog/2021/03/09/bayesfiltering-2.html)
+
+<br>
+
+## 결론
 + GTSAM은 사용이 쉽다. 대신 자유도가 낮다. Ceres 같은 nonlinear optimization solver는 사용이 어려운 대신 자유도가 높아서 별의 별 값들을 변수로 설정 가능하고, 무슨 옵션이 있고 뭐 등등...
 + 난 모르겠고 걍 PGO만 해서 SLAM만 하면된다? GTSAM을 쓰자.
 + 이 글을 볼 일도 없고 봤더라도 이런 수준 낮은 글이? 할 정도로 SLAM에 익숙한 분들은 필요에 맞게 Ceres를 잘 쓰고 계실 것으로 예상 합니다...

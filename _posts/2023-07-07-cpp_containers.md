@@ -5,10 +5,11 @@ date: 2023-07-07
 comments: true
 ---
 
-Python으로 코딩을 배우고 대학원 와서야 C++을 만지고 어찌저찌 알고리즘 짜오면서 잘 먹고 살아오고 있었다. 그 동안 항상 묻지도 따지지도 않고 container가 필요하면 `std::vector`를 사용했었다. 간간히 hash map같은거 구현한다고 `unordered_map`같은건 몇번 썼었는데... <br>
+### 서론
++ Python으로 코딩을 배우고 대학원 와서야 C++을 만지고 어찌저찌 알고리즘 짜오면서 잘 먹고 살아오고 있었다. 그 동안 항상 묻지도 따지지도 않고 container가 필요하면 `std::vector`를 사용했었다. 간간히 hash map같은거 구현한다고 `unordered_map`같은건 몇번 썼었는데...
 
-다른 SOTA 코드를 살펴본다든지, mapping, planning, localization 관련해서 다양하게 코딩을 해본다든지 하면서 다른 container도 사용해야할 필요성을 많이 느끼게 되었다. <br> 
-워낙 다른 블로그들에 설명이 너무 잘되어있어서 그냥 요약 + 그래서 언제 쓸지만 정리해두려고 한다.
++ 다른 SOTA 코드를 살펴본다든지, mapping, planning, localization 관련해서 다양하게 코딩을 해본다든지 하면서 다른 container도 사용해야할 필요성을 많이 느끼게 되었다.
++ 워낙 다른 블로그들에 설명이 너무 잘되어있어서 그냥 요약 + 그래서 언제 쓸지만 정리해두려고 한다.
 
 <br>
 
