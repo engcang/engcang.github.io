@@ -25,8 +25,8 @@ comments: true
 <br>
 
 ### 1. 예제 코드
-+ 생각보다 쉬우니 바로 예제 코드 먼저 살펴보자. 해당 코드는 최근에 코딩 및 작업한 [`FAST-LIO-SAM`](https://github.com/engcang/FAST-LIO-SAM) 혹은 [`FAST-LIO-SAM-QN`](https://github.com/engcang/FAST-LIO-SAM-QN) repository에 실제 사용된 코드 중 필요한 일부만 가져와서 정리한 코드이다.
-```cpp
++ 생각보다 쉬우니 바로 예제 코드 먼저 살펴보자. 해당 코드는 최근에 코딩 및 작업한 [FAST-LIO-SAM](https://github.com/engcang/FAST-LIO-SAM) 혹은 [FAST-LIO-SAM-QN](https://github.com/engcang/FAST-LIO-SAM-QN) repository에 실제 사용된 코드 중 필요한 일부만 가져와서 정리한 코드이다.
+	```cpp
 ////// GTSAM headers
 #include <gtsam/geometry/Rot3.h>
 #include <gtsam/geometry/Point3.h>
@@ -79,7 +79,6 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 			m_keyframe_index++;
 			last_odometry = current_odometry; //다음 iteration을 위해 직전 odometry 저장
 
-			
 			///// 2. loop closing factor
 			bool if_loop_closed = false;
 			// 과거의 keyframe들과 현재 keyframe을 비교해서, loop closing이 일어날 수 있을 가능성이 있는지 파악 (예: 일정 거리 이내에 있으나 시간이 일정 시간 이상 경과)
@@ -123,9 +122,15 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 		}
 	}
 }
+	```
 
-
-```
++ 조금 긴 것 같은데, 별거 없다. 
+	+	최초 odometry는 PriorFactor로 graph에 추가한다.
+	+ Keyframe 사이의 pose변화를 BetweenFactor로 graph에 추가한다. 
+		+ keyframe 계산 없이 모든 odometry를 graph에 추가하면... 연산량도 어마어마하고 오히려 redundancy가 accuracy를 해친다.
+	+ 현재 keyframe과 과거 keyframes 사이에 loop-closing을 검사 및 계산해서 BetweenFactor로 graph에 추가한다.
+	+ Graph를 optimize 한다.
++ 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 **"왜?"** 하는 부분들이 생긴다.
 
 <br>
 
