@@ -1,14 +1,25 @@
 ---
 layout: post
-title: "C++ container 비교: array, vector, deque, unordered_map, unordered_set"
-date: 2023-07-07
+title: "GTSAM 튜토리얼"
+subtitle: "Pose Graph Optimization (PGO) for SLAM"
+date: 2023-07-15
 comments: true
 ---
 
-Python으로 코딩을 배우고 대학원 와서야 C++을 만지고 어찌저찌 알고리즘 짜오면서 잘 먹고 살아오고 있었다. 그 동안 항상 묻지도 따지지도 않고 container가 필요하면 `std::vector`를 사용했었다. 간간히 hash map같은거 구현한다고 `unordered_map`같은건 몇번 썼었는데... <br>
+#### 주저리주저리
+SLAM을 항상 접할 수 밖에 없는 환경에 있다. 연구실이 워낙 SLAM을 잘하기도 하고, 내가 아무리 exploration이나 high level path planning 알고리즘을 작성해서 드론에 실험하려고 해도, 결국 드론은 SLAM이 없으면 비행이 불가능하기에... <br>
+드론은 무게가 중요하니까 처음엔 VO, VIO를 사용했었다. 너무 쉽게 발산해서... 대회때라든지 쓴맛을 많이 봐서 자연스럽게 LiDAR SLAM으로 넘어오게 되었다. 요새는 SLAM까지 안가더라도 LIO만 써도 너무 정확하게 pose가 추정이 된다. <br>
+그럼에도, loop-closing으로 정밀한 map을 만들어서 저장할 필요가 가끔 있다. Visualization 용도로 예쁜 3D map을 만들때나, 동일한 환경에서 로봇이 반복 작업을 수행할때는 SLAM을 반복해서 쓸 필요 없이 scan-to-map matching기반 localization만 사용해도 되기때문.
 
-다른 SOTA 코드를 살펴본다든지, mapping, planning, localization 관련해서 다양하게 코딩을 해본다든지 하면서 다른 container도 사용해야할 필요성을 많이 느끼게 되었다. <br> 
-워낙 다른 블로그들에 설명이 너무 잘되어있어서 그냥 요약 + 그래서 언제 쓸지만 정리해두려고 한다.
+#### 그래서 해당 포스트에서는
++ GTSAM을 사용해서 SLAM을 위한 PGO(pose graph optimization)를 구현하는 방법에 대해 설명하고자 한다. (다른 용도도 많지만 **only PGO for SLAM**)
+	+ 더 다양한 튜토리얼은 [공식 홈페이지 튜토리얼](https://gtsam.org/tutorials/intro.html#listing_iSAMExample)을 참고하면 된다.
++ 자세히는 아래 내용을 차례대로 설명하고자 한다.
+	+ 예제 코드
+	+ `Factor` vs `Values` in GTSAM
+	+ `gtsam::ISAM2.update(graph, initial_estimation)` vs `gtsam::LevenbergMarquardtOptimizer(graph, initial_estimation)`
+	+ `gtsam::ISAM2.update(graph, initial_estimation)` vs `gtsam::ISAM2.update()` (특히 multiple times of update)
+
 
 <br>
 
