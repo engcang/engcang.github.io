@@ -28,11 +28,6 @@ comments: true
 + 생각보다 쉬우니 바로 예제 코드 먼저 살펴보자. 해당 코드는 최근에 코딩 및 작업한 [FAST-LIO-SAM](https://github.com/engcang/FAST-LIO-SAM) 혹은 [FAST-LIO-SAM-QN](https://github.com/engcang/FAST-LIO-SAM-QN) repository에 실제 사용된 코드 중 필요한 일부만 가져와서 정리한 코드이다.
 
 ```cpp
-<style>
-	.narrow-code {
-		text-indent: 1px;
-	}
-</style>
 ////// GTSAM headers
 #include <gtsam/geometry/Rot3.h>
 #include <gtsam/geometry/Point3.h>
@@ -141,66 +136,18 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 
 
 ```cpp
-<style>
-	.narrow-code2 {
-		text-indent: -5px;
-	}
-</style>
 double test;
 if (true)
 {
-	test = 1.0;
-	if (true)
-	{
-		testing = false;
-		if (false)
-		{
-			testing = true;
-		}
-	}
-}
-```
-
-
-```cpp
-<style>
-	.narrowed-code {
-		text-indent: 0px;
-	}
-</style>
-double test;
-if (true)
-{
-	test = 1.0;
-	if (true)
-	{
-		testing = false;
-		if (false)
-		{
-			testing = true;
-		}
-	}
-}
-```
-
-```cpp
-<style>
-	.wde-code {
-		text-indent: 10px;
-	}
-</style>
-double test;
-if (true)
-{
-	test = 1.0;
-	if (true)
-	{
-		testing = false;
-		if (false)
-		{
-			testing = true;
-		}
-	}
+  test = 1.0;
+  if (true)
+  {
+    testing = false;
+    if (false)
+    {
+      testing = true;
+    }
+  }
 }
 ```
 
@@ -221,11 +168,9 @@ if (true)
 + 코드에서 분명히 graph(`m_gtsam_graph`)에 PriorFactor, BetweenFactor로 odometry의 변화량, loop-closing의 값 등을 더 해줬는데 gtsam::Values(`m_init_esti`)에 한번 더 값을 insert해준다.
 + 게다가 loop-closing 계산 뒤 BetweenFactor를 add해주는 곳에서는 Values에 아무런 값도 insert하지 않는다.
 + 이 부분에 대해서 [공식 홈페이지 튜토리얼](https://gtsam.org/tutorials/intro.html#listing_iSAMExample)의 2.3절에서는 다음과 같이 설명한다.
-```text
-1. The factor graph and its embodiment in code specify the joint probability distribution over the entire trajectory of the robot, rather than just the last pose. This smoothing view of the world gives GTSAM its name: “smoothing and mapping”. Later in this document we will talk about how we can also use GTSAM to do filtering (which you often do not want to do) or incremental inference (which we do all the time).
-2. A factor graph in GTSAM is just the specification of the probability density, and the corresponding FactorGraph class and its derived classes do not ever contain a “solution”. Rather, there is a separate type Values that is used to specify specific values, which can then be used to evaluate the probability (or, more commonly, the error) associated with particular values.
-The latter point is often a point of confusion with beginning users of GTSAM. It helps to remember that when designing GTSAM we took a functional approach of classes corresponding to mathematical objects, which are usually immutable. You should think of a factor graph as a function to be applied to values rather than as an object to be modified.
-```
+	1. The factor graph and its embodiment in code specify the joint probability distribution over the entire trajectory of the robot, rather than just the last pose. This smoothing view of the world gives GTSAM its name: “smoothing and mapping”. Later in this document we will talk about how we can also use GTSAM to do filtering (which you often do not want to do) or incremental inference (which we do all the time).
+	2. A factor graph in GTSAM is just the specification of the probability density, and the corresponding FactorGraph class and its derived classes do not ever contain a “solution”. Rather, there is a separate type Values that is used to specify specific values, which can then be used to evaluate the probability (or, more commonly, the error) associated with particular values.
+	3. The latter point is often a point of confusion with beginning users of GTSAM. It helps to remember that when designing GTSAM we took a functional approach of classes corresponding to mathematical objects, which are usually immutable. You should think of a factor graph as a function to be applied to values rather than as an object to be modified.
 
 <br>
 
