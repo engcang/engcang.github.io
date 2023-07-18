@@ -134,6 +134,70 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 	+ Graph를 optimize 한다.
 + 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 **"왜?"** 하는 부분들이 생긴다.
 
+
+```cpp
+double test;
+if (true)
+{
+	test = 1.0;
+	if (true)
+	{
+		testing = false;
+		if (false)
+		{
+			testing = true;
+		}
+	}
+}
+```
+
+
+
+<style>
+    .highlight pre {
+        width: 30%; /* Adjust the width as desired */
+    }
+</style>
+
+```cpp
+double test;
+if (true)
+{
+	test = 1.0;
+	if (true)
+	{
+		testing = false;
+		if (false)
+		{
+			testing = true;
+		}
+	}
+}
+```
+
+
+<style>
+    .highlight pre {
+        width: 200%; /* Adjust the width as desired */
+    }
+</style>
+```cpp
+double test;
+if (true)
+{
+	test = 1.0;
+	if (true)
+	{
+		testing = false;
+		if (false)
+		{
+			testing = true;
+		}
+	}
+}
+```
+
+
 <br>
 
 
@@ -151,6 +215,7 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 <br>
 
 ### 3. `gtsam::ISAM2.update` vs `gtsam::LevenbergMarquardtOptimizer`
++ 
 
 <br>
 
