@@ -137,12 +137,12 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 	3. 현재 keyframe과 과거 keyframes 사이에 loop-closing을 검사 및 계산해서 BetweenFactor로 graph에 추가한다.
 	4. Graph를 optimize 한다.
 
-<!-- <p align="center">
+<p align="center">
 	<figure align="center">
-  	<img src="/assets/img/posts/230707_sphere.gif" style="width:90%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  	<img src="/assets/img/posts/230715_gtsam/graph.png" style="width:780px" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
 		<figcaption style="text-align:center;">GTSAM PGO</figcaption>
 	</figure>
-</p> -->
+</p>
 
 
 #### 처음 보는 사람들은, 대충 알긴 알겠는데 몇 가지 "왜?" 하는 부분들이 생긴다 => 뒤에서 하나씩 설명한다.
@@ -158,15 +158,21 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 	2. A factor graph in GTSAM is just the specification of the probability density, and the corresponding FactorGraph class and its derived classes do not ever contain a “solution”. Rather, there is a separate type Values that is used to specify specific values, which can then be used to evaluate the probability (or, more commonly, the error) associated with particular values.
 	3. The latter point is often a point of confusion with beginning users of GTSAM. It helps to remember that when designing GTSAM we took a functional approach of classes corresponding to mathematical objects, which are usually immutable. You should think of a factor graph as a function to be applied to values rather than as an object to be modified.
 + 뭔 소리냐면, **graph (Factor)는 연결**만 나타내고 있다고 생각하면 편하고, **Values는 변하는 값**이라고 생각하면 편하다.
+  + (**Factor는** node 사이의 joint probability, 즉, **확률 값**을 나타내고 **Values는** 말 그대로 **위치 추정치 값**이다.)
 + 아니 그니까 graph (Factor)만 가지고 있어도 연결도 나타내고 안에 값도 들어있으니 optimize할 때 마다 값도 알아서 변하고 우리는 변한 값만 출력해서 받아 쓰면 되지 않는가? (**난 이게 제일 헷갈렸다.**)
-+ 다음 그림을 보면,
++ 다음 그림을 보면, 조금 더 이해가 쉽다. (아니면 죄송 ㅠㅠ)
++ 만약 내가 헷갈렸던 것처럼 Factor만 가지고 있다고 생각해보자.
+  + 원래 1절에서 등장한 그림만 봤을때는 아무런 문제가 없을 것이다. Odometry로만 graph가 구성되어있으니 loop closing이 일어나든 말든 node 자체의 값이 변해버리면 되지 않나? 생각했던 것인데,
+  + 아래 그림처럼 UnaryFactor가 추가되었다고 생각해보자 (예: GPS 센서 값 등). Loop closing이 일어나서 P5 노드의 값 자체가 바뀌어버리면 UnaryFactor가 의미하는 값이 뭔가 이상해진다.
+  + 분명 loop closing이 일어나기 전의 P5 노드의 값에 대한 관계를 그래프에 추가한 것인데, P5노드의 값이 바뀌었으니 UnaryFactor 값도 그에 맞게 바뀌어야 하는 건가? 근데 GPS 센서 측정 값인데 그게 바뀌어도 되나?
+  + 따라서 loop closing이 일어나든 말든, UnaryFactor가 추가되든 말든 **graph는 graph대로 연결 관계에 대한 값을 고정되게 가지고 있고, 이와 별개로 위치 추정치는 따로 변수로 (Values) 가지고 있으면 이런 문제가 없다.**
 
-<!-- <p align="center">
+<p align="center">
   <figure align="center">
-    <img src="/assets/img/posts/230707_sphere.gif" style="width:90%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+    <img src="/assets/img/posts/230715_gtsam/graph2.png" style="width:780px" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
     <figcaption style="text-align:center;">GTSAM PGO</figcaption>
   </figure>
-</p> -->
+</p>
 
 <br>
 
@@ -200,12 +206,12 @@ void odometry_callback_function(current_odometry) //실제 함수 아님, pseudo
 
 ```cpp
 m_isam_handler->update(m_gtsam_graph, m_init_esti); //한 번 했는데
-m_isam_handler->update(); //여러 번 인자도 없이 계속 반복한다.
+m_isam_handler->update(); //여러 번 인자도 없이 반복한다.
 if (if_loop_closed) //심지어 loop-closing 되면
 {
-  m_isam_handler->update(); //여러 번 인자도 없이 또 계속 반복한다.
-  m_isam_handler->update(); //여러 번 인자도 없이 또 계속 반복한다.
-  m_isam_handler->update(); //여러 번 인자도 없이 또 계속 반복한다.
+  m_isam_handler->update(); //인자도 없이 또 반복한다.
+  m_isam_handler->update(); //인자도 없이 또또 반복한다.
+  m_isam_handler->update(); //인자도 없이 또또또 반복한다.
 }
 ```
 
@@ -224,8 +230,8 @@ if (if_loop_closed) //심지어 loop-closing 되면
 + Factor를 추가할 때 `noise`를 설정하게 되어있다. 그리고 공식 홈페이지 tutorial을 보면 모든 것을 확률과 관련해서 설명한다.
 + 왜 SLAM에서 Gaussian 분포를 사용하는가? 왜 모든 것이 확률로 표현되는가?
 + Bayesian 추론, Maximum a posteriori, Maximum likelihood estimation 그리고 이 세가지와 SLAM의 관계에 대해서 참고해보면 좋다.
-+ 짧게 말하면 어차피 noise를 수학적으로 정확하게 나타낼 수는 없으니 우리가 잘 아는 Gaussian 분포를 사용하고, Gaussian 분포를 사용하면 Gaussian 분포 값의 곱은 Gaussian 분포를 따른다. 이를 이용해서 현재 odometry와 다른 센서의 측정값들로 로봇 pose와 landmark의 pose를 확률을 극대화 하는 방향으로 추론해내는게 SLAM이라고 할 수 있다(고 한다.)
-+ 김기섭님 블로그에 굉장히 잘 설명되어있으니 보면 너무너무 좋다 두번보고 세번보길 추천- [링크](https://gisbi-kim.github.io/blog/2021/03/09/bayesfiltering-1.html), [링크2](https://gisbi-kim.github.io/blog/2021/03/09/bayesfiltering-2.html)
++ 짧게 설명하면 어차피 noise를 수학적으로 정확하게 나타낼 수는 없으니 우리가 잘 아는 Gaussian 분포를 사용하고, Gaussian 분포를 사용하면 Gaussian 분포 값들의 곱은 Gaussian 분포를 따른다. 이를 이용해서 현재 odometry와 다른 센서의 측정값들로 로봇 pose와 landmark의 pose를 확률을 극대화 하는 방향으로 추론해내는게 SLAM이라고 할 수 있다(고 한다.)
++ 김기섭님 블로그에 굉장히 잘 설명되어있으니 보면 너무너무 좋다 두번보고 세번보길 추천 - [링크](https://gisbi-kim.github.io/blog/2021/03/09/bayesfiltering-1.html), [링크2](https://gisbi-kim.github.io/blog/2021/03/09/bayesfiltering-2.html)
 
 <br>
 
