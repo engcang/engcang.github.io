@@ -9,6 +9,8 @@ title: Projects
 
 ---
 
+---
+
 ## Laboratory Projects
 
 #### ※ Development of Drone System for Diagnosis of Porcelain Insulators in Overhead Transmission Lines
@@ -348,9 +350,13 @@ title: Projects
 
 ---
 
+---
+
 ## Technology Transfer
 
 + Hyun Myung, **Eunchang Lee**, and Hyungtae Lim, "Adaptive and robust 3D SLAM method that adjusts parameters depending on the environments, and Application of SLAM method for unmanned aerial vehicle flight in GNSS-denied environments (환경에 적응적으로 해상도를 조절하는 강인한 3차원 SLAM 기술과 위성항법장치 음영상황에서 무인비행체의 비행을 위한 SLAM 기술의 적용)," 2023.05.01.
+
+---
 
 ---
 
