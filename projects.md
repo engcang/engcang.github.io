@@ -38,6 +38,8 @@ title: Projects
 
 </details>
 
+<br>
+
 #### ※ Research of Coverage Path Planner for 3D Reconstruction with UAVs
 
 <details>
@@ -45,7 +47,7 @@ title: Projects
 
   <div markdown="1">
 
-  * *<span style="color:#ff5500">Hosted by [Confidential]</span>* 
+  * *<span style="color:#ff5500">Supported by</span> <span style="color:#3399ff">Confidential</span>* 
   * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
   * **I participated in this project in 2022**
 
@@ -64,6 +66,8 @@ title: Projects
   </p>
 
 </details>
+
+<br>
 
 #### ※ 2022 ADD Autonomous Flight Competition in Battlefield Situations
 
@@ -91,7 +95,9 @@ title: Projects
   </p>
 
 </details>
-    
+
+<br>
+
 #### ※ IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase
 
 <details>
@@ -119,7 +125,9 @@ title: Projects
   </p>
 
 </details>
-  
+
+<br>
+
 #### ※ Unmanned Swarm CPS Research Lab
 
 <details>
@@ -145,6 +153,8 @@ title: Projects
   </p>
 
 </details>
+
+<br>
 
 #### ※ Autonomous Drone Navigation for Power Line Inspection in Underground
 
@@ -173,6 +183,8 @@ title: Projects
     
 </details>
 
+<br>
+
 #### ※ A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
 
 <details>
@@ -200,6 +212,8 @@ title: Projects
 
 </details>
 
+<br>
+
 #### ※ 2020 Korea Robot Aircraft Competition
 
 <details>
@@ -225,6 +239,8 @@ title: Projects
   </p>
 
 </details>
+
+<br>
 
 #### ※ 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 
@@ -263,6 +279,8 @@ title: Projects
   </p>
 </details>
 
+<br>
+
 #### ※ 2018 R-BIZ Challenge Turtlebot3 Autorace
 
 <details>
@@ -293,6 +311,8 @@ title: Projects
   </p>
 
 </details>
+
+<br>
 
 #### ※ Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System
 
@@ -363,6 +383,8 @@ title: Projects
 
 </details>
 
+<br>
+
 #### ※ Palm Tree Field Exploration and Tree Identification with UAV / UGV
 
 <details>
@@ -389,6 +411,8 @@ title: Projects
   </p>
 
 </details>
+
+<br>
 
 #### ※ KHNP Virtual Robot Challenge 2021 (Maintainer)
 
