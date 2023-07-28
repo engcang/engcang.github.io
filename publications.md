@@ -71,4 +71,4 @@ in *Proc. International Conference on Robot Intelligence Technology and Applicat
 
 ## Registered SW
 
-1. Hyung Myung, Sungjae Shin, Sungwon Hwang, **Eungchang Lee**, Junho Choi, and Kwangyik Jung, "Multi-robot relative pose estimation algorithm using polar histogram matching (폴라 히스토그램 매칭을 이용한 다중 로봇 상대 자세 추정 알고리즘 )," Registered Number: C-2021-043064, Korea, 2021.05.19.
+1. Hyung Myung, Sungjae Shin, Sungwon Hwang, **Eungchang Lee**, Junho Choi, and Kwangyik Jung, "Multi-robot relative pose estimation algorithm using polar histogram matching (폴라 히스토그램 매칭을 이용한 다중 로봇 상대 자세 추정 알고리즘)," Registration Number: C-2021-043064, Korea, 2021.05.19.
