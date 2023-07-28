@@ -10,7 +10,62 @@ title: Projects
 ---
 
 ## Laboratory Projects
-### ※ 2022 ADD Autonomous Flight Competition in Battlefield Situations
+
+#### ※ Development of Drone System for Diagnosis of Porcelain Insulators in Overhead Transmission Lines
+
+<details>
+  <summary> Click to fold/unfold </summary>
+
+  <div markdown="1">
+
+  * *<span style="color:#ff5500">Supported by [KEPCO](https://home.kepco.co.kr/kepco/EN/main.do) and [KEPRI](https://www.kepri.re.kr:20808/index)</span>*
+  * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
+  * **I participated in this project during: 2023.01 - 2024.06**
+
+  </div>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　In this project, we develop a autonomous drone manipulation framework for diagnosis of porcelain insulators in transmission lines. We are developing a robust multi-LiDAR SLAM, real-time obstacle avoidance path planner, and adaptive attitude / trajectory tracking controllers.
+  </p>
+ 
+  <div markdown="1">
+  ***Keywords***: Drone, Quadrotor UAV, Manipulation, Drone Manipulation, Aerial Inspection, Multi-LiDAR SLAM
+  </div>
+
+  <p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YQmjKMoBPNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+
+</details>
+
+#### ※ Research of Coverage Path Planner for 3D Reconstruction with UAVs
+
+<details>
+  <summary> Click to fold/unfold </summary>
+
+  <div markdown="1">
+
+  * *<span style="color:#ff5500">Hosted by [Confidential]</span>* 
+  * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
+  * **I participated in this project in 2022**
+
+  </div>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　In this project, we developed a energy-efficient and obstacle-aware coverage path planner for UAVs to accurately reconstruct the target structures with high-resolution. The detailed information is confidential.
+  </p>
+ 
+  <div markdown="1">
+  ***Keywords***: Drone, Quadrotor UAV, Coverage Path Planning, 3D Reconstruction, Obstacle avoidance, Exploration, SLAM
+  </div>
+
+  <p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wqcitpoNW68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+
+</details>
+
+#### ※ 2022 ADD Autonomous Flight Competition in Battlefield Situations
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -37,7 +92,7 @@ title: Projects
 
 </details>
     
-### ※ IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase
+#### ※ IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -65,7 +120,7 @@ title: Projects
 
 </details>
   
-### ※ Unmanned Swarm CPS Research Lab
+#### ※ Unmanned Swarm CPS Research Lab
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -91,7 +146,7 @@ title: Projects
 
 </details>
 
-### ※ Autonomous Drone Navigation for Power Line Inspection in Underground
+#### ※ Autonomous Drone Navigation for Power Line Inspection in Underground
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -118,7 +173,7 @@ title: Projects
     
 </details>
 
-### ※ A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
+#### ※ A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -145,7 +200,7 @@ title: Projects
 
 </details>
 
-### ※ 2020 Korea Robot Aircraft Competition
+#### ※ 2020 Korea Robot Aircraft Competition
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -171,7 +226,7 @@ title: Projects
 
 </details>
 
-### ※ 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
+#### ※ 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -208,7 +263,7 @@ title: Projects
   </p>
 </details>
 
-### ※ 2018 R-BIZ Challenge Turtlebot3 Autorace
+#### ※ 2018 R-BIZ Challenge Turtlebot3 Autorace
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -239,7 +294,7 @@ title: Projects
 
 </details>
 
-### ※ Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System
+#### ※ Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -275,11 +330,13 @@ title: Projects
 
 ## Technology Transfer
 
++ Hyun Myung, **Eunchang Lee**, and Hyungtae Lim, "Adaptive and robust 3D SLAM method that adjusts parameters depending on the environments, and Application of SLAM method for unmanned aerial vehicle flight in GNSS-denied environments (환경에 적응적으로 해상도를 조절하는 강인한 3차원 SLAM 기술과 위성항법장치 음영상황에서 무인비행체의 비행을 위한 SLAM 기술의 적용)," 2023.05.01.
+
 ---
 
 ## Freelancing
 
-### ※ KHNP Virtual Robot Challenge 2022 (Maintainer)
+#### ※ KHNP Virtual Robot Challenge 2022 (Maintainer)
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -306,7 +363,7 @@ title: Projects
 
 </details>
 
-### ※ Palm Tree Field Exploration and Tree Identification with UAV / UGV
+#### ※ Palm Tree Field Exploration and Tree Identification with UAV / UGV
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -333,7 +390,7 @@ title: Projects
 
 </details>
 
-### ※ KHNP Virtual Robot Challenge 2021 (Maintainer)
+#### ※ KHNP Virtual Robot Challenge 2021 (Maintainer)
 
 <details>
   <summary> Click to fold/unfold </summary>
