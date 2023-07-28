@@ -103,7 +103,7 @@ title: "Eungchang Mason Lee"
     </p>
     
 * 2018.11 - **2018 R-BIZ Challenge Turtlebot3 Autorace**
-    * **<span style="color:#3399ff">Mathworks Korea Special Prize ($1,000)</span>, (EungChang-Ho)**
+    * **<span style="color:#3399ff">Mathworks Korea Special Prize ($1,000)</span>, (Team EungChang-Ho)**
     * from **ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE**
     * Articles: [Link-1](https://www.edaily.co.kr/news/read?newsId=01915526619407032&mediaCodeNo=257), [Link-2](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95371&gtid=bodo&opt=&sword=&page=2)
     

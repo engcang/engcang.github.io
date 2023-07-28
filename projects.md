@@ -5,10 +5,11 @@ title: Projects
 
 # Projects
 
-## <span style="color:#3399ff"> Unfold to see the details </span>
+#### <span style="color:#3399ff"> Unfold to see the details </span>
 
 ---
 
+## Laboratory Projects
 ### ※ 2022 ADD Autonomous Flight Competition in Battlefield Situations
 
 <details>
@@ -36,37 +37,6 @@ title: Projects
 
 </details>
     
----
-
-### ※ KHNP Virtual Robot Challenge 2022 (Maintainer)
-
-<details>
-  <summary> Click to fold/unfold </summary>
-
-  <div markdown="1">
-
-  * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2022), [Link2](https://youtu.be/usKW3UG9wpc)* 
-  * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2022)</span>*
-  * **I served as a maintainer for this project during: 2022.09 - 2022.12**
-
-  </div>
-
-  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-  　KHNP Virtual Robot Challenge aims to develop a autonomous navigation algorithm and a robust controller to complete diverse and challenging tasks including obstacle avoidance, exploration, and enduring the wind disturbances. I made Gazebo maps for the competition and coded scoring GUI. Additionally, I coded sample controllers for the quadrotor UAV.
-  </p>
- 
-  <div markdown="1">
-  ***Keywords***: Drone, Quadrotor UAV, Competition, Obstacle avoidance, Exploration, Robust Control, Gazebo, Simulation
-  </div>
-
-  <p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/usKW3UG9wpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
-
-</details>
-    
----
-
 ### ※ IEEE UAV Competition 2022 - Low Power Computer Vision Challenges (LPCVC): Chase
 
 <details>
@@ -94,66 +64,7 @@ title: Projects
   </p>
 
 </details>
-    
----
-
-### ※ Palm Tree Field Exploration and Tree Identification with UAV / UGV
-
-<details>
-  <summary> Click to fold/unfold </summary>
-
-  <div markdown="1">
-      
-  * *<span style="color:#ff5500">Conducted at [AKA-AI Robotics](https://akaintelligence.com/)</span>*
-  * **I participated in this project during: 2021.11 - 2022.05**
-
-  </div>
-
-  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-  　The final goal of this research project is to develop an exploration system for monitoring unknown palm tree orchard environments while avoid‑
-  ing collisions and figuring out appearances of trees. I developed the whole system including pointcloud data processing, path planning, and controller. A state‑of‑the‑art open‑sourced SLAM algorithm is utilized.</p>
- 
-  <div markdown="1">
-***Keywords***: UAV, UGV, Exploration, Obstacle avoidance, SLAM, Gazebo, Simulation
-  </div>
-
-  <p align="center">
-  <iframe width="448" height="252" src="https://www.youtube.com/embed/p7n7KhUU_5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="448" height="252" src="https://www.youtube.com/embed/R6GKBVuo3qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-  </p>
-
-</details>
-
----
-
-### ※ KHNP Virtual Robot Challenge 2021 (Maintainer)
-
-<details>
-  <summary> Click to fold/unfold </summary>
-
-  <div markdown="1">
-      
-  * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2021), [Link2](https://youtu.be/6oXx2bvzU9Y)*
-  * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2021)</span>*
-  * **I served as a maintainer for this project during: 2021.09 - 2021.12**
-
-  </div>
-
-  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-  　KHNP Virtual Robot Challenge aims to develop a autonomous navigation algorithm and a robust controller to complete diverse and challenging tasks including obstacle avoidance, manipulation for grasping a cube, climbing stairs, and enduring the disturbances. I made Gazebo maps for the competition and coded scoring GUI. Additionally, I coded sample controllers for the manipulator and the quadruped robot.</p>
- 
-  <div markdown="1">
-***Keywords***: Quadruped robots, Competition, Obstacle avoidance, Object Detection, Gazebo, Simulation
-  </div>
-
-  <p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6oXx2bvzU9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
-
-</details>
-    
----
-
+  
 ### ※ Unmanned Swarm CPS Research Lab
 
 <details>
@@ -179,8 +90,6 @@ title: Projects
   </p>
 
 </details>
-
----
 
 ### ※ Autonomous Drone Navigation for Power Line Inspection in Underground
 
@@ -209,8 +118,6 @@ title: Projects
     
 </details>
 
----
-
 ### ※ A Study on the Visual-Inertial Navigation System of Artificial Intelligent Unmanned Aerial Vehicle for Reconnaissance and Exploration
 
 <details>
@@ -238,8 +145,6 @@ title: Projects
 
 </details>
 
----
-
 ### ※ 2020 Korea Robot Aircraft Competition
 
 <details>
@@ -265,8 +170,6 @@ title: Projects
   </p>
 
 </details>
-
----
 
 ### ※ 2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)
 
@@ -305,8 +208,6 @@ title: Projects
   </p>
 </details>
 
----
-
 ### ※ 2018 R-BIZ Challenge Turtlebot3 Autorace
 
 <details>
@@ -338,8 +239,6 @@ title: Projects
 
 </details>
 
----
-
 ### ※ Research on Multi-Rate Sensor Fusion based Mobile Robot Model Predictive Control System
 
 <details>
@@ -368,6 +267,94 @@ title: Projects
           <img src="./assets/img/project/etri/overall.jpg" onContextMenu="return false;">
           <figcaption style="text-align:center;"> Overall system: Multi-rate Observer, Controller, and results </figcaption>
       </figure>
+  </p>
+
+</details>
+
+---
+
+## Technology Transfer
+
+---
+
+## Freelancing
+
+### ※ KHNP Virtual Robot Challenge 2022 (Maintainer)
+
+<details>
+  <summary> Click to fold/unfold </summary>
+
+  <div markdown="1">
+
+  * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2022), [Link2](https://youtu.be/usKW3UG9wpc)* 
+  * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2022)</span>*
+  * **I served as a maintainer for this project during: 2022.09 - 2022.12**
+
+  </div>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　KHNP Virtual Robot Challenge aims to develop a autonomous navigation algorithm and a robust controller to complete diverse and challenging tasks including obstacle avoidance, exploration, and enduring the wind disturbances. I made Gazebo maps for the competition and coded scoring GUI. Additionally, I coded sample controllers for the quadrotor UAV.
+  </p>
+ 
+  <div markdown="1">
+  ***Keywords***: Drone, Quadrotor UAV, Competition, Obstacle avoidance, Exploration, Robust Control, Gazebo, Simulation
+  </div>
+
+  <p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/usKW3UG9wpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+
+</details>
+
+### ※ Palm Tree Field Exploration and Tree Identification with UAV / UGV
+
+<details>
+  <summary> Click to fold/unfold </summary>
+
+  <div markdown="1">
+      
+  * *<span style="color:#ff5500">Conducted at [AKA-AI Robotics](https://akaintelligence.com/)</span>*
+  * **I participated in this project during: 2021.11 - 2022.05**
+
+  </div>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　The final goal of this research project is to develop an exploration system for monitoring unknown palm tree orchard environments while avoid‑
+  ing collisions and figuring out appearances of trees. I developed the whole system including pointcloud data processing, path planning, and controller. A state‑of‑the‑art open‑sourced SLAM algorithm is utilized.</p>
+ 
+  <div markdown="1">
+***Keywords***: UAV, UGV, Exploration, Obstacle avoidance, SLAM, Gazebo, Simulation
+  </div>
+
+  <p align="center">
+  <iframe width="448" height="252" src="https://www.youtube.com/embed/p7n7KhUU_5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="448" height="252" src="https://www.youtube.com/embed/R6GKBVuo3qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+  </p>
+
+</details>
+
+### ※ KHNP Virtual Robot Challenge 2021 (Maintainer)
+
+<details>
+  <summary> Click to fold/unfold </summary>
+
+  <div markdown="1">
+      
+  * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2021), [Link2](https://youtu.be/6oXx2bvzU9Y)*
+  * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2021)</span>*
+  * **I served as a maintainer for this project during: 2021.09 - 2021.12**
+
+  </div>
+
+  <p style="font-size:1rem;font-weight:400" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+  　KHNP Virtual Robot Challenge aims to develop a autonomous navigation algorithm and a robust controller to complete diverse and challenging tasks including obstacle avoidance, manipulation for grasping a cube, climbing stairs, and enduring the disturbances. I made Gazebo maps for the competition and coded scoring GUI. Additionally, I coded sample controllers for the manipulator and the quadruped robot.</p>
+ 
+  <div markdown="1">
+***Keywords***: Quadruped robots, Competition, Obstacle avoidance, Object Detection, Gazebo, Simulation
+  </div>
+
+  <p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6oXx2bvzU9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
 
 </details>
