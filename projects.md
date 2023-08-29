@@ -362,7 +362,7 @@ title: Projects
 
 ## Freelancing
 
-#### ※ KHNP Virtual Robot Challenge 2022 (Maintainer)
+#### ※ KHNP Virtual Robot Challenge 2022
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -371,7 +371,7 @@ title: Projects
 
   * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2022), [Link2](https://youtu.be/usKW3UG9wpc)* 
   * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2022)</span>*
-  * **I served as a maintainer for this project during: 2022.09 - 2022.12**
+  * **I served as a developer and a maintainer for this project during: 2022.09 - 2022.12**
 
   </div>
 
@@ -420,7 +420,7 @@ title: Projects
 
 <br>
 
-#### ※ KHNP Virtual Robot Challenge 2021 (Maintainer)
+#### ※ KHNP Virtual Robot Challenge 2021
 
 <details>
   <summary> Click to fold/unfold </summary>
@@ -429,7 +429,7 @@ title: Projects
       
   * *<span style="color:#ff5500">Hosted by [Korea Hydro & Nuclear Power](https://www.khnp.co.kr/)</span> - [Link](https://github.com/Woojin-Seol/KVRC2021), [Link2](https://youtu.be/6oXx2bvzU9Y)*
   * *<span style="color:Fuchsia">Source code of this competition is available at [Github](https://github.com/Woojin-Seol/KVRC2021)</span>*
-  * **I served as a maintainer for this project during: 2021.09 - 2021.12**
+  * **I served as a developer and a maintainer for this project during: 2021.09 - 2021.12**
 
   </div>
 
