@@ -62,7 +62,7 @@ in *Proc. International Conference on Robot Intelligence Technology and Applicat
 
 ## Applied Patents
 
-1. Hyung Myung, **Eungchang Lee**, Seungwon Song, Nahrendra I Made Aswin, Junho Choi, Duckyu Choi, and Seunghyun Lee, "Autonomous flying drones for unmanned exploration and reconnaissance and an autonomous flight framework including localization, object detection, path planning and unknown environments exploration (무인 탐사 및 정찰을 위한 자율 비행 드론과 위치 추정, 물체 인식, 경로 생성 및 미지 영역 탐사를 포함한 자율 비행 프레임워크)," Application Number: 10-2023-0099161, Korea, 2023.07.28.
+1. Hyung Myung, **Eungchang Lee**, Seungwon Song, Nahrendra I Made Aswin, Junho Choi, Duckyu Choi, and Seunghyun Lee, "Drone Unit for Unmanned Exploration and Reconnaissance, Autonomous Flight System and The Method Thereof (무인 탐사 및 정찰을 위한 드론 유닛과, 드론 유닛의 자율 비행 시스템 및 그 방법)," Application Number: 10-2023-0099161, Korea, 2023.07.28.
 1. Hyun Myung, Minho Oh, Wonho Song, Hyungtae Lim, **Eungchang Lee**, Euigon Jung, Sumin Hu, Jung-Hee Park, Chae Hyun Lee, and Jae Kyung Kim, "Method and Apparatus for Recognizing a Moving Environment Based on Sensor Data (센서 데이터 기반의 이동 환경 인식 방법 및 그를 위한 장치)," Application Number: 10-2023-0075575, Korea, 2023.06.13.
 1. Hyun Myung, Nahrendra I Made Aswin, Byeongho Yu, Tirtawardhana Christian, and **Eungchang Lee**, "METHOD AND APPARATUS FOR CONTROL OF DRONE PERFORMING NOMINAL CONTROL REINFORCEMENT BASED ON DEEP REINFORCEMENT LEARNING (심층 강화학습 기반의 공칭 제어 보강을 수행하는 드론 제어 방법 및 그 장치)," Application Number: 10-2023-0054096, Korea, 2023.04.25.
 1. Hyun Myung, Sungjae Shin, Kwangyik Jung, **Eungchang Lee**, and Junho Choi, "Tightly Coupled UWB-Visual-Inertial Odometry for Robust Localization (이동 로봇 및 이의 위치 추정 방법)," Application Number: 10-2021-0154973, Korea, 2021.11.11.
