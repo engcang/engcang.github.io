@@ -10,6 +10,7 @@ title: Publications
 ## International Journal Papers
 #### <span style="color:#3399ff"><sup>†</sup>: Co-first authors</span>
 
+1. Hyungtae Lim, Beomsoo Kim, Daebeom Kim, **Eungchang Mason Lee**, and Hyung Myung, "Quatro++: Robust global registration exploiting ground segmentation for loop closing in LiDAR SLAM," *International Journal of Robotics Research (IJRR)*, 2023. [Website](https://quatro-plusplus.github.io/)
 1. I Made Aswin Nahrendra, Christian Tirtawardhana, Byeongho Yu, **Eungchang Mason Lee**, and Hyun Myung, "Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones," *IEEE Robotics and Automation Letters* ***(RA-L) with IROS***, 2022. [Video](https://youtu.be/9gErD9CPq4s)
 1. Minho Oh, Euigon Jung, Hyungtae Lim, Wonho Song, Sumin Hu, **Eungchang Mason Lee**, Junghee Park, Jaekyung Kim, Jangwoo Lee, and Hyun Myung, "TRAVEL: Traversable Ground and Above-Ground Object Segmentation Using Graph Representation of 3D LiDAR Scans," *IEEE Robotics and Automation Letters* ***(RA-L) with IROS***, 2022. <span style="color:#3399ff"> ***[2022 RA-L Best Paper Awarded](https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=29390)***</span>, [Video](https://youtu.be/B3CWXAsPwzU)
 1. Yeeun Kim, Byeongho Yu, **Eungchang Mason Lee**, Jun-ha Kim, Hae-won Park, and Hyun Myung, "STEP: State estimator for legged robots using a preintegrated foot velocity factor," *IEEE Robotics and Automation Letters* ***(RA-L) with ICRA***, 2022. [Video](https://youtu.be/NvkI6I0nX4c)
