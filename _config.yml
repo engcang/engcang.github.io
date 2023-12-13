@@ -4,6 +4,7 @@ email: eungchang_mason@kaist.ac.kr
 favicon: true
 description: "Ph.D. student in KAIST, South Korea (a.k.a 용산동쌍가락지)"
 show_downloads: false
+future: true
 color-scheme: dark
 plugins:
   - jekyll-sitemap

@@ -4,6 +4,7 @@ title: "GTSAM 튜토리얼"
 subtitle: "Pose Graph Optimization (PGO) for SLAM"
 date: 2023-07-15
 comments: true
+published: true
 ---
 
 ### 주저리주저리
