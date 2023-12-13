@@ -20,6 +20,7 @@ published: true
 #### 1. 프로그램 등록
 + `rc-local` service는 ***부팅이 끝나고 나서 자동으로 root 권한으로 시작하는 프로그램***들을 담고 있는데, Ubuntu 18.04부터 비활성화 되어있어서 활성화가 필요하다.
 + 일단 `rc.local` 파일이 존재 하지도 않는 경우가 많으니 만들어야한다. `gedit` 등으로 `/etc/rc.local` 파일을 열어서 다음과 같이 입력하고 저장한다.
+
 ```sh
 #!/bin/bash
 
@@ -39,6 +40,7 @@ exit 0
 
 + 이제 `#!/bin/bash`와 `exit 0` 사이에 원하는 명령어를 적으면 된다.
 + 내 Jetson Orin NX의 `/etc/rc.local` 파일은 다음과 같이 생겼다.
+
 ```sh
 #!/bin/bash
 
@@ -47,6 +49,7 @@ exit 0
 
 exit 0
 ```
+
 + `sudo /usr/bin/jetson_clocks --fan` 명령어는 FAN의 PWM을 최대로 설정하지만, 재부팅하면 날아간다. 부팅할 때마다 이제 자동으로 FAN이 최대 속도로 돌아갈 것이다.
 + `rc.local`에 실행 권한을 부여한다.
 ```bash
@@ -55,6 +58,7 @@ sudo chmod +x /etc/rc.local
 
 #### 2. 설정 및 활성화
 + 먼저, 모든 `user`에 동일하게 프로그램들을 실행하기 위해 다음 `Install` 태그의 내용을 `/lib/systemd/system/rc-local.service`에 추가로 입력해준다.
+
 ```ini
 #  SPDX-License-Identifier: LGPL-2.1+
 #
@@ -83,7 +87,9 @@ GuessMainPID=no
 [Install]
 WantedBy=multi-user.target
 ```
+
 + 그리고 활성화 진행!
+
 ```bash
 sudo systemctl enable rc-local.service
 sudo systemctl start rc-local.service
@@ -95,11 +101,13 @@ sudo systemctl status rc-local.service
 sudo systemctl stop rc-local.service
 sudo systemctl disable rc-local.service
 ```
+
 + 이제, 재부팅하면 FAN이 자동으로 최대 속도로 돌아간다.
 
 #### 3. 응용
 + `rc.local`에 명령어를 저렇게 직접 적어주어도 되고, 또 다른 실행 프로그램들을 등록할수도 있다. 이를 테면 ROS node들이라든지...
 + ROS 프로그램을 실행하는 script를 하나 만들고 실행가능 하도록 권한을 부여한다.
+
 ```sh
 #!/bin/bash
 
@@ -113,10 +121,13 @@ roscore & roslaunch --wait test_package test.launch
 
 exit 0
 ```
+
 ```bash
 sudo chmod +x /home/mason/test.sh
 ```
+
 + 마찬가지로 `/etc/rc.local`에 추가해준다
+
 ```sh
 #!/bin/bash
 
