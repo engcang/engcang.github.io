@@ -21,6 +21,7 @@ title: Publications
 ## International Conference
 #### <span style="color:#3399ff"><sup>†</sup>: Co-first authors</span>
 
+1. Sungjae Shin, Yeeun Kim, Byeongho Yu, Dong-Uk Seo, **Eungchang Mason Lee**, and Hyun Myung, "PanoNetVLAD: Visual Loop Closure Detection in Continuous Space Represented with Panoramic View Using Multiple Cameras," in *Proc. IEEE International Conference on Control, Automation and Systems (ICCAS)*, 2023.
 1. Dong-Uk Seo, Hyungtae Lim, **Eungchang Mason Lee**, Hyunjun Lim, and Hyun Myung, "Enhancing Robustness of Line Tracking Through Semi-Dense Epipolar Search in Line-based SLAM," in *Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems* ***(IROS)***, 2023.
 1. **Eungchang Mason Lee**, Donghyeon Youn, and Hyun Myung, "THE-Planner: Topological and Hierarchical Exploration Path Planner for Fast 3D Mapping of Outdoor Structures with UAVs," in *Proc. IEEE International Conference on Ubiquitous Robots (UR)*, 2023.
 1. Junho Choi, Myeongwoo Jeong, **Eungchang Mason Lee**, Duckyu Choi, and Hyun Myung, "NLOS-Avoiding and Obstacle-Adaptive Formation Control by Sharing Obstacle Information of a Leader UAV in Multi-UAV System," in *Proc. IEEE International Conference on Ubiquitous Robots (UR)*, 2023.
