@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jetson Orin NX FAN max PWM 설정 with 부팅"
+title: "Jetson Orin NX FAN max PWM 설정 with 부팅 - Ubuntu 시작 프로그램"
 subtitle: "Ubuntu startup program on boot"
 date: 2023-12-14
 comments: true
