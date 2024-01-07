@@ -75,6 +75,14 @@ ul.link:last-child {
   margin-bottom: 6px;
 }
 
+ul.post_section {
+  max-width: 90%; /* 뷰포트 높이의 45%를 최대 높이로 설정 */
+  overflow-x: auto; /* 내용이 넘칠 경우 수직 스크롤바 표시 */
+  max-height: 40vh; /* 뷰포트 높이의 45%를 최대 높이로 설정 */
+  overflow-y: auto; /* 내용이 넘칠 경우 수직 스크롤바 표시 */
+  padding: 20 40px; /* 내부 여백 추가 */
+}
+
 .wrapper {
   width:1060px;
   margin: 0 auto;
@@ -243,9 +251,9 @@ footer {
     width:auto;
   }
 
-  header {
-    padding-right:320px;
-  }
+  // header {
+  //   padding-right:320px;
+  // }
 
   section {
     border:1px solid var(--clr-splitter-blockquote-and-section);
