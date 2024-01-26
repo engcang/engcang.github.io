@@ -354,8 +354,8 @@ title: Projects
 
 ## Technology Transfer
 
-+ **Eunchang Lee**, Hyungtae Lim, and Hyun Myung, "Adaptive and robust 3D SLAM method that adjusts parameters depending on the environments, and Application of SLAM method for unmanned aerial vehicle flight in GNSS-denied environments (환경에 적응적으로 해상도를 조절하는 강인한 3차원 SLAM 기술과 위성항법장치 음영상황에서 무인비행체의 비행을 위한 SLAM 기술의 적용)," 2023.05.01.
 + **Eunchang Lee**, Junho Choi, Duckyu Choi, Nahrendra I Made Aswin, Hyungtae Lim, Seunghyun Lee, Seungwon Song, and Hyun Myung, "SLAM-based autonomous flying patrol drone system and remote control interface (SLAM 기반 자율 비행 순찰 드론 시스템 및 원격 제어 인터페이스)," 2023.11.14.
++ **Eunchang Lee**, Hyungtae Lim, and Hyun Myung, "Adaptive and robust 3D SLAM method that adjusts parameters depending on the environments, and Application of SLAM method for unmanned aerial vehicle flight in GNSS-denied environments (환경에 적응적으로 해상도를 조절하는 강인한 3차원 SLAM 기술과 위성항법장치 음영상황에서 무인비행체의 비행을 위한 SLAM 기술의 적용)," 2023.05.01.
 
 ---
 

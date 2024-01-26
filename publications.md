@@ -73,4 +73,5 @@ in *Proc. International Conference on Robot Intelligence Technology and Applicat
 
 ## Registered SW
 
+1. **Eungchang Lee** and Hyung Myung, "RGB-colorized 3D mapping program with LiDAR and camera (라이다와 카메라를 이용한 색 정보 포함 3차원 지도 작성 프로그램)," Registration Number: C-2023-054561, Korea, 2023.10.07.
 1. Sungjae Shin, Sungwon Hwang, **Eungchang Lee**, Junho Choi, Kwangyik Jung, and Hyung Myung, "Multi-robot relative pose estimation algorithm using polar histogram matching (폴라 히스토그램 매칭을 이용한 다중 로봇 상대 자세 추정 알고리즘)," Registration Number: C-2021-043064, Korea, 2021.05.19.
