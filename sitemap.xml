@@ -3,6 +3,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://engcang.github.io/2024/03/05/jetson_opencv_jetpack_ubuntu.html</loc>
+    </url>
+    <url>
         <loc>https://engcang.github.io/2024/01/06/nvidia_jetson_ttyTHS_permission.html</loc>
     </url>
     <url>
