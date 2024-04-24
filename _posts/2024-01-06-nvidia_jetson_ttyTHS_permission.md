@@ -23,7 +23,7 @@ published: true
 sudo gedit /etc/udev/rules.d/99-ttyths.rules
 
 # 아래 내용 입력 후 저장
-KERNEL=="ttyTHS*", MODE="0666"
+ACTION="add", KERNEL=="ttyTHS*", MODE="0666"
 ```
 
 + 여기서 숫자 99는 priority이므로 맘에드는 대로 설정하면 된다. 굳이 낮게 만들필요 없다. 0666은 read write 권한이다.
