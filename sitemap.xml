@@ -3,6 +3,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://engcang.github.io/2024/05/11/ardupilot_guided_without_gps.html</loc>
+    </url>
+    <url>
+        <loc>https://engcang.github.io/2024/05/10/ardupilot_sitl_gazebo.html</loc>
+    </url>
+    <url>
         <loc>https://engcang.github.io/2024/03/05/jetson_opencv_jetpack_ubuntu.html</loc>
     </url>
     <url>

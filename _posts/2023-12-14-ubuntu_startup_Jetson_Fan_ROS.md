@@ -138,4 +138,5 @@ sudo chmod +x /home/mason/test.sh
 exit 0
 ```
 
-##### [참고 및 출처] - https://passwd.tistory.com/212
+#### 참고 및 출처
++ [https://passwd.tistory.com/212](https://passwd.tistory.com/212)

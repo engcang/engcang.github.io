@@ -37,4 +37,5 @@ sudo systemctl disable nvgetty.service
 
 + 이후 재부팅하면 `ttyTHS` 포트는 권한 문제 없이 읽고 쓸 수 있다.
 
-끝
+
+<h1 align="center">끝</h1>
