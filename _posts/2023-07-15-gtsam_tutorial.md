@@ -236,7 +236,9 @@ if (if_loop_closed) //심지어 loop-closing 되면
 
 <br>
 
-## 결론
+## 결론 및 추가 정보
 + GTSAM은 사용이 쉽다. 대신 자유도가 낮다. Ceres 같은 nonlinear optimization solver는 사용이 어려운 대신 자유도가 높아서 별의 별 값들을 변수로 설정 가능하고, 무슨 옵션이 있고 뭐 등등...
 + 난 모르겠고 걍 PGO만 해서 SLAM만 하면된다? GTSAM을 쓰자.
 + 이 글을 볼 일도 없고 봤더라도 이런 수준 낮은 글이? 할 정도로 SLAM에 익숙한 분들은 필요에 맞게 Ceres를 잘 쓰고 계실 것으로 예상 합니다...
++ 24년 5월 27일 추가 정보 - 최근에 우리 연구실 선배인 [임형태 박사](https://limhyungtae.github.io/aboutme/)가 알려 준건데, GTSAM (iSAM2) 내부에서 Bayes tree를 기반으로 어느 부분만 update해야하는지 스스로 다루는데, 이 부분이 Ceres solver와 GTSAM의 큰 차이점 중 하나인 것 같다고 한다.
+  + 자세한 내용은 [여기](https://dellaert.github.io/21S-8803MM/Readings/Dellaert17fnt.pdf)의 81~82 페이지 참고. 긁적긁적 SLAM 어렵당.
