@@ -22,7 +22,7 @@ title: Projects
 
   * *<span style="color:#ff5500">Supported by [KEPCO](https://home.kepco.co.kr/kepco/EN/main.do) and [KEPRI](https://www.kepri.re.kr:20808/index)</span>*
   * ***This project was counducted at <span style="color:#3399ff">Urban Robotics Lab in KAIST: </span> [Link](http://urobot.kaist.ac.kr/)***
-  * **I participated in this project during: 2023.01 - 2024.06**
+  * **I participated in this project during: 2023.01 - 2024.07**
 
   </div>
 
@@ -35,8 +35,8 @@ title: Projects
   </div>
 
   <p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DF6TPC4h6tE?si=FZ3salLuELE-DYwS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ft0okSqnyts?si=AdfSr4t_711_jbVL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bDYPQWnNAbQ?si=uVPCeJKK-MROrxPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </p>
 
 </details>
