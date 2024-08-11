@@ -4,6 +4,3 @@ title: Posts
 ---
 
 # Posts
-
----
-

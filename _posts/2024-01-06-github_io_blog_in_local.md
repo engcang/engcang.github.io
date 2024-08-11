@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-### 주저리주저리
+### 서론:
 + 처음 Github io blog를 만들고 5년 정도 지난 것 같다. 중간에 한번 지워버려서 포스팅은 많이 날아갔지만,, 
 + 뭐 조금 바꿀때마다 commit하고 page deployment를 한참 기다리고, 그리고 다시 commit하고... 너무 시간 소모가 많았다.
 + 진작에 로컬 환경에서 ruby랑 gem을 이용해서 jekyll을 빌드해서 확인할 수 있다는 걸 알고 있긴 했는데,,,
@@ -162,6 +162,3 @@ sudo apt remove ruby-kramdown
 ```bash
 bundler exec jekyll serve
 ```
-
-
-<h1 align="center">끝</h1>

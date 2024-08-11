@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Ubuntu 시작 프로그램 - network (WiFi 등) 연결 후 프로그램 시작 (ROS로 로봇 자동 시작)"
+title: "Ubuntu 시작 프로그램2 - network 연결 후 프로그램 시작 (ROS로 로봇 자동 시작)"
 subtitle: "라우터에 연결 된 후 ROS 프로그램 시작을 위해..."
 date: 2024-01-06
 comments: true
 published: true
 ---
 
-### 주저리주저리
-+ [이전 포스팅]({{site.url}}/2023/12/14/ubuntu_startup_Jetson_Fan_ROS.html)에서 이미 `rc.local` 파일을 이용해서 `rc-local` 서비스, 즉 Ubuntu 부팅이 끝난 후 자동으로 root 권한으로 프로그램을 시작하는 서비스를 사용했었다.
+### 서론:
++ [이전 포스팅]({{site.url}}/ubuntu_startup_Jetson_Fan_ROS.html)에서 이미 `rc.local` 파일을 이용해서 `rc-local` 서비스, 즉 Ubuntu 부팅이 끝난 후 자동으로 root 권한으로 프로그램을 시작하는 서비스를 사용했었다.
 + 해당 서비스를 사용하면 ROS 노드나 launch파일을 실행할 수 있는데, 문제는 ROS를 `localhost`에서 사용할 때만 잘 동작한다.
 + 다른 remote PC에서 같은 ROS master에 접속 및 데이터를 확인하려고 `ROS_MASTER_URI`와 `ROS_HOSTNAME`을 이용해봤지만, 아예 launch파일이 실행 되지 않았다.
 + Network연결이 안되니까 ROS master 실행을 포기해버린 것. 그래서 **원하는 network 연결 후에 프로그램을 시작하도록 설정**하고자 한다.

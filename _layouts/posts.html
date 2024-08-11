@@ -27,16 +27,14 @@
       <div class="sidebar">
         <header>
           {% if site.logo %}
-            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
+            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo" style="display: block; margin-left: auto; margin-right: auto;">
           {% endif %}
 
-          <p align="center">
-            <h1 align="center"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          </p>
+          <h1 align="center" style="margin-bottom: 0.4em; margin-top:0.4em;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-          <p align="center">{{ site.description | default: site.github.project_tagline }}</p>
+          <p align="center" style="margin-bottom: 0.2em; margin-top:0.2em;">{{ site.description | default: site.github.project_tagline }}</p>
 
-          <p align="center" class="addr" style="font-size:0.9em;"><i class="fa-regular fa-envelope"></i>&nbsp;<a href="mailto:{{site.email}}">{{site.email_icon}}&nbsp;{{ site.email}}</a></p>
+          <p align="center" class="addr" style="font-size:0.9em; margin-top:0.2em; margin-bottom:0.9em;"><i class="fa-regular fa-envelope"></i>&nbsp;<a href="mailto:{{site.email}}">{{site.email_icon}}&nbsp;{{ site.email}}</a></p>
           {% include sidebar.html %}
         </header>
 
@@ -47,20 +45,51 @@
       <!-- main body -->
       <section>
         {{ content }}
+        <input type="text" id="searchInput" placeholder="Search for / Filter out posts..." style="display: block; width: 90%; padding: 10px; margin: 0 auto 20px auto;">
         <h3>General posts</h3>
-        <ul class="post_section">
+        <ul class="post_section" id="generalPosts"> <!-- ID 추가 -->
           {%- for post in site.posts %}
             {% if post.layout == "post" %}
-              <li><a href="{{ post.url }}" style="font-size: 1.0rem; color: #a7ff9c">{{ post.title }}</a>, {{ post.date| date: "%Y-%m-%d" }}</li>
+              <li class="post-item">
+                <div class="post-box">
+                  <div class="post-title-date">
+                    <span class="post-title">
+                      <a href="{{post.url}}">{{ post.title }}</a>
+                    </span>
+                    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                  </div>
+                  <p class="post-excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 25 }} <!-- 포스트 내용의 일부를 표시 -->
+                  </p>
+                  <div class="post-content" style="display: none;">
+                    {{ post.content | strip_html }} <!-- 포스트 전체 내용을 숨긴 채 포함 -->
+                  </div>
+                </div>
+              </li>
             {% endif %}
           {%- endfor %}
-        </ul>
+        </ul>        
         <br>
         <h3>Paper reviews</h3>
-        <ul class="post_section">
-          {%- for paper in site.posts %}
-            {% if paper.layout == "paper" %}
-              <li><a href="{{ paper.url }}" style="font-size: 1.0rem; color: #a7ff9c">{{ paper.title }}</a>, {{ paper.date| date: "%Y-%m-%d" }}</li>
+        <ul class="post_section" id="paperReviews"> <!-- ID 추가 -->
+          {%- for post in site.posts %}
+            {% if post.layout == "paper" %}
+              <li class="post-item">
+                <div class="post-box">
+                  <div class="post-title-date">
+                    <span class="post-title">
+                      <a href="{{post.url}}">{{ post.title }}</a>
+                    </span>
+                    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                  </div>
+                  <p class="post-excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 25 }} <!-- 포스트 내용의 일부를 표시 -->
+                  </p>
+                  <div class="post-content" style="display: none;">
+                    {{ post.content | strip_html }} <!-- 포스트 전체 내용을 숨긴 채 포함 -->
+                  </div>
+                </div>
+              </li>
             {% endif %}
           {%- endfor %}
         </ul>
@@ -68,5 +97,29 @@
     </div>
   
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      document.getElementById('searchInput').addEventListener('keyup', function() {
+        var query = this.value.toLowerCase();
+        var generalPosts = document.getElementById('generalPosts').getElementsByTagName('li');
+        var paperReviews = document.getElementById('paperReviews').getElementsByTagName('li');
+    
+        filterPosts(generalPosts, query);
+        filterPosts(paperReviews, query);
+      });
+    
+      function filterPosts(posts, query) {
+        for (var i = 0; i < posts.length; i++) {
+          var title = posts[i].getElementsByClassName('post-title')[0].innerText.toLowerCase();
+          var excerpt = posts[i].getElementsByClassName('post-excerpt')[0].innerText.toLowerCase();
+          var content = posts[i].getElementsByClassName('post-content')[0].innerText.toLowerCase(); // 본문 내용
+    
+          if (title.includes(query) || excerpt.includes(query) || content.includes(query)) {
+            posts[i].style.display = 'block'; // 검색 결과와 일치하면 보이기
+          } else {
+            posts[i].style.display = 'none'; // 검색 결과와 일치하지 않으면 숨기기
+          }
+        }
+      }
+    </script>    
   </body>
 </html>

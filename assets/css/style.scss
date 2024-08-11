@@ -4,6 +4,8 @@
 @import "jekyll-theme-minimalist";
 
 .img-circle {
+    width: 200px;
+    height: 200px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 50%; 
@@ -75,8 +77,8 @@
   z-index: 1000; /* 다른 요소 위에 표시 */
   width: auto; /* 팝업 너비를 내용에 따라 결정 */
   height: auto;
-  max-width: 50% !important;
-  max-height: 25% !important;
+  max-width: 55% !important;
+  max-height: 30% !important;
   box-shadow: 3px 3px 3px rgba(63, 61, 61, 0.5); /* 그림자 효과 추가 */
   font-size: 0.9rem; /* 폰트 크기 설정 */
   overflow: auto; /* 내용이 넘칠 경우 숨김 */

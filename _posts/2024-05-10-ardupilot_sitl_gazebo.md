@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-### 주저리주저리
+### 서론:
 + 드론 비행할때 항상 `픽스호크`를 사용하고 있고, `PX4` 펌웨어를 항상 사용해왔는데, 좀 무거운 감이 있고 항상 알수 없는 문제들이 발생할 때가 많아서 조금 더 역사가 오래된 `Ardupilot` 펌웨어로 갈아타기로 했다.
 + `PX4의` 좋은 점은 `PX4-SITL`이 잘되어 있어서 현실과 거의 동일하게 시뮬레이션을 해볼 수 있다는 것인데, `Ardupilot`도 잘 알아보니 SITL이 있고, `Gazebo`에도 연동할 수 있다.
 
@@ -15,7 +15,7 @@ published: true
 
 ### 그래서 해당 포스트에서는
 + `Ardupilot` 및 `Ardupilot-SITL`을 설치하고, `Gazebo`에 연동하는 것까지 설명하고자 한다.
-+ [다음 포스트]({{site.url}}/2024/05/11/ardupilot_guided_without_gps.html)에서는 GPS/GNSS 없이 SLAM으로 비행하도록 파라미터 설정하는 것과 takeoff, land를 포함해서 아주 간단한 비행 예제 코드를 설명하고자 한다.
++ [다음 포스트]({{site.url}}/ardupilot_guided_without_gps.html)에서는 GPS/GNSS 없이 SLAM으로 비행하도록 파라미터 설정하는 것과 takeoff, land를 포함해서 아주 간단한 비행 예제 코드를 설명하고자 한다.
 
 <br>
 
@@ -151,5 +151,3 @@ published: true
 + [https://github.com/yanhwee/ardupilot-gazebo-ros-guide](https://github.com/yanhwee/ardupilot-gazebo-ros-guide)
 + [https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html](https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html)
 + [https://ardupilot.org/dev/docs/ros-sitl.html](https://ardupilot.org/dev/docs/ros-sitl.html)
-
-<h1 align="center">끝</h1>

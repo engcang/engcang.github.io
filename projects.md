@@ -9,8 +9,6 @@ title: Projects
 
 ---
 
----
-
 ## Laboratory Projects
 
 #### ※ Development of Drone System for Diagnosis of Porcelain Insulators in Overhead Transmission Lines

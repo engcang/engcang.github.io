@@ -7,10 +7,10 @@ comments: true
 published: true
 ---
 
-### 주저리주저리
+### 서론:
 + 드론 비행할때 항상 `픽스호크`를 사용하고 있고, `PX4` 펌웨어를 항상 사용해왔는데, 좀 무거운 감이 있고 항상 알수 없는 문제들이 발생할 때가 많아서 조금 더 역사가 오래된 `Ardupilot` 펌웨어로 갈아타기로 했다.
 + `Ardupilot`에서도 드론 온보드 PC에서 바로 `픽스호크`로 명령을 줄 수 있고, `MAVROS`를 사용해서 `GPS` 없이 자율 비행 하도록 구현이 가능한데, 조금 헤맸어서 필요한 기초만 정리해두려고 한다.
-+ [이전 포스트]({{site.url}}/2024/05/10/ardupilot_sitl_gazebo.html)에서는 쉬운 개발 환경을 위해 `Ardupilot`용 `SITL`과 `Gazebo`, `ROS`를 연동하는 법에 대해서 다뤘다.
++ [이전 포스트]({{site.url}}/ardupilot_sitl_gazebo.html)에서는 쉬운 개발 환경을 위해 `Ardupilot`용 `SITL`과 `Gazebo`, `ROS`를 연동하는 법에 대해서 다뤘다.
 
 <br>
 
@@ -162,7 +162,3 @@ published: true
 - [https://discuss.ardupilot.org/t/integration-of-ardupilot-and-vio-tracking-camera-part-2-complete-installation-and-indoor-non-gps-flights/43405](https://discuss.ardupilot.org/t/integration-of-ardupilot-and-vio-tracking-camera-part-2-complete-installation-and-indoor-non-gps-flights/43405)
 - [https://ardupilot.org/copter/docs/parameters.html](https://ardupilot.org/copter/docs/parameters.html)
 - [https://mavlink.io/en/messages/common.html#messages](https://mavlink.io/en/messages/common.html#messages)
-
-<br>
-
-<h1 align="center">끝</h1>

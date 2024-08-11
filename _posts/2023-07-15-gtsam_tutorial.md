@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-### 주저리주저리
+### 서론:
 + SLAM을 항상 접할 수 밖에 없는 환경에 있다. 연구실이 워낙 SLAM을 잘하기도 하고, 내가 아무리 exploration이나 high level path planning 알고리즘을 작성해서 드론에 실험하려고 해도, 결국 드론은 SLAM이 없으면 비행이 불가능하기에...
 + 드론은 무게가 중요하니까 처음엔 VO, VIO를 사용했었다. 너무 쉽게 발산해서... 대회때라든지 쓴맛을 많이 봐서 자연스럽게 LiDAR SLAM으로 넘어오게 되었다. 요새는 SLAM까지 안가더라도 LIO만 써도 너무 정확하게 pose가 추정이 된다.
 + 그럼에도, loop-closing으로 정밀한 map을 만들어서 저장할 필요가 가끔 있다. Visualization 용도로 예쁜 3D map을 만들때나, 동일한 환경에서 로봇이 반복 작업을 수행할때는 SLAM을 반복해서 쓸 필요 없이 scan-to-map matching기반 localization만 사용해도 되기때문.

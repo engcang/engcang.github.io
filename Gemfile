@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
+# gem 'google-protobuf', '< 3.25.4' #note: when error
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 gem "jemoji"

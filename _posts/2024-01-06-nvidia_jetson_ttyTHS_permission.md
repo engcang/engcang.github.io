@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-### 주저리주저리
+### 서론:
 + 드론 자율비행할 때 pixhawk를 컴퓨터와 연결해서 `mavros`로 이리저리 제어한다.
 + USB로 꽂아쓰면 `ttyACM`으로 잡히는데, 이게 연결이 됐다 안됐다 하는 아주 개같은 놈이다.
 + 어차피 러닝 기반 알고리즘때문이나, 내구성, 전력 소모 등 전체적인 이유로 Jetson 보드를 쓰는데, GPIO 핀이 많이 있어서 아주 좋다.
@@ -36,6 +36,3 @@ sudo systemctl disable nvgetty.service
 ```
 
 + 이후 재부팅하면 `ttyTHS` 포트는 권한 문제 없이 읽고 쓸 수 있다.
-
-
-<h1 align="center">끝</h1>

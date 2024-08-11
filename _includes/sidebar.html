@@ -8,23 +8,31 @@
       ul.link a:hover, a:focus {
         color: var(--clr-a-text-hvr);
       }
+      p.navigator a {
+        color:var(--clr-h1-and-bold);
+        text-decoration:none;
+      }
+
+      p.navigator a:hover, a:focus {
+        color: var(--clr-a-text-hvr);
+      }
     </style>
     <ul class="link">
       {%- for platform in site.sidebar %}
-      <!-- <li><a href="{{ platform.link }}"><i class="{{ platform.icon }}"></i> {{ platform.name }}</a></li> -->
-       <li><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
+       <li style="margin-bottom: -0.45em;"><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
       {%- endfor %}
     </ul>
 
-    <br>
-    <p style="text-align: center;" align="center">
-      <h3 align="center">Navigator</h3>
-      <a href="{{site.url}}"><img src={{site.home_icon}} style="vertical-align:-0.25em;width:1.2em"/>&nbsp;Home</a><br>
+    <p class="navigator" style="text-align: left;margin-top: 1.0em;margin-bottom: 0.5em;" align="left">
+      <a href="{{site.url}}"><img src={{site.home_icon}} style="vertical-align:-0.25em;width:1.2em"/>&nbsp;Blog Home</a><br>
       <a href="{{site.url}}/publications"><img src={{site.pub_icon}} style="vertical-align:-0.25em;width:1.2em"/>&nbsp;Publications</a><br>
       <a href="{{site.url}}/projects"><img src={{site.proj_icon}} style="vertical-align:-0.25em;width:1.2em"/>&nbsp;Projects</a><br>
       <a href="{{site.url}}/posts"><img src={{site.post_icon}} style="vertical-align:-0.25em;width:1.2em"/>&nbsp;Posts</a>
     </p>
-    <p style="text-align: center;" align="center">
-      <a href="https://engcang.github.io/AllowanceRobotics-Gazeboyz" style="text-align: center;" align="center"><h3 style="text-align: center;" align="center">★Business and Freelancing★ (Click to move)</h3></a>
+    <p style="text-align: center; margin-top: -0.5em;" align="center">
+      <a href="https://engcang.github.io/AllowanceRobotics-Gazeboyz" style="text-align: center;" align="center">
+        <h3 style="text-align: center;" align="center">★Business and Freelancing★<br>(Click to move)
+        </h3>
+      </a>
     </p>
 </div>

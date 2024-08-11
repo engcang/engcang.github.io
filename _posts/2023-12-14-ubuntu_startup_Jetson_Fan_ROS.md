@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Jetson Orin NX FAN max PWM 설정 with 부팅 - Ubuntu 시작 프로그램"
+title: "Ubuntu 시작 프로그램1 - Jetson Orin NX FAN max PWM 설정 with 부팅"
 subtitle: "Ubuntu startup program on boot"
 date: 2023-12-14
 comments: true
 published: true
 ---
 
-### 주저리주저리
+### 서론:
 + Jetson Orin NX를 쓰는데, 보통 드론에 달아서 쓰다보니 프로펠러가 식혀줘서 열이 문제가 되는지 몰랐다. 
 + 근데 Xavier NX랑은 다르게 FAN이 생각보다 엄청 천천히 돌아간다... 자동으로 킬때마다 항상 최대 PWM으로 FAN을 동작하고 싶었다.
 + 꼭 이 용도가 아니더라도 다른 프로그램을 Ubuntu 시작 시에 자동으로 실행할 수 있다. ***심지어 sudo 권한***이다.
@@ -140,3 +140,4 @@ exit 0
 
 #### 참고 및 출처
 + [https://passwd.tistory.com/212](https://passwd.tistory.com/212)
+

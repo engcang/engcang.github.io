@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Jetson 보드 (Orin NX) Jetpack 기본 OpenCV 죽이고 ROS, Ubuntu에서 사용하는 standard version OpenCV 설치"
+title: "(Jetson Orin NX) Jetpack 기본 OpenCV 죽이고 ROS, Ubuntu에서 사용하는 standard version OpenCV 설치"
 subtitle: "NVIDIA 왜 standard version으로 JetPack 구성 안했어... 부들부들..."
 date: 2024-03-05
 comments: true
 published: true
 ---
 
-### 주저리주저리
+### 서론:
 + 드론에 주로 `Jetson Orin NX`를 사용하는데, `OpenCV`를 사용할 일이 생겼다. `Jetpack`에서 기본으로 넣어주는 `OpenCV` 버전과 `Ubuntu` 20.04 (`ROS noetic`)의 표준 버전과 달라서 문제가 많다.
 + 기존에도 `Jetpack`과 `Ubuntu` 표준의 `OpenCV` 버전이 다른 경우가 있었던 것 같지만, 해당 조합에서는 `OpenCV` 4.5.4와 `OpenCV` 4.2.0의 문법 차이가 있어서 **<span style="color:#3399ff">Segmentation fault</span>**가 발생한다...
 
@@ -97,8 +97,3 @@ sudo find /usr/ -name "*opencv*" -exec rm {} \;
     >> ROS가 깔려 있었던 경우, opencv를 지우면서 많은 패키지가 지워지거나 파괴 되었으므로
     sudo apt install ros-noetic-desktop-full
     ```
-
-
-<br>
-
-<h1 align="center">끝</h1>
