@@ -111,3 +111,69 @@ a.internal-link:hover, a.internal-link:focus {
   border-radius: 3px;
   overflow-x: auto;
 }
+
+.post_section {
+  max-width: 100%; /* 뷰포트 높이의 45%를 최대 높이로 설정 */
+  overflow-x: auto; /* 내용이 넘칠 경우 수직 스크롤바 표시 */
+  max-height: 50vh; /* 뷰포트 높이의 45%를 최대 높이로 설정 */
+  overflow-y: auto; /* 내용이 넘칠 경우 수직 스크롤바 표시 */
+  padding: 0px 15px 0px 15px; /* 내부 여백 추가 */
+}
+
+.post-item {
+  list-style-type: none; /* 기본 불릿 제거 */
+  margin-bottom: 5px; /* 각 포스트 간의 간격 */
+}
+
+.post-box {
+  padding: 4px 10px 2px 8px;
+  background-color: rgba(200, 200, 200, 0.1); /* 배경색의 투명도를 0.8로 설정 */
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 1); /* 박스에 그림자 추가 */
+  color: #ffffff; /* 텍스트 색상 */
+}
+
+.post-title-date {
+  display: flex;
+  justify-content: space-between; /* 타이틀과 날짜를 양 끝으로 배치 */
+  align-items: flex-start; /* 날짜를 상단에 정렬 */
+}
+
+.post-title {
+  font-size: 1.1em; /* 타이틀 크기 조정 */
+  font-weight: bold;
+  text-decoration: none; /* 링크 밑줄 제거 */
+  margin-right: 20px; /* 제목과 날짜 사이의 간격을 확보 */
+  margin-top: 3px; /* 제목 위쪽 여백 추가 */
+}
+
+.post-date {
+  font-size: 1.0em; /* 날짜 크기 조정 */
+  color: #ffffff; /* 날짜 색상 조정 */
+  white-space: nowrap; /* 날짜가 한 줄로 유지되도록 설정 */
+  flex-shrink: 0; /* 날짜가 압축되지 않도록 설정 */
+  margin-top: 3px; /* 제목 위쪽 여백 추가 */
+}
+
+.post-excerpt {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+  color: #ffffff; /* 본문 미리보기 색상 */
+}
+
+#searchInput {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto 20px auto;
+  color: white;
+  background-color: #333333;
+  border: 2px solid #555555;
+  caret-color: yellow;
+
+  &::placeholder {
+    color: #eeeeee; /* Placeholder 텍스트 색상 */
+    opacity: 1; /* 투명도 설정 */
+  }
+}
