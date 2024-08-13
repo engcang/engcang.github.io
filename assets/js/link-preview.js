@@ -2,7 +2,7 @@ var isMouseOverLink = false;
 var isPopupActive = false;
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('section a').forEach(function(link) {
+    document.querySelectorAll('section a[href^="/"], section a[href^="' + window.location.origin + '"]').forEach(function(link) {
         link.addEventListener('mouseover', function() {
             isMouseOverLink = true;
             fetch(link.getAttribute('href'))

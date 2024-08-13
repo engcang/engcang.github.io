@@ -1,0 +1,124 @@
+{% case site.color-scheme %}
+  {% when "", nil, false, 0, empty %}
+    {% assign ColorScheme = "auto" %}
+  {% else %}
+    {% assign ColorScheme = site.color-scheme %}
+{% endcase %}
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <link rel="preload" href="{{site.logo | relative_url}}" as="image">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <header>
+          {% if site.logo %}
+            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo" style="display: block; margin-left: auto; margin-right: auto;">
+          {% endif %}
+
+          <h1 align="center" style="margin-bottom: 0.3em; margin-top:0.4em;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+          <p align="center" style="margin-bottom: 0.2em; margin-top:0.2em;">{{ site.description | default: site.github.project_tagline }}</p>
+
+          <p align="center" class="addr" style="font-size:0.9em; margin-top:0.2em; margin-bottom:0.9em;"><i class="fa-regular fa-envelope"></i>&nbsp;<a href="mailto:{{site.email}}">{{site.email_icon}}&nbsp;{{ site.email}}</a></p>
+          {% include sidebar.html %}
+        </header>
+
+        {% include links-mobile.html %}
+      </div>
+
+      <section>
+        {{ content }}
+        <hr style="width: 60%; height: 1px; background-color: #7e7e7e; border: none; margin: 30px auto;">
+        {%- assign sorted_projects = site.projects | sort: 'start_date' | reverse %}
+        <h2>Laboratory Projects</h2>
+        {%- for project in sorted_projects %}
+          {%- if project.type == "lab" %}
+            <div class="project-box" onclick="toggleContent(this)">
+                <div class="project-title">{{ project.title }}</div>
+                <div class="project-info">{{ project.start_date | date: "%Y.%m.%d" }} - {{ project.finish_date | date: "%Y.%m.%d" }} | Supported by {{ project.organization }}</div>
+                <div class="project-keywords"><em><strong>Keywords:</strong> {{ project.keywords }}</em></div>
+                <div class="project-content" style="display: none;">
+                    {{ project.content | markdownify }} <!-- 프로젝트 전체 내용을 숨긴 채 포함 -->
+                </div>
+            </div>
+          {%- endif %}
+        {%- endfor %}
+        <hr style="width: 60%; height: 1px; background-color: #7e7e7e; border: none; margin: 30px auto;">
+        <h2>Competitions</h2>
+        {%- for project in sorted_projects %}
+          {%- if project.type == "competition" %}
+            <div class="project-box" onclick="toggleContent(this)">
+                <div class="project-title">{{ project.title }}</div>
+                {%- if project.organization and project.host_organization %}
+                  <div class="project-info">{{ project.start_date | date: "%Y.%m.%d" }} - {{ project.finish_date | date: "%Y.%m.%d" }} | Hosted by {{ project.host_organization }} | Supported by {{ project.organization }}</div>
+                {%- elsif project.organization %}
+                  <div class="project-info">{{ project.start_date | date: "%Y.%m.%d" }} - {{ project.finish_date | date: "%Y.%m.%d" }} | Supported by {{ project.organization }}</div>
+                {%- elsif project.host_organization %}
+                  <div class="project-info">{{ project.start_date | date: "%Y.%m.%d" }} - {{ project.finish_date | date: "%Y.%m.%d" }} | Hosted by {{ project.host_organization }}</div>
+                {%- endif %}                    
+                <div class="project-keywords"><em><strong>Keywords:</strong> {{ project.keywords }}</em></div>
+                <div class="project-content" style="display: none;">
+                    {{ project.content | markdownify }} <!-- 프로젝트 전체 내용을 숨긴 채 포함 -->
+                </div>
+            </div>
+          {%- endif %}
+        {%- endfor %}
+        <hr style="width: 60%; height: 1px; background-color: #7e7e7e; border: none; margin: 30px auto;">
+        <h2>Technology Transfer</h2>
+        {%- for project in sorted_projects %}
+          {%- if project.type == "tech" %}
+            <div class="project-box" onclick="toggleContent(this)">
+                <div class="project-title">{{ project.title }}</div>
+                <div class="project-info">{{ project.contract_date | date: "%Y.%m.%d" }} | Contracted by {{ project.organization }}</div>
+                <div class="project-keywords"><em><strong>Keywords:</strong> {{ project.keywords }}</em></div>
+                <div class="project-content" style="display: none;">
+                    {{ project.content | markdownify }} <!-- 프로젝트 전체 내용을 숨긴 채 포함 -->
+                </div>
+            </div>
+          {%- endif %}
+        {%- endfor %}
+        <hr style="width: 60%; height: 1px; background-color: #7e7e7e; border: none; margin: 30px auto;">
+        <h2>Freelancing</h2>
+        {%- for project in sorted_projects %}
+          {%- if project.type == "freelancing" %}
+            <div class="project-box" onclick="toggleContent(this)">
+                <div class="project-title">{{ project.title }}</div>
+                <div class="project-info">{{ project.start_date | date: "%Y.%m.%d" }} - {{ project.finish_date | date: "%Y.%m.%d" }} | Contracted by {{ project.organization }}</div>
+                <div class="project-keywords"><em><strong>Keywords:</strong> {{ project.keywords }}</em></div>
+                <div class="project-content" style="display: none;">
+                    {{ project.content | markdownify }} <!-- 프로젝트 전체 내용을 숨긴 채 포함 -->
+                </div>
+            </div>
+          {%- endif %}
+        {%- endfor %}
+      </section>
+    </div>
+    
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+        function toggleContent(box) {
+            const content = box.querySelector('.project-content');
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        }
+    </script>
+  </body>
+</html>

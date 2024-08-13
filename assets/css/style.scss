@@ -131,6 +131,11 @@ a.internal-link:hover, a.internal-link:focus {
   border-radius: 10px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 1); /* 박스에 그림자 추가 */
   color: #ffffff; /* 텍스트 색상 */
+  transition: transform 0.2s ease-in-out;
+}
+
+.post-box:hover {
+  transform: scale(1.02);
 }
 
 .post-title-date {
@@ -176,4 +181,42 @@ a.internal-link:hover, a.internal-link:focus {
     color: #eeeeee; /* Placeholder 텍스트 색상 */
     opacity: 1; /* 투명도 설정 */
   }
+}
+
+.project-box {
+  padding: 6px 10px 8px 12px;
+  background-color: rgba(200, 200, 200, 0.1); /* 배경색의 투명도를 0.8로 설정 */
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 1); /* 박스에 그림자 추가 */
+  color: #ffffff; /* 텍스트 색상 */
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-box:hover {
+  transform: scale(1.02);
+}
+
+.project-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:var(--clr-a-text);
+}
+
+.project-info {
+  font-size: 1.0em;
+  color: #ffffff;
+  margin-bottom: -3px;
+}
+
+.project-keywords {
+  font-size: 0.95em;
+  color: #ffffff;
+}
+
+.project-content {
+  display: none;
+  margin-top: 10px;
 }

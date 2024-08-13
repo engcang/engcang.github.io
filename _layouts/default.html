@@ -48,7 +48,9 @@
     
     <div id="linkPreviewPopup" class="link-preview-popup" style="display: none;"></div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/link-preview.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/internal_link_style.js" | relative_url }}"></script>
+    {% if page.preview != false %}
+      <script src="{{ "/assets/js/link-preview.js" | relative_url }}"></script>
+      <script src="{{ "/assets/js/internal_link_style.js" | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>

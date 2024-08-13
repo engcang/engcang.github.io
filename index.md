@@ -56,10 +56,10 @@ title: "Eungchang Mason Lee"
 
 ## 👑 Honors 👑
 * 2019.02 - **The right person of University**
-    * **<span style="color:#3399ff">Grand Prize ($2,000)</span>**
+    * **<span style="color:#a0ffa0">Grand Prize ($2,000)</span>**
     * from **SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)**
 * 2019.02 - **Best Graduates of The Year**
-    * **<span style="color:#3399ff">2nd Prize/354</span>, (GPA 4.23/4.3)**
+    * **<span style="color:#a0ffa0">2nd Prize/354</span>, (GPA 4.23/4.3)**
     * from **School of Electronics Engineering, KyungPook Natl. Univ.**
     * Articles: [Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
     
@@ -75,7 +75,7 @@ title: "Eungchang Mason Lee"
 ## 🏆 Awards 🎖️
 
 * 2022.10 - **2022 Autonomous Flight Competition in Battlefield Situations**
-    * **<span style="color:#3399ff">Only one team that finished the course</span>, (Team QAIST++)**
+    * **<span style="color:#a0ffa0">Only one team that finished the course</span>, (Team QAIST++)**
     * from **Agency for Defense Development (ADD)**
     * Videos: [Youtube](https://youtu.be/bX2ZsTqsRfY)
     * Articles: [Link1](https://ee.kaist.ac.kr/research-achieve/명현-교수-연구팀-2022년-미래도전-국방기술-경진대회/)
@@ -89,7 +89,7 @@ title: "Eungchang Mason Lee"
 
 
 * 2019.12 - **2019 AIRR AlphaPilot (Artificial Intelligence Robotic Racing)**
-    * **<span style="color:#3399ff">3rd Prize/424</span>, (Team USRG@KAIST)**
+    * **<span style="color:#a0ffa0">3rd Prize/424</span>, (Team USRG@KAIST)**
     * from **Lockheed Martin, The Drone Racing League, NVIDIA**
     * Homepages: [Link(LockHeed)](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), [Link(DRL)](https://thedroneracingleague.com/airr/), [Link(HeroX)](https://www.herox.com/alphapilot/community)
     * Videos: [Preliminary-FlightGoggles](https://youtu.be/XMyiNlIbDXU), [RACE1-Orlando](https://youtu.be/kTKeN2SluxU), [RACE1-Orlando2](https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560), [Racing Recap PlayLists](https://www.youtube.com/playlist?list=PLvgPHeVm_WqKPy-59Svi-0KEN_pDGedS_)
@@ -103,7 +103,7 @@ title: "Eungchang Mason Lee"
     </p>
     
 * 2018.11 - **2018 R-BIZ Challenge Turtlebot3 Autorace**
-    * **<span style="color:#3399ff">Mathworks Korea Special Prize ($1,000)</span>, (Team EungChang-Ho)**
+    * **<span style="color:#a0ffa0">Mathworks Korea Special Prize ($1,000)</span>, (Team EungChang-Ho)**
     * from **ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE**
     * Articles: [Link-1](https://www.edaily.co.kr/news/read?newsId=01915526619407032&mediaCodeNo=257), [Link-2](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95371&gtid=bodo&opt=&sword=&page=2)
     
