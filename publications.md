@@ -71,6 +71,7 @@ in *Proc. International Conference on Robot Intelligence Technology and Applicat
 
 ## Applied Patents
 
+1. **<span style="color:#a0ffa0">Eungchang Lee</span>**, Seungwon Song, Nahrendra I Made Aswin, Junho Choi, Duckyu Choi, Seunghyun Lee, and Hyung Myung, "Drone Unit for Unmanned Exploration and Reconnaissance, Autonomous Flight System and The Method Thereof," Application Number: 18/783,703, United States, 2024.07.25.
 1. **<span style="color:#a0ffa0">Eungchang Lee</span>**, Seungwon Song, Nahrendra I Made Aswin, Junho Choi, Duckyu Choi, Seunghyun Lee, and Hyung Myung, "Drone Unit for Unmanned Exploration and Reconnaissance, Autonomous Flight System and The Method Thereof (무인 탐사 및 정찰을 위한 드론 유닛과, 드론 유닛의 자율 비행 시스템 및 그 방법)," Application Number: 10-2023-0099161, Korea, 2023.07.28.
 1. Minho Oh, Wonho Song, Hyungtae Lim, **<span style="color:#a0ffa0">Eungchang Lee</span>**, Euigon Jung, Sumin Hu, Jung-Hee Park, Chae Hyun Lee, Jae Kyung Kim, and Hyun Myung, "Method and Apparatus for Recognizing a Moving Environment Based on Sensor Data (센서 데이터 기반의 이동 환경 인식 방법 및 그를 위한 장치)," Application Number: 10-2023-0075575, Korea, 2023.06.13.
 1. Nahrendra I Made Aswin, Byeongho Yu, Tirtawardhana Christian, **<span style="color:#a0ffa0">Eungchang Lee</span>**, and Hyun Myung, "METHOD AND APPARATUS FOR CONTROL OF DRONE PERFORMING NOMINAL CONTROL REINFORCEMENT BASED ON DEEP REINFORCEMENT LEARNING (심층 강화학습 기반의 공칭 제어 보강을 수행하는 드론 제어 방법 및 그 장치)," Application Number: 10-2023-0054096, Korea, 2023.04.25.
