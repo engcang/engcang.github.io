@@ -49,7 +49,7 @@ title: "Eungchang Mason Lee"
 ## 🏃 Activities 🤸
 * 2024.10 - **KETI Invited Seminar**
     * "GNSS 음영 상황에서 자율비행 무인비행체를 이용한 실내외 맵핑 및 내비게이션"
-* 2022.12 - **2022 UVS Symposium: Invited talk**
+* 2022.12 - **2022 UVS Symposium Invited Talk**
     * "How we won Autonomous Flight Competition in Battlefield Situations"
 * 2021.11 - **KBS 중견만리 시즌3**
     * ["6회 - 로봇 인류와의 공존"](https://program.kbs.co.kr/1tv/culture/bizinsight/pc/index.html), 미래컴퍼니 협업

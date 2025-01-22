@@ -50,6 +50,7 @@ in *Proc. International Conference on Robot Intelligence Technology and Applicat
 ## Domestic Conference
 ### South Korea
 
+1. **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, Jun Lee, Chanjoon Park, Seunghyun Lee, Taewan Kim, and Hyun Myung, "Adaptive Data Exploitation-Based Robust Multi-LiDAR-Inertial Odometry for UAVs," in *Proc. Korea Robotics Society Annual Conference (KRoC)*, 2025.
 1. **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, I Made Aswin Nahrendra, Junho Choi, Seunghyun Lee, and Hyun Myung, "Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations," *Korea Robotics Society Annual Conference (KRoC) RED Show*, 2023. <span style="color:#3399ff"> ***[Best work Awarded](https://urobot.kaist.ac.kr/announcement/?uid=346&mod=document&pageid=1)*** </span>, [article1](https://www.irobotnews.com/news/articleView.html?idxno=30843), [article2](https://www.irobotnews.com/news/articleView.html?idxno=30840)
 1. **<span style="color:#a0ffa0">Eungchang Mason Lee</span>** and Hyun Myung, "Two‑Stage Optimization‑Based Energy‑Efficient Coverage Path Planner for 3D Reconstruction," in *Proc. Korea Robotics Society Annual Conference (KRoC)*, 2023.
 1. **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, Dongkyu Lee, Hyungtae Lim, Seungwon Song, and Hyun Myung, "Non-uniform motion target tracking system for UAVs," in *Proc. Korea Robotics Society Annual Conference (KRoC)*, 2022. [Video](https://youtu.be/zObqq5_M4UA)
