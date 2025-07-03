@@ -3,14 +3,14 @@ layout: default
 title: "Eungchang Mason Lee"
 ---
 
-## 😮 Interest 😮
+## 😮 Interest
 
-* **Unmanned Aerial Vehicle, Exploration, Obstacle avoidance, Coverage Path Planning**
-* **Control, LiDAR(Visual)-Inertial Odometry, SLAM, Active SLAM**
+* **Unmanned Aerial Vehicle, Exploration, LiDAR-Inertial Odometry, SLAM, Active SLAM**
+* **Coverage Path Planning, Obstacle avoidance, Control, LiDAR-Inertial Odometry**
 
 ---
 
-## 🛠 Skills 🛠
+## 🛠 Skills
 <p align="center">
   <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ROS&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
@@ -28,21 +28,26 @@ title: "Eungchang Mason Lee"
 
 ---
 
-## 🏫 Education 🎓
+## 👨🏻‍💼 Employment
 
-* **PhD student, Electrical Engineering** in KAIST
-    * 2021.03 ~ ***Current***
-    * Studying at: [URL](http://urobot.kaist.ac.kr)
-* **Master, Electrical Engineering** in KAIST
-    * 2020.02 ~ 2021.02 - Studied at: [URL](http://urobot.kaist.ac.kr)
-    * 2019.02 ~ 2020.01 - Studied at: [USRG](http://unmanned.kaist.ac.kr/)
-* **Bachelor, School of Electronics Engineering** in KyungPook National University
-    * 2012.03 ~ 2019.02
-    * Studied at: [PI Lab](https://control.knu.ac.kr)
+* **Postdoc, School of Electrical Engineering** in KAIST
+    * 2025.08 ~ **Current** - [URL](http://urobot.kaist.ac.kr)
 
 ---
 
-## 🏃 Activities 🤸
+## 🎓 Education
+
+* **Ph. D., School of Electrical Engineering** in KAIST
+    * 2021.03 ~ 2025.08 - Studied at: [URL](http://urobot.kaist.ac.kr)
+* **Master, School of Electrical Engineering** in KAIST
+    * 2020.02 ~ 2021.02 - Studied at: [URL](http://urobot.kaist.ac.kr)
+    * 2019.02 ~ 2020.01 - Studied at: [USRG](http://unmanned.kaist.ac.kr/)
+* **Bachelor, School of Electronics Engineering** in KyungPook National University
+    * 2012.03 ~ 2019.02 - Studied at: [PI Lab](https://control.knu.ac.kr)
+
+---
+
+## 🤸 Activities 
 * 2024.10 - **KETI Invited Seminar**
     * "GNSS 음영 상황에서 자율비행 무인비행체를 이용한 실내외 맵핑 및 내비게이션"
 * 2022.12 - **2022 UVS Symposium Invited Talk**
@@ -52,25 +57,9 @@ title: "Eungchang Mason Lee"
     
 ---
 
-## 👑 Honors 👑
-* 2019.02 - **The right person of University**
-    * **<span style="color:#a0ffa0">Grand Prize ($2,000)</span>**
-    * from **SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)**
-* 2019.02 - **Best Graduates of The Year**
-    * **<span style="color:#a0ffa0">2nd Prize/354</span>, (GPA 4.23/4.3)**
-    * from **School of Electronics Engineering, KyungPook Natl. Univ.**
-    * Articles: [Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
-    
-    <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-        <figure align="center">
-        <img src="./assets/img/about/graduates.jpg" style="width:45%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
-        <figcaption style="text-align:center;"> Best Graduates Awards Ceremony </figcaption>
-        </figure>
-    </p>
-    
----
+## 👑 Honors & Awards 🏆
 
-## 🏆 Awards 🎖️
+* **<span style="color:#a0ffa0">Best paper awards</span>**: Five conference papers and one journal paper
 
 * 2022.10 - **2022 Autonomous Flight Competition in Battlefield Situations**
     * **<span style="color:#a0ffa0">Only one team that finished the course</span>, (Team QAIST++)**
@@ -99,7 +88,22 @@ title: "Eungchang Mason Lee"
         <figcaption style="text-align:center;"> 2019 AIRR AlphaPilot Awards Ceremony of 1st race in Orlando </figcaption>
         </figure>
     </p>
+
+* 2019.02 - **The right person of University**
+    * **<span style="color:#a0ffa0">Grand Prize ($2,000)</span>**
+    * from **SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)**
+* 2019.02 - **Best Graduates of The Year**
+    * **<span style="color:#a0ffa0">2nd Prize/354</span>, (GPA 4.23/4.3)**
+    * from **School of Electronics Engineering, KyungPook Natl. Univ.**
+    * Articles: [Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
     
+    <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figure align="center">
+        <img src="./assets/img/about/graduates.jpg" style="width:45%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figcaption style="text-align:center;"> Best Graduates Awards Ceremony </figcaption>
+        </figure>
+    </p>
+
 * 2018.11 - **2018 R-BIZ Challenge Turtlebot3 Autorace**
     * **<span style="color:#a0ffa0">Mathworks Korea Special Prize ($1,000)</span>, (Team EungChang-Ho)**
     * from **ROBOTIS, MathWorks Korea, ICROS, KIRIA, MOTIE**
