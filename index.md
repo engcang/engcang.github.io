@@ -6,7 +6,7 @@ title: "Eungchang Mason Lee"
 ## 😮 Interest
 
 * **Unmanned Aerial Vehicle, Exploration, LiDAR-Inertial Odometry, SLAM, Active SLAM**
-* **Coverage Path Planning, Obstacle avoidance, Control, LiDAR-Inertial Odometry**
+* **Coverage Path Planning, Obstacle avoidance, Control**
 
 ---
 
@@ -15,15 +15,13 @@ title: "Eungchang Mason Lee"
   <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ROS&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
   <img src="https://img.shields.io/badge/SolidWorks-FF3333?style=flat-square&logo=Solidworks&logoColor=white"/>
   <img src="https://img.shields.io/badge/MATLAB-FF452F?style=flat-square&logo=Mathworks&logoColor=white"/>
   <br>
+  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=Blender&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
   <img src="https://img.shields.io/badge/markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=Blender&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SketchUp-005F9E?style=flat-square&logo=SketchUp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>
 </p>
 
 ---
@@ -31,7 +29,7 @@ title: "Eungchang Mason Lee"
 ## 👨🏻‍💼 Employment
 
 * **Postdoc, School of Electrical Engineering** in KAIST
-    * 2025.08 ~ **Current** - [URL](http://urobot.kaist.ac.kr)
+    * 2025.09 ~ **Current** - [URL](http://urobot.kaist.ac.kr)
 
 ---
 
@@ -48,12 +46,11 @@ title: "Eungchang Mason Lee"
 ---
 
 ## 🤸 Activities 
+* 2025.09 ~ **Current** - Associate Editor (AE), Intelligent Service Robotics (ISR) (SCIE)
 * 2024.10 - **KETI Invited Seminar**
     * "GNSS 음영 상황에서 자율비행 무인비행체를 이용한 실내외 맵핑 및 내비게이션"
 * 2022.12 - **2022 UVS Symposium Invited Talk**
     * "How we won Autonomous Flight Competition in Battlefield Situations"
-* 2021.11 - **KBS 중견만리 시즌3**
-    * ["6회 - 로봇 인류와의 공존"](https://program.kbs.co.kr/1tv/culture/bizinsight/pc/index.html), 미래컴퍼니 협업
     
 ---
 
