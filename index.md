@@ -29,7 +29,7 @@ title: "Eungchang Mason Lee"
 ## 👨🏻‍💼 Employment
 
 * **Postdoc, School of Electrical Engineering** in KAIST
-    * 2025.09 ~ **Current** - [URL](http://urobot.kaist.ac.kr)
+    * 2025.08 ~ **Current** - [URL](http://urobot.kaist.ac.kr)
 
 ---
 
