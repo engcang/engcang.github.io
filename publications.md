@@ -9,8 +9,9 @@ preview: false
 ---
 
 ## International Journal Papers
-#### <span style="color:#3399ff"><sup>†</sup>: Co-first authors</span>
 
+1. Dong-Uk Seo, Jinwoo Jeon, **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, and Hyung Myung, "GaussianFlow SLAM: Monocular Gaussian splatting SLAM guided by
+GaussianFlow," *IEEE Robotics and Automation Letters* ***(RA-L)***, 2026.
 1. **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, Kevin Christiansen Marsim, and Hyung Myung, "LODESTAR: Degeneracy-aware LiDAR-inertial odometry with adaptive Schmidt-Kalman filter and data exploitation," *IEEE Robotics and Automation Letters* ***(RA-L)***, 2025. [Video](https://youtu.be/XzyvjiQDWds)
 1. Hyungtae Lim, Beomsoo Kim, Daebeom Kim, **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, and Hyung Myung, "Quatro++: Robust global registration exploiting ground segmentation for loop closing in LiDAR SLAM," *International Journal of Robotics Research* ***(IJRR)***, 2023. [Website](https://quatro-plusplus.github.io/)
 1. I Made Aswin Nahrendra, Christian Tirtawardhana, Byeongho Yu, **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, and Hyun Myung, "Retro-RL: Reinforcing nominal controller with deep reinforcement learning for tilting-rotor drones," *IEEE Robotics and Automation Letters* ***(RA-L) with IROS***, 2022. [Video](https://youtu.be/9gErD9CPq4s)
