@@ -58,6 +58,11 @@ title: "Eungchang Mason Lee"
 
 * **<span style="color:#a0ffa0">Best paper awards</span>**: Five conference papers and one journal paper
 
+* 2026.06 - **2026 Nothing Stands Still Challenge**
+    * **<span style="color:#a0ffa0">1st Place</span>, (Team CuRaytor)**
+    * presented at **CVPR 2026**
+    * Homepage: [Challenge](https://www.nothing-stands-still.com/challenge), [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026)
+
 * 2022.10 - **2022 Autonomous Flight Competition in Battlefield Situations**
     * **<span style="color:#a0ffa0">Only one team that finished the course</span>, (Team QAIST++)**
     * from **Agency for Defense Development (ADD)**
