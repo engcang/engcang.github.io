@@ -9,7 +9,7 @@ type: "lab"
 ---
 
 * *Supported by [KAIST InnoCORE]() and [MSIT](https://www.msit.go.kr/index.do)*
-* *This project was counducted at [Urban Robotics Lab in KAIST](http://urobot.kaist.ac.kr/)*
+* *This project was conducted at [Urban Robotics Lab in KAIST](http://urobot.kaist.ac.kr/)*
 * **I participated in this project during: 2026.02 - 2026.04**
 * *<span style="color:#a0ffa0">Homepage: [Link](https://innocore-5d-ai.github.io/)</span>*
 

@@ -10,7 +10,7 @@ type: "competition"
 ---
 
 * *Hosted by [Lockheed Martin](https://www.lockheedmartin.com/) and [The Drone Racing League](https://thedroneracingleague.com/), Supported by [NVIDIA](https://www.nvidia.com/en-us/)*
-* *This project was counducted at [Unmanned Systems Research Group in KAIST](http://unmanned.kaist.ac.kr)*
+* *This project was conducted at [Unmanned Systems Research Group in KAIST](http://unmanned.kaist.ac.kr)*
 * **I participated in this project during: 2019.3 - 2019.12**
 * *<span style="color:#a0ffa0">Relative media: </span>*
     * Homepages: [Link(LockHeed)](https://www.lockheedmartin.com/en-us/news/events/ai-innovation-challenge.html), [Link(DRL)](https://thedroneracingleague.com/airr/), [Link(HeroX)](https://www.herox.com/alphapilot/community)
