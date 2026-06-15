@@ -2,7 +2,7 @@
 layout: default
 title: "KAIST InnoCORE: 5D AI Robotics Initiative"
 start_date: 2026.02
-finish_date: 2026.04
+finish_date: 2026.06
 organization: "KAIST InnoCORE, MSIT"
 keywords: "5D World Modeling, Robot AI, Adaptive Robot Platform"
 type: "lab"
@@ -10,7 +10,7 @@ type: "lab"
 
 * *Supported by [KAIST InnoCORE]() and [MSIT](https://www.msit.go.kr/index.do)*
 * *This project was conducted at [Urban Robotics Lab in KAIST](http://urobot.kaist.ac.kr/)*
-* **I participated in this project during: 2026.02 - 2026.04**
+* **I participated in this project during: 2026.02 - 2026.06**
 * *<span style="color:#a0ffa0">Homepage: [Link](https://innocore-5d-ai.github.io/)</span>*
 
 　InnoCORE is a highly competitive, large-scale research initiative; only 8 out of 25 proposals within KAIST were selected. This project aims to
