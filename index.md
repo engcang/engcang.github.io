@@ -63,6 +63,13 @@ title: "Eungchang Mason Lee"
     * presented at **CVPR 2026**
     * Homepage: [Challenge](https://www.nothing-stands-still.com/challenge), [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026)
 
+    <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figure align="center">
+        <img src="./assets/img/about/nss2026.jpg" style="width:45%" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
+        <figcaption style="text-align:center;"> 2026 CVPR NSS Challenge team CuRaytor (and 2026 ICRA HILTI winner)</figcaption>
+        </figure>
+    </p>
+
 * 2022.10 - **2022 Autonomous Flight Competition in Battlefield Situations**
     * **<span style="color:#a0ffa0">Only one team that finished the course</span>, (Team QAIST++)**
     * from **Agency for Defense Development (ADD)**
