@@ -10,6 +10,7 @@ preview: false
 
 ## International Journal Papers
 
+1. Kwangyik Jung, **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, Taekjun Oh, and Hyung Myung, "ASPIRE-VINS: Adaptive spline-based visual-inertial navigation system With robust 3D measurement residuals," *IEEE Robotics and Automation Letters* ***(RA-L)***, 2026.
 1. Dong-Uk Seo, Jinwoo Jeon, **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, and Hyung Myung, "GaussianFlow SLAM: Monocular Gaussian splatting SLAM guided by
 GaussianFlow," *IEEE Robotics and Automation Letters* ***(RA-L)***, 2026.
 1. **<span style="color:#a0ffa0">Eungchang Mason Lee</span>**, Kevin Christiansen Marsim, and Hyung Myung, "LODESTAR: Degeneracy-aware LiDAR-inertial odometry with adaptive Schmidt-Kalman filter and data exploitation," *IEEE Robotics and Automation Letters* ***(RA-L)***, 2025. [Video](https://youtu.be/XzyvjiQDWds)
