@@ -8,3 +8,6 @@ gem "jekyll-seo-tag"
 gem "jemoji"
 gem "jekyll-remote-theme"
 gem "kramdown-parser-gfm"
+
+# Use native file watching when serving the site on Windows.
+gem "wdm", "~> 0.2.0", platforms: [:mingw, :x64_mingw, :mswin]

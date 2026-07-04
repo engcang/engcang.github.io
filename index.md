@@ -3,33 +3,20 @@ layout: default
 title: "Eungchang Mason Lee"
 ---
 
-## 😮 Interest
+## 📖 Biography
 
-* **Unmanned Aerial Vehicle, Exploration, LiDAR-Inertial Odometry, SLAM, Active SLAM**
-* **Coverage Path Planning, Obstacle avoidance, Control**
+I am a visiting researcher at the [Robotics Institute](https://www.ri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), working with Prof. [Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/) in the [AirLab](https://theairlab.org/). Before joining CMU, I was a postdoctoral researcher at [KAIST](https://www.kaist.ac.kr/), where I received my M.S. and Ph.D. in Electrical Engineering under the supervision of Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/) in the [Urban Robotics Lab](http://urobot.kaist.ac.kr/).
 
----
-
-## 🛠 Skills
-<p align="center">
-  <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ROS&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SolidWorks-FF3333?style=flat-square&logo=Solidworks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MATLAB-FF452F?style=flat-square&logo=Mathworks&logoColor=white"/>
-  <br>
-  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=Blender&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/>
-</p>
+My research aims to develop **end-to-end autonomy for UAVs** that can operate reliably in large-scale, GNSS-denied, and unstructured environments. I develop tightly integrated methods spanning **exploration, sensor-fusion-based robust odometry, SLAM, and active SLAM**, with an emphasis on **field-deployable systems for mapping, inspection, and reconnaissance**.
 
 ---
 
-## 👨🏻‍💼 Employment
+## 👨🏻‍💼 Experience
 
+* **Visitor, Robotics Institute** in CMU
+    * 2026.07 ~ **Current** - [AirLab](https://theairlab.org/)
 * **Postdoc, School of Electrical Engineering** in KAIST
-    * 2025.08 ~ **Current** - [URL](http://urobot.kaist.ac.kr)
+    * 2025.08 ~ 2026.06 - [URL](http://urobot.kaist.ac.kr)
 
 ---
 
