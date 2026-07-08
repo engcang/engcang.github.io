@@ -22,12 +22,12 @@ My research aims to develop **end-to-end autonomy for UAVs** that can operate re
 
 ## 🎓 Education
 
-* **Ph. D., School of Electrical Engineering** in KAIST
+* **Ph.D., School of Electrical Engineering** in KAIST
     * 2021.03 ~ 2025.08 - Studied at: [URL](http://urobot.kaist.ac.kr)
 * **Master, School of Electrical Engineering** in KAIST
     * 2020.02 ~ 2021.02 - Studied at: [URL](http://urobot.kaist.ac.kr)
     * 2019.02 ~ 2020.01 - Studied at: [USRG](http://unmanned.kaist.ac.kr/)
-* **Bachelor, School of Electronics Engineering** in KyungPook National University
+* **Bachelor, School of Electronics Engineering** in Kyungpook National University
     * 2012.03 ~ 2019.02 - Studied at: [PI Lab](https://control.knu.ac.kr)
 
 ---
@@ -87,10 +87,10 @@ My research aims to develop **end-to-end autonomy for UAVs** that can operate re
 
 * 2019.02 - **The right person of University**
     * **<span style="color:#a0ffa0">Grand Prize ($2,000)</span>**
-    * from **SmartKey-KyungPook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)**
+    * from **SmartKey-Kyungpook Natl. Univ. (Smart Electronics Specialization Projects from CK-1 of Korea)**
 * 2019.02 - **Best Graduates of The Year**
     * **<span style="color:#a0ffa0">2nd Prize/354</span>, (GPA 4.23/4.3)**
-    * from **School of Electronics Engineering, KyungPook Natl. Univ.**
+    * from **School of Electronics Engineering, Kyungpook Natl. Univ.**
     * Articles: [Link](http://see.knu.ac.kr/content/board/news.html?pg=vv&fidx=95709&gtid=bodo&opt=&sword=&page=2)
     
     <p align="center" onContextMenu="return false;" onselectstart="return false" ondragstart="return false">
