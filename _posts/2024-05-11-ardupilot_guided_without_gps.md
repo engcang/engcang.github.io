@@ -49,7 +49,7 @@ published: true
 
 #### 2. Takeoff / Land
 + **`PX4` 펌웨어를 사용할때는 그냥 `OFFBOARD` 모드에서 `/mavros/setpoint_position/local` topic에 명령 값을 주면 이륙과 착륙이 가능했는데, `Ardupilot`에서는 그게 안된다.**
-+ 그리고 필수로 **EKF origin을 set 해주어야만 한다.** 아무런 값이나 넣어줘도 되는데, 단위는 주위해야 한다.
++ 그리고 필수로 **EKF origin을 set 해주어야만 한다.** 아무런 값이나 넣어줘도 되는데, 단위는 주의해야 한다.
     + 방법1: `Lua script` 사용 - 위도와 경도는 10의 7제곱을 곱해주어야하고, 고도는 cm단위이므로 100을 곱해주면 된다.
         + 파라미터에서 `SCR_ENABLE` = 1 로 설정 (enable)
         + 실제 드론의 경우 `픽스호크` SD카드의 APM/scripts 폴더에 파일을 넣으면 된다.

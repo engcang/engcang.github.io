@@ -21,7 +21,7 @@ type: "competition"
 Supported and hosted by DRL, Lockheed Martin and NVIDIA. For the 1 Million dollar prize only for the winner.
 The challenge consists of Preliminary test and Real competition.
 Firstly, DRL and Lockheed martin used FlightGoggles Simulator from MIT to narrow down **<span style="color:#a0ffa0">424 teams over 81 countries into 9 Qualifiers.</span>**
-Only 9 Qulifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors. Our team won the **<span style="color:#a0ffa0">3rd prize.</span>**
+Only 9 Qualifiers participated real RACEs using DRL made drone 'RACER AI' which is equipped with RTOS like kernel customized NVIDIA Jetson Xavier and few sensors. Our team won the **<span style="color:#a0ffa0">3rd prize.</span>**
 
   <p align="center">
   <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flockheedmartin%2Fvideos%2F394882387857530%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
