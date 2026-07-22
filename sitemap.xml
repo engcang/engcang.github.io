@@ -3,6 +3,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://engcang.github.io/remote_setup_rustdesk_tailscale.html</loc>
+    </url>
+    <url>
         <loc>https://engcang.github.io/ardupilot_guided_without_gps.html</loc>
     </url>
     <url>
