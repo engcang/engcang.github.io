@@ -1,4 +1,5 @@
 title: Eungchang Mason Lee
+url: "https://engcang.github.io"
 logo: /assets/img/selfie.jpg
 email: engcang93@gmail.com
 favicon: true
@@ -6,6 +7,13 @@ description: "Visiting Researcher @ AirLab, CMU RI | Ph.D. in Robotics & EE | a.
 show_downloads: false
 future: true
 color-scheme: dark
+
+# Use the profile photo as the default social sharing thumbnail.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/selfie.jpg
 
 # The remote theme still uses Sass @import. It is supported today, but Dart
 # Sass reports it as deprecated on every rebuild.
